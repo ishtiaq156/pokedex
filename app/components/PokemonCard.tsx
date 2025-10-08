@@ -7,13 +7,13 @@ interface PokemonCardProps {
 
 export default function PokemonCard({ pokemon }: PokemonCardProps) {
   return (
-    <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-200 p-4 flex flex-col items-center">
-      <div className="w-20 h-20 mb-2 flex items-center justify-center relative">
+    <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-200 p-2 flex flex-col items-center">
+      <div className="w-16 h-16 mb-1 flex items-center justify-center relative">
         <Image
           src={pokemon.imageUrl}
           alt={pokemon.name}
-          width={80}
-          height={80}
+          width={64}
+          height={64}
           className="object-contain"
           onError={(e) => {
             // Fallback for missing images
@@ -24,7 +24,9 @@ export default function PokemonCard({ pokemon }: PokemonCardProps) {
         />
       </div>
       <div className="text-center">
-        <p className="text-sm font-medium text-gray-600">{pokemon.dexNumber}</p>
+        <p className="text-base font-semibold text-gray-700">
+          {pokemon.dexNumber}
+        </p>
       </div>
     </div>
   );
