@@ -81,7 +81,7 @@ export const REGIONS: Region[] = [
     id: "paldea",
     name: "Paldea",
     startDex: 906,
-    endDex: 1010,
+    endDex: 1025,
     backgroundImage: "/paldea_starters.png",
   },
   {
