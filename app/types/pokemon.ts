@@ -10,7 +10,7 @@ export interface Region {
   name: string;
   startDex: number;
   endDex: number;
-  color: string;
+  backgroundImage: string;
 }
 
 export const REGIONS: Region[] = [
@@ -19,28 +19,77 @@ export const REGIONS: Region[] = [
     name: "Kanto",
     startDex: 1,
     endDex: 151,
-    color: "bg-red-500",
+    backgroundImage: "/kanto_starters.png",
   },
   {
     id: "johto",
     name: "Johto",
     startDex: 152,
     endDex: 251,
-    color: "bg-blue-500",
+    backgroundImage: "/jhoto_starters.png",
   },
   {
     id: "hoenn",
     name: "Hoenn",
     startDex: 252,
     endDex: 386,
-    color: "bg-green-500",
+    backgroundImage: "/hoenn_starters.png",
   },
   {
     id: "sinnoh",
     name: "Sinnoh",
     startDex: 387,
     endDex: 493,
-    color: "bg-purple-500",
+    backgroundImage: "/sinnoh_starters.png",
+  },
+  {
+    id: "unova",
+    name: "Unova",
+    startDex: 494,
+    endDex: 649,
+    backgroundImage: "/unova_starters.png",
+  },
+  {
+    id: "kalos",
+    name: "Kalos",
+    startDex: 650,
+    endDex: 721,
+    backgroundImage: "/kalos_starters.png",
+  },
+  {
+    id: "alola",
+    name: "Alola",
+    startDex: 722,
+    endDex: 807,
+    backgroundImage: "/alola_starters.png",
+  },
+  {
+    id: "galar",
+    name: "Galar",
+    startDex: 810,
+    endDex: 898,
+    backgroundImage: "/galar_starters.png",
+  },
+  {
+    id: "hisui",
+    name: "Hisui",
+    startDex: 899,
+    endDex: 905,
+    backgroundImage: "/hisui_starters.png",
+  },
+  {
+    id: "paldea",
+    name: "Paldea",
+    startDex: 906,
+    endDex: 1010,
+    backgroundImage: "/paldea_starters.png",
+  },
+  {
+    id: "unidentified",
+    name: "Unidentified",
+    startDex: 808,
+    endDex: 809,
+    backgroundImage: "/unidentified_meltan.png",
   },
 ];
 
