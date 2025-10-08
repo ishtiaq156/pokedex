@@ -87,7 +87,7 @@ export default function PokedexPage() {
 
       {/* Pokemon Grid */}
       <div className="container mx-auto px-4 py-6">
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 gap-1">
           {pokemon.map((poke) => (
             <PokemonCard key={poke.id} pokemon={poke} />
           ))}
