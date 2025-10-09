@@ -11,8 +11,32 @@ export default function Home() {
     router.push(`/pokedex/${regionId}`);
   };
 
+  const pageStripeBackground =
+    "linear-gradient(135deg, " +
+    "#baf0f0 0 7.69%, " +
+    "#b8eef0 7.69% 15.38%, " +
+    "#b6eef0 15.38% 23.08%, " +
+    "#b4ebf0 23.08% 30.77%, " +
+    "#b1ebf0 30.77% 38.46%, " +
+    "#b0ebf0 38.46% 46.15%, " +
+    "#b0e9f0 46.15% 53.85%, " +
+    "#aee9f0 53.85% 61.54%, " +
+    "#ace9f0 61.54% 69.23%, " +
+    "#aae7f0 69.23% 76.92%, " +
+    "#a8e7f0 76.92% 84.62%, " +
+    "#a6e7f0 84.62% 92.31%, " +
+    "#a6e6f0 92.31% 100%)";
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500">
+    <div
+      className="min-h-screen"
+      style={{
+        backgroundImage: pageStripeBackground,
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+      }}
+    >
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-12">
