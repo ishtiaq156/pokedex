@@ -93,6 +93,11 @@ export const REGIONS: Region[] = [
   },
 ];
 
+const POKEMON_FORM_EXCEPTIONS: Record<number, string> = {
+  201: "pokemon_icon_201_16.png", // Unown - '?' form
+  327: "pokemon_icon_327_00.png", // Spinda - default form
+};
+
 export function generatePokemonData(
   startDex: number,
   endDex: number,
@@ -101,7 +106,11 @@ export function generatePokemonData(
 
   for (let i = startDex; i <= endDex; i++) {
     const dexNumber = i.toString().padStart(4, "0");
-    const imageUrl = `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm${i}.icon.png`;
+
+    // Check if this Pokemon has a form exception
+    const imageUrl = POKEMON_FORM_EXCEPTIONS[i]
+      ? `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/${POKEMON_FORM_EXCEPTIONS[i]}`
+      : `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm${i}.icon.png`;
 
     pokemon.push({
       id: i,
