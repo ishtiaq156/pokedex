@@ -40,7 +40,7 @@ export default function Home() {
       <div className="py-8 container mx-auto px-4">
         {/* Header */}
         <div className="flex justify-center mb-8">
-          <div className="w-full" style={{ maxWidth: "512px" }}>
+          <div className="w-full pl-2 sm:pl-4" style={{ maxWidth: "512px" }}>
             <h1 className="text-sm sm:text-base md:text-lg font-bold drop-shadow-lg text-[#0b8fbc] text-left">
               POKÉDEX
             </h1>
