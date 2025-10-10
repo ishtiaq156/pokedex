@@ -36,10 +36,19 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
   const stripeBackground =
     "repeating-linear-gradient(135deg, #def6f8 0 48px, #dcf6f8 48px 96px, #daf6f8 96px 144px, #daf4f8 144px 192px)";
 
+  const hasPlatinumBadge = [
+    "kanto",
+    "johto",
+    "hoenn",
+    "unova",
+    "kalos",
+    "unidentified",
+  ].includes(region.id);
+
   return (
     <div
       onClick={onClick}
-      className="rounded-2xl p-2 sm:p-4 text-black shadow-lg hover:shadow-xl transition-all duration-200 cursor-pointer transform hover:scale-105 relative w-full border-shine-container"
+      className={`rounded-2xl p-2 sm:p-4 text-black shadow-lg hover:shadow-xl transition-all duration-200 cursor-pointer transform hover:scale-105 relative w-full ${hasPlatinumBadge ? "border-shine-container" : "border-static"}`}
       style={{
         backgroundImage: `url('${region.backgroundImage}'), url('/pokedex/backdrop.png'), ${stripeBackground}`,
         backgroundSize: "contain, cover, cover",
@@ -109,6 +118,12 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
           mask-composite: exclude;
           animation: rotate 3s linear infinite alternate;
           pointer-events: none;
+        }
+
+        .border-static {
+          position: relative;
+          overflow: hidden;
+          border: 6px solid white;
         }
 
         @property --angle {
