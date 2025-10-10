@@ -9,8 +9,31 @@ interface PokemonCardProps {
 export default function PokemonCard({ pokemon }: PokemonCardProps) {
   const [imageError, setImageError] = useState(false);
 
+  const cardStripeBackground =
+    "linear-gradient(135deg, " +
+    "#baf0f0 0 7.69%, " +
+    "#b8eef0 7.69% 15.38%, " +
+    "#b6eef0 15.38% 23.08%, " +
+    "#b4ebf0 23.08% 30.77%, " +
+    "#b1ebf0 30.77% 38.46%, " +
+    "#b0ebf0 38.46% 46.15%, " +
+    "#b0e9f0 46.15% 53.85%, " +
+    "#aee9f0 53.85% 61.54%, " +
+    "#ace9f0 61.54% 69.23%, " +
+    "#aae7f0 69.23% 76.92%, " +
+    "#a8e7f0 76.92% 84.62%, " +
+    "#a6e7f0 84.62% 92.31%, " +
+    "#a6e6f0 92.31% 100%)";
+
   return (
-    <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-200 p-3 flex flex-col items-center relative">
+    <div
+      className="rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-200 p-3 flex flex-col items-center relative border border-white"
+      style={{
+        backgroundImage: cardStripeBackground,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+    >
       {imageError && (
         <div className="absolute inset-0 flex items-center justify-center">
           <span className="text-lg font-semibold leading-none text-[#0b8fbc]">
