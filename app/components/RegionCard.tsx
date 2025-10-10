@@ -84,10 +84,11 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
           padding: 6px;
           background: conic-gradient(
             from var(--angle),
-            transparent 70%,
-            white 80%,
-            white 90%,
-            transparent 100%
+            white 0%,
+            white 70%,
+            #ddd 80%,
+            #ddd 90%,
+            white 100%
           );
           -webkit-mask:
             linear-gradient(#fff 0 0) content-box,
