@@ -40,22 +40,27 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
       onClick={onClick}
       className="rounded-2xl p-2 sm:p-4 text-black shadow-lg hover:shadow-xl transition-all duration-200 cursor-pointer transform hover:scale-105 relative w-full border-shine-container"
       style={{
-        backgroundImage: `url('${region.backgroundImage}'), ${stripeBackground}, url('/backdrop.png')`,
+        backgroundImage: `url('${region.backgroundImage}'), url('/backdrop.png'), ${stripeBackground}`,
         backgroundSize: "contain, cover, cover",
         backgroundPosition: "center, center, center",
-        backgroundRepeat: "no-repeat, repeat, no-repeat",
-        backgroundBlendMode: "normal, overlay, normal",
+        backgroundRepeat: "no-repeat, no-repeat, repeat",
+        backgroundBlendMode: "normal, normal, overlay",
         aspectRatio,
         maxWidth,
       }}
     >
-      <h3 className="text-xl sm:text-2xl md:text-3xl font-bold relative z-10 drop-shadow-lg text-[#0b8fbc] uppercase">
-        {region.name}
-      </h3>
+      <div className="relative z-10 px-4 py-2">
+        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold drop-shadow-lg text-[#0b8fbc] uppercase">
+          {region.name}
+        </h3>
+        <p className="text-sm sm:text-base md:text-lg font-semibold text-[#0b8fbc] drop-shadow-lg mt-1">
+          {region.startDex} / {region.endDex}
+        </p>
+      </div>
       <style jsx>{`
         .border-shine-container {
           box-shadow:
-            inset 0 0 0 8px #ffffff,
+            inset 0 0 0 10px #ffffff,
             0 0 20px rgba(255, 255, 255, 0.3);
           overflow: hidden;
         }
