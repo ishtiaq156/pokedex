@@ -13,7 +13,7 @@ export default function PokemonCard({ pokemon }: PokemonCardProps) {
     <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-200 p-3 flex flex-col items-center relative">
       {imageError && (
         <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-lg font-semibold text-gray-700 leading-none">
+          <span className="text-lg font-semibold leading-none text-[#0b8fbc]">
             {pokemon.dexNumber}
           </span>
         </div>
@@ -32,7 +32,7 @@ export default function PokemonCard({ pokemon }: PokemonCardProps) {
       </div>
       {!imageError && (
         <div className="text-center">
-          <p className="text-lg font-semibold text-gray-700">
+          <p className="text-lg font-semibold text-[#0b8fbc]">
             {pokemon.dexNumber}
           </p>
         </div>

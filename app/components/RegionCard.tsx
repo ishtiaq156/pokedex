@@ -38,7 +38,7 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
   return (
     <div
       onClick={onClick}
-      className="rounded-2xl p-2 sm:p-4 text-black shadow-lg hover:shadow-xl transition-all duration-200 cursor-pointer transform hover:scale-105 relative overflow-hidden mx-auto w-full"
+      className="rounded-2xl p-2 sm:p-4 text-black shadow-lg hover:shadow-xl transition-all duration-200 cursor-pointer transform hover:scale-105 relative overflow-hidden w-full"
       style={{
         backgroundImage: `url('${region.backgroundImage}'), ${stripeBackground}, url('/backdrop.png')`,
         backgroundSize: "contain, cover, cover",
@@ -49,7 +49,7 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
         maxWidth,
       }}
     >
-      <h3 className="text-lg sm:text-xl md:text-2xl font-bold relative z-10 drop-shadow-lg">
+      <h3 className="text-xl sm:text-2xl md:text-3xl font-bold relative z-10 drop-shadow-lg text-[#0b8fbc] uppercase">
         {region.name}
       </h3>
     </div>

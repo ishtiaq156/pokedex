@@ -37,19 +37,18 @@ export default function Home() {
         backgroundSize: "cover",
       }}
     >
-      <div className="container mx-auto px-4 py-8">
+      <div className="py-8 container mx-auto px-4">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">
-            Pokédex
-          </h1>
-          <p className="text-xl text-white/90 drop-shadow-md">
-            Choose a region to explore
-          </p>
+        <div className="flex justify-center mb-8">
+          <div className="w-full" style={{ maxWidth: "512px" }}>
+            <h1 className="text-sm sm:text-base md:text-lg font-bold drop-shadow-lg text-[#0b8fbc] text-left">
+              POKÉDEX
+            </h1>
+          </div>
         </div>
 
-        {/* Region Grid */}
-        <div className="grid grid-cols-1 gap-4 w-full max-w-4xl mx-auto px-4">
+        {/* Region Cards */}
+        <div className="flex flex-col items-center gap-4">
           {REGIONS.map((region) => (
             <RegionCard
               key={region.id}
@@ -57,11 +56,6 @@ export default function Home() {
               onClick={() => handleRegionClick(region.id)}
             />
           ))}
-        </div>
-
-        {/* Footer */}
-        <div className="text-center mt-12">
-          <p className="text-white/70 text-sm">Catch &apos;em all! 🎮</p>
         </div>
       </div>
     </div>
