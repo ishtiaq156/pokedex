@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import PokemonCard from "../../components/PokemonCard";
 import { Pokemon, REGIONS } from "../../types/pokemon";
 import { generatePokemonData } from "../../types/pokemon";
+import Image from "next/image";
 
 export default function PokedexPage() {
   const params = useParams();
@@ -144,24 +145,17 @@ export default function PokedexPage() {
         </div>
       </div>
 
-      {/* Footer Stats */}
-      <div className="bg-white border-t border-gray-200 py-4">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-gray-600">
-            Showing {pokemon.length} Pokémon from {region.name}
-          </p>
-        </div>
-      </div>
-
       {/* Floating Close Button */}
       <button
         onClick={() => router.push("/")}
         className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50 hover:scale-110 transition-transform duration-200 ease-in-out"
         aria-label="Close and return to home"
       >
-        <img
+        <Image
           src="/pokedex/close.png"
           alt="Close"
+          width={64}
+          height={64}
           className="w-16 h-16 drop-shadow-lg"
         />
       </button>

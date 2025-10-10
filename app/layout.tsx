@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pokédex - Catch 'Em All",
-  description: "A mobile-optimized Pokédex app inspired by Pokemon GO",
+  title: "Pokédex",
+  description: "A mobile-optimized Pokédex app inspired by Pokémon GO",
 };
 
 export default function RootLayout({
