@@ -129,28 +129,8 @@ export default function PokedexPage() {
       {/* Header */}
       <div className="bg-white shadow-sm sticky top-0 z-10">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <button
-              onClick={() => router.push("/")}
-              className="flex items-center text-gray-600 hover:text-gray-800 transition-colors"
-            >
-              <svg
-                className="w-6 h-6 mr-2"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M15 19l-7-7 7-7"
-                />
-              </svg>
-              Back
-            </button>
+          <div className="flex items-center justify-center">
             <h1 className="text-2xl font-bold text-gray-800">{region.name}</h1>
-            <div className="w-16"></div> {/* Spacer for centering */}
           </div>
         </div>
       </div>
@@ -172,6 +152,19 @@ export default function PokedexPage() {
           </p>
         </div>
       </div>
+
+      {/* Floating Close Button */}
+      <button
+        onClick={() => router.push("/")}
+        className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50 hover:scale-110 transition-transform duration-200 ease-in-out"
+        aria-label="Close and return to home"
+      >
+        <img
+          src="/pokedex/close.png"
+          alt="Close"
+          className="w-16 h-16 drop-shadow-lg"
+        />
+      </button>
     </div>
   );
 }
