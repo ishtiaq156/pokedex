@@ -41,7 +41,7 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
       onClick={onClick}
       className="rounded-2xl p-2 sm:p-4 text-black shadow-lg hover:shadow-xl transition-all duration-200 cursor-pointer transform hover:scale-105 relative w-full border-shine-container"
       style={{
-        backgroundImage: `url('${region.backgroundImage}'), url('/backdrop.png'), ${stripeBackground}`,
+        backgroundImage: `url('${region.backgroundImage}'), url('/pokedex/backdrop.png'), ${stripeBackground}`,
         backgroundSize: "contain, cover, cover",
         backgroundPosition: "center, center, center",
         backgroundRepeat: "no-repeat, no-repeat, repeat",
