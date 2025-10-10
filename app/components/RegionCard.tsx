@@ -1,5 +1,6 @@
 import { Region } from "../types/pokemon";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 interface RegionCardProps {
   region: Region;
@@ -59,19 +60,25 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
         {["kanto", "johto", "hoenn", "unova", "kalos", "unidentified"].includes(
           region.id,
         ) && (
-          <img
+          <Image
             src={`/pokedex/badges/platinum/${region.id}.png`}
             alt={`${region.name} badge`}
+            width={32}
+            height={32}
             className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-2 drop-shadow-lg object-contain"
+            priority
           />
         )}
         {["sinnoh", "alola", "galar", "hisui", "paldea"].includes(
           region.id,
         ) && (
-          <img
+          <Image
             src={`/pokedex/badges/gold/${region.id}.png`}
             alt={`${region.name} badge`}
+            width={32}
+            height={32}
             className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-2 drop-shadow-lg object-contain"
+            priority
           />
         )}
       </div>
