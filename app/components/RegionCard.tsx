@@ -53,9 +53,16 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
         <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold drop-shadow-lg text-[#0b8fbc] uppercase">
           {region.name}
         </h3>
-        <p className="text-sm sm:text-base md:text-lg font-semibold text-[#0b8fbc] drop-shadow-lg mt-1">
+        <p className="text-sm sm:text-base md:text-lg font-semibold text-[#0b8fbc] drop-shadow-lg">
           {region.startDex} / {region.endDex}
         </p>
+        {["kanto", "johto", "hoenn", "unova"].includes(region.id) && (
+          <img
+            src={`/pokedex/${region.id}.png`}
+            alt={`${region.name} badge`}
+            className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-2 drop-shadow-lg object-contain"
+          />
+        )}
       </div>
       <style jsx>{`
         .border-shine-container {
