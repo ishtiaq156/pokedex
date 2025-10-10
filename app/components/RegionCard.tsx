@@ -56,9 +56,20 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
         <p className="text-sm sm:text-base md:text-lg font-semibold text-[#0b8fbc] drop-shadow-lg">
           {region.startDex} / {region.endDex}
         </p>
-        {["kanto", "johto", "hoenn", "unova"].includes(region.id) && (
+        {["kanto", "johto", "hoenn", "unova", "kalos", "unidentified"].includes(
+          region.id,
+        ) && (
           <img
-            src={`/pokedex/${region.id}.png`}
+            src={`/pokedex/badges/platinum/${region.id}.png`}
+            alt={`${region.name} badge`}
+            className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-2 drop-shadow-lg object-contain"
+          />
+        )}
+        {["sinnoh", "alola", "galar", "hisui", "paldea"].includes(
+          region.id,
+        ) && (
+          <img
+            src={`/pokedex/badges/gold/${region.id}.png`}
             alt={`${region.name} badge`}
             className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-2 drop-shadow-lg object-contain"
           />
