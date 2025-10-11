@@ -128,10 +128,39 @@ export default function PokedexPage() {
       }}
     >
       {/* Header */}
-      <div className="bg-white shadow-sm sticky top-0 z-10">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-center">
-            <h1 className="text-2xl font-bold text-gray-800">{region.name}</h1>
+      <div className="sticky top-0 z-10 py-1">
+        <div className="container mx-auto px-4">
+          <div
+            className="rounded-lg px-3 py-1.5"
+            style={{ backgroundColor: "#e8fafc" }}
+          >
+            <div className="flex items-center justify-between gap-4">
+              {/* Region Name - Left */}
+              <h1
+                className="text-xl font-semibold uppercase"
+                style={{ color: "#0b8fbc" }}
+              >
+                {region.name}
+              </h1>
+
+              {/* Dex Range - Center */}
+              <div
+                className="px-4 py-1 rounded-full text-white text-base font-semibold"
+                style={{ backgroundColor: "#0b8fbc" }}
+              >
+                {region.startDex.toString().padStart(3, "0")} /{" "}
+                {region.endDex.toString().padStart(3, "0")}
+              </div>
+
+              {/* Region Badge - Right */}
+              <Image
+                src={`/pokedex/badges/${["kanto", "johto", "hoenn", "unova", "kalos", "unidentified"].includes(region.id) ? "platinum" : "gold"}/${region.id}.png`}
+                alt={`${region.name} badge`}
+                width={40}
+                height={40}
+                className="w-10 h-10 object-contain"
+              />
+            </div>
           </div>
         </div>
       </div>
