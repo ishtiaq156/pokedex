@@ -61,7 +61,7 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
       }}
     >
       <div className="relative z-10 pl-1 pr-4 pt-1 pb-1">
-        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold drop-shadow-lg text-[#0b8fbc] uppercase leading-tight">
+        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold drop-shadow-lg text-[#0b8fbc] uppercase leading-tight">
           {region.name}
         </h3>
 
@@ -75,13 +75,13 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
               />
             </div>
           ) : (
-            <p className="text-xs sm:text-sm font-semibold text-[#0b8fbc] drop-shadow-lg m-0">
+            <p className="text-xs sm:text-sm font-medium text-[#0b8fbc] drop-shadow-lg m-0">
               Complete!
             </p>
           )}
         </div>
 
-        <p className="text-sm sm:text-base md:text-lg font-semibold text-[#0b8fbc] drop-shadow-lg">
+        <p className="text-sm sm:text-base md:text-lg font-bold text-[#0b8fbc] drop-shadow-lg">
           {progress.released} / {progress.total}
         </p>
         <div className="mb-0.5">
