@@ -32,8 +32,16 @@ export default function PokemonCard({ pokemon }: PokemonCardProps) {
         backgroundImage: cardStripeBackground,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        opacity: pokemon.isReleased ? 1 : 0.5,
       }}
     >
+      {/* Unreleased Badge */}
+      {!pokemon.isReleased && (
+        <div className="absolute top-1 right-1 bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full shadow-md z-10">
+          TBA
+        </div>
+      )}
+
       {imageError && (
         <div className="absolute inset-0 flex items-center justify-center">
           <span className="text-lg font-semibold leading-none text-[#0b8fbc]">
@@ -50,6 +58,9 @@ export default function PokemonCard({ pokemon }: PokemonCardProps) {
             height={80}
             className="object-contain"
             onError={() => setImageError(true)}
+            style={{
+              filter: pokemon.isReleased ? "none" : "grayscale(100%)",
+            }}
           />
         )}
       </div>

@@ -3,6 +3,7 @@ export interface Pokemon {
   name: string;
   imageUrl: string;
   dexNumber: string;
+  isReleased: boolean;
 }
 
 export interface Region {
@@ -11,6 +12,13 @@ export interface Region {
   startDex: number;
   endDex: number;
   backgroundImage: string;
+}
+
+export interface RegionProgress {
+  total: number;
+  released: number;
+  unreleased: number;
+  percentage: number;
 }
 
 export const REGIONS: Region[] = [
@@ -114,6 +122,15 @@ const POKEMON_ROOT_EXCEPTIONS: Record<number, string> = {
   649: "pokemon_icon_649_11.png", // Genesect - Normal Drive
 };
 
+// Unreleased Pokemon in Pokemon GO (as of current date)
+// This list should be updated as new Pokemon are released
+export const UNRELEASED_POKEMON: Set<number> = new Set([
+  // Sinnoh region unreleased
+  489, // Phione
+  490, // Manaphy
+  493, // Arceus
+]);
+
 // Type 2: Pokemon that use Addressable Assets directory with pmXXX.fFORMNAME.icon.png format
 const POKEMON_ADDRESSABLE_EXCEPTIONS: Record<number, string> = {
   487: "pm487.fALTERED.icon.png", // Giratina - Altered Form
@@ -161,8 +178,34 @@ export function generatePokemonData(
       name: `Pokemon ${i}`, // We'll need to add actual names later
       imageUrl,
       dexNumber,
+      isReleased: !UNRELEASED_POKEMON.has(i),
     });
   }
 
   return pokemon;
+}
+
+// Calculate region progress based on released Pokemon
+export function getRegionProgress(
+  startDex: number,
+  endDex: number,
+): RegionProgress {
+  const total = endDex - startDex + 1;
+  let unreleased = 0;
+
+  for (let i = startDex; i <= endDex; i++) {
+    if (UNRELEASED_POKEMON.has(i)) {
+      unreleased++;
+    }
+  }
+
+  const released = total - unreleased;
+  const percentage = Math.round((released / total) * 100);
+
+  return {
+    total,
+    released,
+    unreleased,
+    percentage,
+  };
 }

@@ -1,4 +1,4 @@
-import { Region } from "../types/pokemon";
+import { Region, getRegionProgress } from "../types/pokemon";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
@@ -10,6 +10,7 @@ interface RegionCardProps {
 export default function RegionCard({ region, onClick }: RegionCardProps) {
   const [imageWidth, setImageWidth] = useState<number | null>(null);
   const [imageHeight, setImageHeight] = useState<number | null>(null);
+  const progress = getRegionProgress(region.startDex, region.endDex);
 
   useEffect(() => {
     if (!region.backgroundImage) return;
@@ -52,44 +53,70 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
       style={{
         backgroundImage: `url('${region.backgroundImage}'), url('/pokedex/backdrop.png'), ${stripeBackground}`,
         backgroundSize: "contain, cover, cover",
-        backgroundPosition: "center, center, center",
+        backgroundPosition: "right center, center, center",
         backgroundRepeat: "no-repeat, no-repeat, repeat",
         backgroundBlendMode: "normal, normal, overlay",
         aspectRatio,
         maxWidth,
       }}
     >
-      <div className="relative z-10 px-4 py-2">
-        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold drop-shadow-lg text-[#0b8fbc] uppercase">
+      <div className="relative z-10 pl-1 pr-4 pt-1 pb-1">
+        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold drop-shadow-lg text-[#0b8fbc] uppercase leading-tight">
           {region.name}
         </h3>
+
+        {/* Progress Bar - only show if there are unreleased Pokemon */}
+        {progress.unreleased > 0 ? (
+          <div className="w-1/4 max-w-[25%] bg-white rounded-full h-2 overflow-hidden shadow-inner">
+            <div
+              className="h-full bg-[#0b8fbc] transition-all duration-500 ease-out rounded-full"
+              style={{ width: `${progress.percentage}%` }}
+            />
+          </div>
+        ) : (
+          <p className="text-xs sm:text-sm font-semibold text-[#0b8fbc] drop-shadow-lg">
+            Complete!
+          </p>
+        )}
+
         <p className="text-sm sm:text-base md:text-lg font-semibold text-[#0b8fbc] drop-shadow-lg">
-          {region.startDex} / {region.endDex}
+          {progress.released} / {progress.total}
         </p>
-        {["kanto", "johto", "hoenn", "unova", "kalos", "unidentified"].includes(
-          region.id,
-        ) && (
-          <Image
-            src={`/pokedex/badges/platinum/${region.id}.png`}
-            alt={`${region.name} badge`}
-            width={32}
-            height={32}
-            className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-2 drop-shadow-lg object-contain"
-            priority
-          />
-        )}
-        {["sinnoh", "alola", "galar", "hisui", "paldea"].includes(
-          region.id,
-        ) && (
-          <Image
-            src={`/pokedex/badges/gold/${region.id}.png`}
-            alt={`${region.name} badge`}
-            width={32}
-            height={32}
-            className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-2 drop-shadow-lg object-contain"
-            priority
-          />
-        )}
+        <div className="mb-0.5">
+          {[
+            "kanto",
+            "johto",
+            "hoenn",
+            "unova",
+            "kalos",
+            "unidentified",
+          ].includes(region.id) && (
+            <div className="w-7 h-7 flex items-center justify-start">
+              <Image
+                src={`/pokedex/badges/platinum/${region.id}.png`}
+                alt={`${region.name} badge`}
+                width={28}
+                height={28}
+                className="max-w-full max-h-full drop-shadow-lg object-contain"
+                priority
+              />
+            </div>
+          )}
+          {["sinnoh", "alola", "galar", "hisui", "paldea"].includes(
+            region.id,
+          ) && (
+            <div className="w-7 h-7 flex items-center justify-start">
+              <Image
+                src={`/pokedex/badges/gold/${region.id}.png`}
+                alt={`${region.name} badge`}
+                width={28}
+                height={28}
+                className="max-w-full max-h-full drop-shadow-lg object-contain"
+                priority
+              />
+            </div>
+          )}
+        </div>
       </div>
       <style jsx>{`
         .border-shine-container {

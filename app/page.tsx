@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import RegionCard from "./components/RegionCard";
-import { REGIONS } from "./types/pokemon";
+import { REGIONS, UNRELEASED_POKEMON } from "./types/pokemon";
 
 export default function Home() {
   const router = useRouter();
@@ -10,6 +10,10 @@ export default function Home() {
   const handleRegionClick = (regionId: string) => {
     router.push(`/pokedex/${regionId}`);
   };
+
+  // Calculate total released Pokemon
+  const totalPokemon = 1025;
+  const totalReleased = totalPokemon - UNRELEASED_POKEMON.size;
 
   const pageStripeBackground =
     "linear-gradient(135deg, " +
@@ -48,7 +52,7 @@ export default function Home() {
               POKÉDEX
             </h1>
             <p className="text-sm sm:text-base md:text-lg font-bold drop-shadow-lg text-[#0b8fbc] pr-2 sm:pr-4">
-              RELEASED: 1025
+              RELEASED: {totalReleased}
             </p>
           </div>
         </div>
