@@ -66,7 +66,7 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
         </h3>
 
         {/* Progress Bar - only show if there are unreleased Pokemon */}
-        <div className="min-h-[1rem]">
+        <div className="mt-1 mb-2">
           {progress.unreleased > 0 ? (
             <div className="w-1/4 max-w-[25%] bg-white rounded-full h-2 overflow-hidden shadow-inner">
               <div
@@ -75,13 +75,13 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
               />
             </div>
           ) : (
-            <p className="text-xs sm:text-sm font-medium text-[#0b8fbc] drop-shadow-lg m-0">
+            <p className="text-xs sm:text-sm font-medium text-[#0b8fbc] drop-shadow-lg">
               Complete!
             </p>
           )}
         </div>
 
-        <p className="text-sm sm:text-base md:text-lg font-bold text-[#0b8fbc] drop-shadow-lg">
+        <p className="text-sm sm:text-base md:text-lg font-bold text-[#0b8fbc] drop-shadow-lg mb-1">
           {progress.released} / {progress.total}
         </p>
         <div className="mb-0.5">
@@ -152,7 +152,21 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
         .border-static {
           position: relative;
           overflow: hidden;
-          border: 6px solid white;
+        }
+
+        .border-static::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          border-radius: 1rem;
+          padding: 6px;
+          background: white;
+          -webkit-mask:
+            linear-gradient(#fff 0 0) content-box,
+            linear-gradient(#fff 0 0);
+          -webkit-mask-composite: xor;
+          mask-composite: exclude;
+          pointer-events: none;
         }
 
         @property --angle {
