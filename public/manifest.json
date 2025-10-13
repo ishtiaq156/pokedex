@@ -1,0 +1,17 @@
+{
+  "name": "Pokédex",
+  "short_name": "Pokédex",
+  "description": "A mobile-optimized Pokédex app inspired by Pokémon GO",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#baf0f0",
+  "icons": [
+    {
+      "src": "/pokedex.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
