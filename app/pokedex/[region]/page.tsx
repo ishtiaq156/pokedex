@@ -164,7 +164,7 @@ export default function PokedexPage() {
 
               {/* Region Badge - Right */}
               <Image
-                src={`/pokedex/badges/${["kanto", "johto", "hoenn", "unova", "kalos", "unidentified"].includes(region.id) ? "platinum" : "gold"}/${region.id}.png`}
+                src={`/pokedex/badges/${["unidentified"].includes(region.id) ? "platinum" : "dex"}/${region.id}.png`}
                 alt={`${region.name} badge`}
                 width={40}
                 height={40}
