@@ -3,7 +3,7 @@
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import PokemonCard from "../../components/PokemonCard";
-import { Pokemon, REGIONS } from "../../types/pokemon";
+import { Pokemon, REGIONS, getRegionProgress } from "../../types/pokemon";
 import { generatePokemonData } from "../../types/pokemon";
 import Image from "next/image";
 
@@ -15,6 +15,9 @@ export default function PokedexPage() {
 
   const regionId = params.region as string;
   const region = REGIONS.find((r) => r.id === regionId);
+  const progress = region
+    ? getRegionProgress(region.startDex, region.endDex)
+    : null;
 
   useEffect(() => {
     if (region) {
@@ -143,13 +146,12 @@ export default function PokedexPage() {
                 {region.name}
               </h1>
 
-              {/* Dex Range - Center */}
+              {/* Released Stats - Center */}
               <div
                 className="px-4 py-1 rounded-full text-white text-base font-semibold"
                 style={{ backgroundColor: "#0b8fbc" }}
               >
-                {region.startDex.toString().padStart(3, "0")} /{" "}
-                {region.endDex.toString().padStart(3, "0")}
+                {progress?.released} / {progress?.total}
               </div>
 
               {/* Region Badge - Right */}
