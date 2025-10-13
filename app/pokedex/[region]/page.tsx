@@ -131,7 +131,15 @@ export default function PokedexPage() {
       }}
     >
       {/* Header */}
-      <div className="sticky top-0 z-10 py-1">
+      <div
+        className="sticky top-0 z-10 py-1"
+        style={{
+          backgroundImage: pageStripeBackground,
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+          backgroundSize: "cover",
+        }}
+      >
         <div className="container mx-auto px-4">
           <div
             className="rounded-lg px-3 py-1.5"
