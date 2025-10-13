@@ -129,6 +129,117 @@ export const UNRELEASED_POKEMON: Set<number> = new Set([
   489, // Phione
   490, // Manaphy
   493, // Arceus
+
+  // Alola region unreleased
+  746, // Wishiwashi
+  771, // Pyukumuku
+  772, // Type: Null
+  773, // Silvally
+  774, // Minior
+  778, // Mimikyu
+  801, // Magearna
+  807, // Zeraora
+
+  // Hisui region unreleased
+  902, // Basculegion
+
+  // Galar region unreleased
+  824, // Blipbug
+  825, // Dottler
+  826, // Orbeetle
+  833, // Chewtle
+  834, // Drednaw
+  837, // Rolycoly
+  838, // Carkol
+  839, // Coalossal
+  843, // Silicobra
+  844, // Sandaconda
+  845, // Cramorant
+  846, // Arrokuda
+  847, // Barraskewda
+  852, // Clobbopus
+  853, // Grapploct
+  859, // Impidimp
+  860, // Morgrem
+  861, // Grimmsnarl
+  868, // Milcery
+  869, // Alcremie
+  871, // Pincurchin
+  875, // Eiscue
+  878, // Cufant
+  879, // Copperajah
+  880, // Dracozolt
+  881, // Arctozolt
+  882, // Dracovish
+  883, // Arctovish
+  896, // Glastrier
+  897, // Spectrier
+  898, // Calyrex
+
+  // Paldea region unreleased
+  917, // Tarountula
+  918, // Spidops
+  931, // Squawkabilly
+  932, // Nacli
+  933, // Naclstack
+  934, // Garganacl
+  940, // Wattrel
+  941, // Kilowattrel
+  942, // Maschiff
+  943, // Mabosstiff
+  946, // Bramblin
+  947, // Brambleghast
+  950, // Klawf
+  951, // Capsakid
+  952, // Scovillain
+  953, // Rellor
+  954, // Rabsca
+  955, // Flittle
+  956, // Espathra
+  963, // Finizen
+  964, // Palafin
+  967, // Cyclizar
+  968, // Orthworm
+  969, // Glimmet
+  970, // Glimmora
+  973, // Flamigo
+  976, // Veluza
+  981, // Farigiraf
+  984, // Great Tusk
+  985, // Scream Tail
+  986, // Brute Bonnet
+  987, // Flutter Mane
+  988, // Slither Wing
+  989, // Sandy Shocks
+  990, // Iron Treads
+  991, // Iron Bundle
+  992, // Iron Hands
+  993, // Iron Jugulis
+  994, // Iron Moth
+  995, // Iron Thorns
+  1001, // Wo-Chien
+  1002, // Chien-Pao
+  1003, // Ting-Lu
+  1004, // Chi-Yu
+  1005, // Roaring Moon
+  1006, // Iron Valiant
+  1007, // Koraidon
+  1008, // Miraidon
+  1009, // Walking Wake
+  1010, // Iron Leaves
+  1012, // Poltchageist
+  1013, // Sinistcha
+  1014, // Okidogi
+  1015, // Munkidori
+  1016, // Fezandipiti
+  1017, // Ogerpon
+  1018, // Archaludon
+  1020, // Gouging Fire
+  1021, // Raging Bolt
+  1022, // Iron Boulder
+  1023, // Iron Crown
+  1024, // Terapagos
+  1025, // Pecharunt
 ]);
 
 // Type 2: Pokemon that use Addressable Assets directory with pmXXX.fFORMNAME.icon.png format
