@@ -66,7 +66,7 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
         </h3>
 
         {/* Progress Bar - only show if there are unreleased Pokemon */}
-        <div className="mt-1 mb-2">
+        <div className="mt-1 mb-0.5">
           {progress.unreleased > 0 ? (
             <div className="w-1/4 max-w-[25%] bg-white rounded-full h-2 overflow-hidden shadow-inner">
               <div
