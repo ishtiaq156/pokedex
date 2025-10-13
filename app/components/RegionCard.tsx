@@ -66,18 +66,20 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
         </h3>
 
         {/* Progress Bar - only show if there are unreleased Pokemon */}
-        {progress.unreleased > 0 ? (
-          <div className="w-1/4 max-w-[25%] bg-white rounded-full h-2 overflow-hidden shadow-inner">
-            <div
-              className="h-full bg-[#0b8fbc] transition-all duration-500 ease-out rounded-full"
-              style={{ width: `${progress.percentage}%` }}
-            />
-          </div>
-        ) : (
-          <p className="text-xs sm:text-sm font-semibold text-[#0b8fbc] drop-shadow-lg">
-            Complete!
-          </p>
-        )}
+        <div className="min-h-[1rem]">
+          {progress.unreleased > 0 ? (
+            <div className="w-1/4 max-w-[25%] bg-white rounded-full h-2 overflow-hidden shadow-inner">
+              <div
+                className="h-full bg-[#0b8fbc] transition-all duration-500 ease-out rounded-full"
+                style={{ width: `${progress.percentage}%` }}
+              />
+            </div>
+          ) : (
+            <p className="text-xs sm:text-sm font-semibold text-[#0b8fbc] drop-shadow-lg m-0">
+              Complete!
+            </p>
+          )}
+        </div>
 
         <p className="text-sm sm:text-base md:text-lg font-semibold text-[#0b8fbc] drop-shadow-lg">
           {progress.released} / {progress.total}

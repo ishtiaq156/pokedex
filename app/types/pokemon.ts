@@ -139,6 +139,7 @@ const POKEMON_ADDRESSABLE_EXCEPTIONS: Record<number, string> = {
   670: "pm670.fRED.icon.png", // Floette - Red Flower
   671: "pm671.fRED.icon.png", // Florges - Red Flower
   676: "pm676.fNATURAL.icon.png", // Furfrou - Natural Form
+  681: "pm681.fSHIELD.icon.png", // Aegislash - Shield Forme
   718: "pm718.fCOMPLETE_TEN_PERCENT.icon.png", // Zygarde - 10% Form
   741: "pm741.fBAILE.icon.png", // Oricorio - Baile Style
   745: "pm745.fMIDDAY.icon.png", // Lycanroc - Midday Form
