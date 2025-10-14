@@ -140,10 +140,10 @@ export default function PokedexPage() {
           backgroundSize: "cover",
         }}
       >
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 flex justify-center">
           <div
-            className="rounded-lg px-3 py-1.5"
-            style={{ backgroundColor: "#e8fafc" }}
+            className="rounded-lg px-3 py-1.5 w-full"
+            style={{ backgroundColor: "#e8fafc", maxWidth: "512px" }}
           >
             <div className="flex items-center justify-between gap-4">
               {/* Region Name - Left */}
@@ -181,8 +181,11 @@ export default function PokedexPage() {
       </div>
 
       {/* Pokemon Grid */}
-      <div className="container mx-auto px-4 py-6">
-        <div className="grid grid-cols-4 gap-1">
+      <div className="container mx-auto px-4 py-6 flex justify-center">
+        <div
+          className="grid grid-cols-4 gap-1 w-full"
+          style={{ maxWidth: "512px" }}
+        >
           {pokemon.map((poke) => (
             <PokemonCard key={poke.id} pokemon={poke} />
           ))}

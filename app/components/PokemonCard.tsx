@@ -33,6 +33,7 @@ export default function PokemonCard({ pokemon }: PokemonCardProps) {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         opacity: pokemon.isReleased ? 1 : 0.5,
+        aspectRatio: "3/4",
       }}
     >
       {/* Unreleased Badge */}
