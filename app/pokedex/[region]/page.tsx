@@ -124,20 +124,14 @@ export default function PokedexPage() {
     <div
       className="min-h-screen"
       style={{
-        backgroundImage: pageStripeBackground,
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-        backgroundSize: "cover",
+        background: pageStripeBackground,
       }}
     >
       {/* Header */}
       <div
         className="sticky top-0 z-10 py-1"
         style={{
-          backgroundImage: pageStripeBackground,
-          backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
-          backgroundSize: "cover",
+          background: pageStripeBackground,
         }}
       >
         <div className="container mx-auto px-4 flex justify-center">
