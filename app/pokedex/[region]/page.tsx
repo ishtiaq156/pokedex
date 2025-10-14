@@ -164,7 +164,6 @@ export default function PokedexPage() {
                   width={40}
                   height={40}
                   className="w-10 h-10 object-contain"
-                  unoptimized
                 />
               ) : (
                 <div className="w-10 h-10" />
@@ -198,7 +197,6 @@ export default function PokedexPage() {
           width={64}
           height={64}
           className="w-16 h-16 drop-shadow-lg"
-          unoptimized
         />
       </button>
     </div>
