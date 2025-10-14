@@ -189,7 +189,7 @@ export default function PokedexPage() {
       {/* Floating Close Button */}
       <button
         onClick={() => router.push("/")}
-        className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50 hover:scale-110 transition-transform duration-200 ease-in-out"
+        className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50 hover:scale-110 active:scale-95 transition-all duration-200 ease-in-out hover:brightness-110 active:brightness-90"
         aria-label="Close and return to home"
       >
         <Image
