@@ -163,7 +163,7 @@ export default function PokedexPage() {
               </div>
 
               {/* Region Badge - Right */}
-              {region.id !== "unidentified" && (
+              {region.id !== "unidentified" ? (
                 <Image
                   src={`/pokedex/badges/dex/${region.id}.png`}
                   alt={`${region.name} badge`}
@@ -172,6 +172,8 @@ export default function PokedexPage() {
                   className="w-10 h-10 object-contain"
                   unoptimized
                 />
+              ) : (
+                <div className="w-10 h-10" />
               )}
             </div>
           </div>
