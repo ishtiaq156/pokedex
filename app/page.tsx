@@ -35,10 +35,7 @@ export default function Home() {
     <div
       className="min-h-screen"
       style={{
-        backgroundImage: pageStripeBackground,
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-        backgroundSize: "cover",
+        background: pageStripeBackground,
       }}
     >
       <div className="py-8 container mx-auto px-4">
