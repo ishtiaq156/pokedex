@@ -100,6 +100,7 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
                 width={28}
                 height={28}
                 className="max-w-full max-h-full drop-shadow-lg object-contain"
+                unoptimized
                 priority
               />
             </div>
@@ -114,6 +115,7 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
                 width={28}
                 height={28}
                 className="max-w-full max-h-full drop-shadow-lg object-contain"
+                unoptimized
                 priority
               />
             </div>

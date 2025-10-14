@@ -163,13 +163,16 @@ export default function PokedexPage() {
               </div>
 
               {/* Region Badge - Right */}
-              <Image
-                src={`/pokedex/badges/${["unidentified"].includes(region.id) ? "platinum" : "dex"}/${region.id}.png`}
-                alt={`${region.name} badge`}
-                width={40}
-                height={40}
-                className="w-10 h-10 object-contain"
-              />
+              {region.id !== "unidentified" && (
+                <Image
+                  src={`/pokedex/badges/dex/${region.id}.png`}
+                  alt={`${region.name} badge`}
+                  width={40}
+                  height={40}
+                  className="w-10 h-10 object-contain"
+                  unoptimized
+                />
+              )}
             </div>
           </div>
         </div>
@@ -196,6 +199,7 @@ export default function PokedexPage() {
           width={64}
           height={64}
           className="w-16 h-16 drop-shadow-lg"
+          unoptimized
         />
       </button>
     </div>
