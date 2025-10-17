@@ -57,7 +57,6 @@ const ScanningAnimation = () => {
             });
           }, 2000);
 
-          // Stay at boundary until next movement starts
           return direction === "up" ? 0 : 100;
         }
 
@@ -97,13 +96,15 @@ const ScanningAnimation = () => {
         }}
       />
 
-      {/* Scanning bar */}
+      {/* Main scanning bar */}
       <div
-        className="absolute left-0 w-full bg-white opacity-80"
+        className="absolute left-0 w-full"
         style={{
           height: "4px",
           top: `${scanningPosition}%`,
-          boxShadow: "0 0 10px rgba(255, 255, 255, 0.8)",
+          background: "rgba(255, 255, 255, 0.4)",
+          boxShadow: "0 0 12px 4px rgba(255, 255, 255, 0.3)",
+          filter: "blur(1px)",
         }}
       />
     </div>
