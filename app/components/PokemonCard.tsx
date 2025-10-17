@@ -28,7 +28,7 @@ export default function PokemonCard({ pokemon, onClick }: PokemonCardProps) {
 
   return (
     <div
-      className="rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-200 p-3 flex flex-col items-center relative border border-white cursor-pointer"
+      className="rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-200 p-3 md:p-4 flex flex-col items-center relative border border-white cursor-pointer"
       style={{
         backgroundImage: cardStripeBackground,
         backgroundRepeat: "no-repeat",
@@ -40,25 +40,25 @@ export default function PokemonCard({ pokemon, onClick }: PokemonCardProps) {
     >
       {/* Unreleased Badge */}
       {!pokemon.isReleased && (
-        <div className="absolute top-1 right-1 bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full shadow-md z-10">
+        <div className="absolute top-1 right-1 bg-red-500 text-white text-xs md:text-sm font-bold px-1.5 py-0.5 rounded-full shadow-md z-10">
           TBA
         </div>
       )}
 
       {imageError && (
         <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-lg font-semibold leading-none text-[#0b8fbc]">
+          <span className="text-lg md:text-xl font-semibold leading-none text-[#0b8fbc]">
             {pokemon.dexNumber}
           </span>
         </div>
       )}
-      <div className="w-20 h-20 mb-0 flex items-center justify-center relative">
+      <div className="w-20 h-20 md:w-24 md:h-24 mb-0 flex items-center justify-center relative">
         {!imageError && (
           <Image
             src={pokemon.imageUrl}
             alt={pokemon.name}
-            width={80}
-            height={80}
+            width={96}
+            height={96}
             className="object-contain"
             onError={() => setImageError(true)}
             style={{
@@ -69,7 +69,7 @@ export default function PokemonCard({ pokemon, onClick }: PokemonCardProps) {
       </div>
       {!imageError && (
         <div className="text-center">
-          <p className="text-lg font-semibold text-[#0b8fbc]">
+          <p className="text-lg md:text-xl font-semibold text-[#0b8fbc]">
             {pokemon.dexNumber}
           </p>
         </div>
