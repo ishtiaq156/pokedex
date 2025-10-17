@@ -279,6 +279,23 @@ export default function PokemonDetailPage() {
         />
       </button>
 
+      {/* Desktop Navigation Arrows */}
+      <button
+        onClick={navigateToPrevious}
+        className="hidden md:flex fixed left-4 top-1/2 transform -translate-y-1/2 z-40 w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full items-center justify-center transition-all duration-200 hover:scale-110 active:scale-95"
+        aria-label="Previous Pokemon"
+      >
+        <span className="text-white text-2xl font-bold">‹</span>
+      </button>
+
+      <button
+        onClick={navigateToNext}
+        className="hidden md:flex fixed right-4 top-1/2 transform -translate-y-1/2 z-40 w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full items-center justify-center transition-all duration-200 hover:scale-110 active:scale-95"
+        aria-label="Next Pokemon"
+      >
+        <span className="text-white text-2xl font-bold">›</span>
+      </button>
+
       {/* Scanning Animation */}
       <ScanningAnimation />
     </div>
