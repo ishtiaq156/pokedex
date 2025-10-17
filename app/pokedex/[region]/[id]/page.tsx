@@ -43,11 +43,13 @@ export default function PokemonDetailPage() {
     const family = new Map<string, string>();
     family.set(pokemon.id.toString(), pokemon.name);
 
-    pokemon.evolution_chain.forEach((evo) => {
-      if (evo.from.id === evo.to.id) return;
-      family.set(evo.from.id, evo.from.name);
-      family.set(evo.to.id, evo.to.name);
-    });
+    if (pokemon.evolution_chain) {
+      pokemon.evolution_chain.forEach((evo) => {
+        if (evo.from.id === evo.to.id) return;
+        family.set(evo.from.id, evo.from.name);
+        family.set(evo.to.id, evo.to.name);
+      });
+    }
 
     return Array.from(family.entries())
       .sort((a, b) => parseInt(a[0]) - parseInt(b[0]))
@@ -219,7 +221,7 @@ export default function PokemonDetailPage() {
           </div>
 
           {/* Evolution Section */}
-          {evolutionFamily.length > 1 && (
+          {evolutionFamily.length > 0 && (
             <div>
               <hr className="border-t border-white opacity-45 mb-4" />
               <h4 className="text-lg font-bold text-white mb-3 text-center">
