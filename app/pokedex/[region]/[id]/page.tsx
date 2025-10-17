@@ -176,12 +176,12 @@ export default function PokemonDetailPage() {
           <div className="flex justify-center gap-4 mb-6">
             {pokemon.types.map((type) => (
               <div key={type} className="flex flex-col items-center">
-                <div className="w-12 h-12 mb-1">
+                <div className="w-10 h-10 mb-1">
                   <Image
                     src={`/types/${type.toLowerCase()}.png`}
                     alt={type}
-                    width={48}
-                    height={48}
+                    width={40}
+                    height={40}
                     className="object-contain"
                   />
                 </div>
@@ -233,7 +233,12 @@ export default function PokemonDetailPage() {
 
                   return (
                     <div key={evo.id} className="flex items-center gap-2">
-                      <div className="text-center">
+                      <button
+                        onClick={() =>
+                          router.push(`/pokedex/${regionId}/${evo.id}`)
+                        }
+                        className="text-center cursor-pointer hover:scale-105 transition-transform"
+                      >
                         <div className="w-20 h-20 mb-1">
                           <Image
                             src={evoImageUrl}
@@ -246,7 +251,7 @@ export default function PokemonDetailPage() {
                         <p className="text-xs font-semibold text-white uppercase">
                           {evo.name}
                         </p>
-                      </div>
+                      </button>
                       {index < evolutionFamily.length - 1 && (
                         <span className="text-2xl text-white font-bold">→</span>
                       )}
