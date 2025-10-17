@@ -2,7 +2,7 @@
 
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { PokemonDetail } from "../../../types/pokemon";
+import { PokemonDetail } from "@/app/types/pokemon";
 import Image from "next/image";
 import ScanningAnimation from "../../../components/ScanningAnimation";
 
