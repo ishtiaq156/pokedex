@@ -196,7 +196,7 @@ export default function PokemonDetailPage() {
           </h3>
           <div className="relative mb-4">
             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-0.5 w-20 h-1 bg-white opacity-80 rounded-full"></div>
-            <hr className="border-t border-white opacity-30" />
+            <hr className="border-t border-white opacity-45" />
           </div>
 
           {/* Category and Description */}
@@ -221,7 +221,7 @@ export default function PokemonDetailPage() {
           {/* Evolution Section */}
           {evolutionFamily.length > 1 && (
             <div>
-              <hr className="border-t border-white opacity-30 mb-4" />
+              <hr className="border-t border-white opacity-45 mb-4" />
               <h4 className="text-lg font-bold text-white mb-3 text-center">
                 EVOLUTION
               </h4>
