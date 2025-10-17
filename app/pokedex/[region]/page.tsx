@@ -27,6 +27,10 @@ export default function PokedexPage() {
     }
   }, [region]);
 
+  const handlePokemonClick = (poke: Pokemon) => {
+    router.push(`/pokedex/${regionId}/${poke.id}`);
+  };
+
   if (!region) {
     const pageStripeBackground =
       "linear-gradient(135deg, " +
@@ -180,7 +184,11 @@ export default function PokedexPage() {
           style={{ maxWidth: "512px" }}
         >
           {pokemon.map((poke) => (
-            <PokemonCard key={poke.id} pokemon={poke} />
+            <PokemonCard
+              key={poke.id}
+              pokemon={poke}
+              onClick={() => handlePokemonClick(poke)}
+            />
           ))}
         </div>
       </div>

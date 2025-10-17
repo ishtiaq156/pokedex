@@ -21,6 +21,25 @@ export interface RegionProgress {
   percentage: number;
 }
 
+export interface EvolutionNode {
+  id: string;
+  name: string;
+}
+
+export interface EvolutionChain {
+  from: EvolutionNode;
+  to: EvolutionNode;
+  requirements: string[];
+}
+
+export interface PokemonDetail {
+  id: number;
+  name: string;
+  types: string[];
+  description: string;
+  evolution_chain: EvolutionChain[];
+}
+
 export const REGIONS: Region[] = [
   {
     id: "kanto",

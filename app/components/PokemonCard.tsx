@@ -4,9 +4,10 @@ import { useState } from "react";
 
 interface PokemonCardProps {
   pokemon: Pokemon;
+  onClick?: () => void;
 }
 
-export default function PokemonCard({ pokemon }: PokemonCardProps) {
+export default function PokemonCard({ pokemon, onClick }: PokemonCardProps) {
   const [imageError, setImageError] = useState(false);
 
   const cardStripeBackground =
@@ -27,7 +28,7 @@ export default function PokemonCard({ pokemon }: PokemonCardProps) {
 
   return (
     <div
-      className="rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-200 p-3 flex flex-col items-center relative border border-white"
+      className="rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-200 p-3 flex flex-col items-center relative border border-white cursor-pointer"
       style={{
         backgroundImage: cardStripeBackground,
         backgroundRepeat: "no-repeat",
@@ -35,6 +36,7 @@ export default function PokemonCard({ pokemon }: PokemonCardProps) {
         opacity: pokemon.isReleased ? 1 : 0.5,
         aspectRatio: "3/4",
       }}
+      onClick={onClick}
     >
       {/* Unreleased Badge */}
       {!pokemon.isReleased && (
