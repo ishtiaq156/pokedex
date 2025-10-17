@@ -40,20 +40,200 @@ export default function PokemonDetailPage() {
   const getEvolutionFamily = () => {
     if (!pokemon) return [];
 
-    const family = new Map<string, string>();
-    family.set(pokemon.id.toString(), pokemon.name);
+    // Get all Pokemon IDs in the evolution chain
+    const allEvoIds = new Set<string>();
+    allEvoIds.add(pokemon.id.toString());
+
+    // Add all from/to IDs from evolution chain
+    if (pokemon.evolution_chain) {
+      pokemon.evolution_chain.forEach((evo) => {
+        allEvoIds.add(evo.from.id);
+        allEvoIds.add(evo.to.id);
+      });
+    }
+
+    // Find the first Pokemon in the chain (the one that doesn't appear as 'to' in any evolution)
+    const allFromIds = new Set<string>();
+    const allToIds = new Set<string>();
+
+    if (pokemon.evolution_chain) {
+      pokemon.evolution_chain.forEach((evo) => {
+        allFromIds.add(evo.from.id);
+        allToIds.add(evo.to.id);
+      });
+    }
+
+    let chainStartId = pokemon.id.toString();
+    for (const id of allFromIds) {
+      if (!allToIds.has(id)) {
+        chainStartId = id;
+        break;
+      }
+    }
+
+    // Group evolutions by 'from' pokemon
+    const evolutionGroups = new Map<string, { from: string; to: string[] }>();
 
     if (pokemon.evolution_chain) {
       pokemon.evolution_chain.forEach((evo) => {
         if (evo.from.id === evo.to.id) return;
-        family.set(evo.from.id, evo.from.name);
-        family.set(evo.to.id, evo.to.name);
+
+        if (!evolutionGroups.has(evo.from.id)) {
+          evolutionGroups.set(evo.from.id, {
+            from: evo.from.id,
+            to: [evo.to.id],
+          });
+        } else {
+          evolutionGroups.get(evo.from.id)?.to.push(evo.to.id);
+        }
       });
     }
 
-    return Array.from(family.entries())
-      .sort((a, b) => parseInt(a[0]) - parseInt(b[0]))
-      .map(([id, name]) => ({ id, name }));
+    // Build the complete evolution chain starting
+    // Check if current Pokemon is part of any evolution chain
+    const isInEvolutionChain = pokemon.evolution_chain.some(
+      (evo) =>
+        evo.from.id === pokemon.id.toString() ||
+        evo.to.id === pokemon.id.toString(),
+    );
+
+    // Create evolution rows
+    const evolutionRows: { ids: string[] }[] = [];
+
+    // Only add current pokemon as single row if it's not part of any evolution chain
+    if (!isInEvolutionChain) {
+      evolutionRows.push({ ids: [pokemon.id.toString()] });
+    }
+
+    // Build evolution chains relevant to current Pokemon
+    // Check if current Pokemon is the chain start
+    const isChainStart = pokemon.id.toString() === chainStartId;
+
+    if (isChainStart) {
+      // When viewing chain start, build one complete chain and add branches
+      let currentId: string | null = chainStartId;
+      const branchPoints: { pokemonId: string; alternatives: string[] }[] = [];
+
+      // First pass: build one complete chain and collect branch points
+      while (currentId) {
+        const nextEvolutions = evolutionGroups.get(currentId);
+        if (!nextEvolutions) break;
+
+        if (nextEvolutions.to.length === 1) {
+          // Single evolution - continue building the chain
+          const lastRow =
+            evolutionRows.length > 0
+              ? evolutionRows[evolutionRows.length - 1]
+              : null;
+          if (lastRow && lastRow.ids[lastRow.ids.length - 1] === currentId) {
+            lastRow.ids.push(nextEvolutions.to[0]);
+            currentId = nextEvolutions.to[0];
+          } else {
+            evolutionRows.push({ ids: [currentId, nextEvolutions.to[0]] });
+            currentId = nextEvolutions.to[0];
+          }
+        } else {
+          // Multiple evolutions - add the first one to continue the chain, collect others as branches
+          const firstEvolution = nextEvolutions.to[0];
+          const otherEvolutions = nextEvolutions.to.slice(1);
+
+          const lastRow =
+            evolutionRows.length > 0
+              ? evolutionRows[evolutionRows.length - 1]
+              : null;
+          if (lastRow && lastRow.ids[lastRow.ids.length - 1] === currentId) {
+            lastRow.ids.push(firstEvolution);
+            currentId = firstEvolution;
+          } else {
+            evolutionRows.push({ ids: [currentId, firstEvolution] });
+            currentId = firstEvolution;
+          }
+
+          // Collect the other evolutions as branches
+          if (otherEvolutions.length > 0) {
+            branchPoints.push({
+              pokemonId: currentId,
+              alternatives: otherEvolutions,
+            });
+          }
+        }
+      }
+
+      // Second pass: add the collected branches
+      branchPoints.forEach((branch) => {
+        branch.alternatives.forEach((altId) => {
+          evolutionRows.push({ ids: [branch.pokemonId, altId] });
+        });
+      });
+    } else {
+      // When viewing other Pokemon, show path to current plus branches from ancestors
+      // Find the path from chain start to current Pokemon
+      const pathToCurrent: string[] = [];
+      let tracer = pokemon.id.toString();
+
+      // Trace back to find the complete path
+      while (true) {
+        pathToCurrent.unshift(tracer);
+        const evolvesFrom = pokemon.evolution_chain.find(
+          (evo) => evo.to.id === tracer,
+        );
+        if (!evolvesFrom) break;
+        tracer = evolvesFrom.from.id;
+      }
+
+      // Start with the path to current Pokemon
+      evolutionRows.push({ ids: [...pathToCurrent] });
+
+      // Check if current Pokemon has evolutions
+      const currentPokemonId = pathToCurrent[pathToCurrent.length - 1];
+      const currentEvolutions = evolutionGroups.get(currentPokemonId);
+
+      if (currentEvolutions && currentEvolutions.to.length > 0) {
+        if (currentEvolutions.to.length === 1) {
+          // Single evolution - continue the path
+          evolutionRows[0].ids.push(currentEvolutions.to[0]);
+        } else {
+          // Multiple evolutions - continue with first one, show others as branches
+          evolutionRows[0].ids.push(currentEvolutions.to[0]);
+          const otherEvolutions = currentEvolutions.to.slice(1);
+          otherEvolutions.forEach((altId) => {
+            evolutionRows.push({ ids: [currentPokemonId, altId] });
+          });
+        }
+      }
+
+      // Show branches from ancestors that have multiple evolutions, but only if current Pokemon is not an end result
+      for (let i = 0; i < pathToCurrent.length - 1; i++) {
+        const ancestorId = pathToCurrent[i];
+        const ancestorEvolutions = evolutionGroups.get(ancestorId);
+
+        if (ancestorEvolutions && ancestorEvolutions.to.length > 1) {
+          // Ancestor has multiple evolutions - show them as branches
+          // But only if the current Pokemon is not one of those evolutions
+          const currentIsEndOfBranch =
+            ancestorEvolutions.to.includes(currentPokemonId);
+
+          if (!currentIsEndOfBranch) {
+            ancestorEvolutions.to.forEach((evoId) => {
+              evolutionRows.push({ ids: [ancestorId, evoId] });
+            });
+          }
+        }
+      }
+    }
+
+    // Convert to display format
+    const result: { id: string; name: string }[][] = [];
+
+    evolutionRows.forEach((row) => {
+      const chain = row.ids.map((id) => {
+        const pokemon = allPokemon.find((p) => p.id.toString() === id);
+        return pokemon ? { id, name: pokemon.name } : { id, name: "Unknown" };
+      });
+      result.push(chain);
+    });
+
+    return result;
   };
 
   // Swipe handlers
@@ -227,37 +407,96 @@ export default function PokemonDetailPage() {
               <h4 className="text-lg font-bold text-white mb-3 text-center">
                 EVOLUTION
               </h4>
-              <div className="flex items-center justify-center gap-2 flex-wrap">
-                {evolutionFamily.map((evo, index) => {
-                  const evoImageUrl = `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm${evo.id}.icon.png`;
-
-                  return (
-                    <div key={evo.id} className="flex items-center gap-2">
-                      <button
-                        onClick={() =>
-                          router.push(`/pokedex/${regionId}/${evo.id}`)
-                        }
-                        className="text-center cursor-pointer hover:scale-105 transition-transform"
-                      >
-                        <div className="w-20 h-20 mb-1">
-                          <Image
-                            src={evoImageUrl}
-                            alt={evo.name}
-                            width={80}
-                            height={80}
-                            className="object-contain"
-                          />
+              <div className="space-y-4">
+                {evolutionFamily.map((chain, chainIndex) => (
+                  <div
+                    key={chainIndex}
+                    className="flex items-center justify-center"
+                  >
+                    {chain.length === 2 ? (
+                      <>
+                        <div className="flex items-center">
+                          <button
+                            onClick={() =>
+                              router.push(`/pokedex/${regionId}/${chain[0].id}`)
+                            }
+                            className="text-center cursor-pointer hover:scale-105 transition-transform"
+                          >
+                            <div className="w-20 h-20 mb-1">
+                              <Image
+                                src={`https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm${chain[0].id}.icon.png`}
+                                alt={chain[0].name}
+                                width={80}
+                                height={80}
+                                className="object-contain"
+                              />
+                            </div>
+                            <p className="text-xs font-semibold text-white uppercase">
+                              {chain[0].name}
+                            </p>
+                          </button>
                         </div>
-                        <p className="text-xs font-semibold text-white uppercase">
-                          {evo.name}
-                        </p>
-                      </button>
-                      {index < evolutionFamily.length - 1 && (
-                        <span className="text-2xl text-white font-bold">→</span>
-                      )}
-                    </div>
-                  );
-                })}
+                        <span className="text-2xl text-white font-bold mx-8">
+                          ⟶
+                        </span>
+                        <div className="flex items-center">
+                          <button
+                            onClick={() =>
+                              router.push(`/pokedex/${regionId}/${chain[1].id}`)
+                            }
+                            className="text-center cursor-pointer hover:scale-105 transition-transform"
+                          >
+                            <div className="w-20 h-20 mb-1">
+                              <Image
+                                src={`https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm${chain[1].id}.icon.png`}
+                                alt={chain[1].name}
+                                width={80}
+                                height={80}
+                                className="object-contain"
+                              />
+                            </div>
+                            <p className="text-xs font-semibold text-white uppercase">
+                              {chain[1].name}
+                            </p>
+                          </button>
+                        </div>
+                      </>
+                    ) : (
+                      chain.map((evo, index) => {
+                        const evoImageUrl = `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm${evo.id}.icon.png`;
+
+                        return (
+                          <div key={evo.id} className="flex items-center gap-2">
+                            <button
+                              onClick={() =>
+                                router.push(`/pokedex/${regionId}/${evo.id}`)
+                              }
+                              className="text-center cursor-pointer hover:scale-105 transition-transform"
+                            >
+                              <div className="w-20 h-20 mb-1">
+                                <Image
+                                  src={evoImageUrl}
+                                  alt={evo.name}
+                                  width={80}
+                                  height={80}
+                                  className="object-contain"
+                                />
+                              </div>
+                              <p className="text-xs font-semibold text-white uppercase">
+                                {evo.name}
+                              </p>
+                            </button>
+                            {index < chain.length - 1 && (
+                              <span className="text-2xl text-white font-bold">
+                                →
+                              </span>
+                            )}
+                          </div>
+                        );
+                      })
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
           )}
