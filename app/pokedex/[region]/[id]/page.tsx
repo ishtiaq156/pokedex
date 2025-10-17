@@ -143,7 +143,7 @@ export default function PokemonDetailPage() {
 
   return (
     <div
-      className="min-h-screen overflow-y-auto"
+      className="min-h-screen overflow-y-auto pb-24 md:pb-0"
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
