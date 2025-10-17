@@ -9,9 +9,8 @@
   "icons": [
     {
       "src": "/pokedex.png",
-      "sizes": "any",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "sizes": "128x128",
+      "type": "image/png"
     }
   ]
 }
