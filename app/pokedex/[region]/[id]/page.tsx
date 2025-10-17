@@ -90,18 +90,21 @@ export default function PokemonDetailPage() {
     }
 
     // Build the complete evolution chain starting
-    // Check if current Pokemon is part of any evolution chain
-    const isInEvolutionChain = pokemon.evolution_chain.some(
-      (evo) =>
-        evo.from.id === pokemon.id.toString() ||
-        evo.to.id === pokemon.id.toString(),
-    );
+    // Check if current Pokemon has any regular (non-mega) evolutions
+    const hasRegularEvolutions = pokemon.evolution_chain
+      ? pokemon.evolution_chain.some(
+          (evo) =>
+            evo.from.id !== evo.to.id && // Exclude mega evolutions
+            (evo.from.id === pokemon.id.toString() ||
+              evo.to.id === pokemon.id.toString()),
+        )
+      : false;
 
     // Create evolution rows
     const evolutionRows: { ids: string[] }[] = [];
 
-    // Only add current pokemon as single row if it's not part of any evolution chain
-    if (!isInEvolutionChain) {
+    // Add current pokemon as single row if it has no regular evolutions
+    if (!hasRegularEvolutions) {
       evolutionRows.push({ ids: [pokemon.id.toString()] });
     }
 
@@ -174,7 +177,7 @@ export default function PokemonDetailPage() {
       // Trace back to find the complete path
       while (true) {
         pathToCurrent.unshift(tracer);
-        const evolvesFrom = pokemon.evolution_chain.find(
+        const evolvesFrom = pokemon.evolution_chain?.find(
           (evo) => evo.to.id === tracer,
         );
         if (!evolvesFrom) break;
