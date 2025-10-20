@@ -15,6 +15,7 @@ export default function PokemonDetailPage() {
   const [loading, setLoading] = useState(true);
   const [touchStart, setTouchStart] = useState<number>(0);
   const [touchEnd, setTouchEnd] = useState<number>(0);
+  const [selectedFormIndex, setSelectedFormIndex] = useState<number>(0);
 
   const regionId = params.region as string;
   const pokemonId = parseInt(params.id as string);
@@ -325,7 +326,34 @@ export default function PokemonDetailPage() {
 
   const evolutionFamily = getEvolutionFamily();
   const dexNumber = pokemon.id.toString().padStart(4, "0");
-  const imageUrl = getPokemonImageUrl(pokemon.id);
+
+  // Get current form data
+  const getCurrentFormData = () => {
+    if (!pokemon) return null;
+    if (
+      !pokemon.forms ||
+      pokemon.forms.length === 0 ||
+      selectedFormIndex === 0
+    ) {
+      return {
+        name: pokemon.name,
+        types: pokemon.types,
+        description: pokemon.description,
+        imageUrl: getPokemonImageUrl(pokemon.id),
+        category: "SEED POKEMON", // Default category, could be made dynamic
+      };
+    }
+    const selectedForm = pokemon.forms[selectedFormIndex - 1]; // -1 because index 0 is default, 1 is first form
+    return {
+      name: pokemon.name, // Always use base Pokemon name for main display
+      types: selectedForm.types,
+      description: selectedForm.description,
+      imageUrl: selectedForm.imageUrl,
+      category: selectedForm.category || "SEED POKEMON",
+    };
+  };
+
+  const currentFormData = getCurrentFormData();
 
   return (
     <div
@@ -340,8 +368,10 @@ export default function PokemonDetailPage() {
           <div className="flex justify-center mb-4">
             <div className="w-64 h-64 relative">
               <Image
-                src={imageUrl}
-                alt={pokemon.name}
+                src={
+                  currentFormData?.imageUrl || getPokemonImageUrl(pokemon.id)
+                }
+                alt={currentFormData?.name || pokemon.name}
                 width={256}
                 height={256}
                 className="object-contain"
@@ -352,13 +382,87 @@ export default function PokemonDetailPage() {
           {/* Dex Number and Name */}
           <div className="text-center text-white mb-4">
             <h2 className="text-3xl font-bold">
-              {dexNumber} {pokemon.name.toUpperCase()}
+              {dexNumber}{" "}
+              {(currentFormData?.name || pokemon.name).toUpperCase()}
             </h2>
           </div>
 
-          {/* Types */}
-          <div className="flex justify-center gap-4 mb-6">
-            {pokemon.types.map((type) => (
+          {/* Form Selector */}
+          {pokemon.forms && pokemon.forms.length > 0 && (
+            <div className="flex justify-center mb-6">
+              <div className="flex flex-col gap-2 max-w-xs">
+                {/* Group forms into rows of 5 */}
+                {(() => {
+                  const allForms = [null, ...pokemon.forms]; // null represents default form
+                  const rows = [];
+                  for (let i = 0; i < allForms.length; i += 5) {
+                    rows.push(allForms.slice(i, i + 5));
+                  }
+                  return rows.map((row, rowIndex) => (
+                    <div key={rowIndex} className="flex justify-center gap-2">
+                      {row.map((form, colIndex) => {
+                        const globalIndex = rowIndex * 5 + colIndex;
+                        const isDefault = form === null;
+                        const formIndex = globalIndex; // 0 for default, 1+ for forms
+
+                        return (
+                          <div
+                            key={isDefault ? "default" : form.name}
+                            className="flex flex-col items-center"
+                          >
+                            <button
+                              onClick={() => setSelectedFormIndex(formIndex)}
+                              className={`w-16 h-16 rounded transition-all duration-200 ${
+                                selectedFormIndex === formIndex
+                                  ? "border-2 border-white"
+                                  : "border border-opacity-70"
+                              }`}
+                              style={{
+                                backgroundColor: "transparent",
+                                borderColor:
+                                  selectedFormIndex === formIndex
+                                    ? "white"
+                                    : "rgba(255, 255, 255, 0.3)",
+                              }}
+                              aria-label={
+                                isDefault
+                                  ? `Default ${pokemon.name} form`
+                                  : `${form.name} form`
+                              }
+                            >
+                              <div
+                                className="w-full h-full rounded-sm overflow-hidden"
+                                style={{ opacity: 1 }}
+                              >
+                                <Image
+                                  src={
+                                    isDefault
+                                      ? getPokemonImageUrl(pokemon.id)
+                                      : form.imageUrl
+                                  }
+                                  alt={isDefault ? pokemon.name : form.name}
+                                  width={64}
+                                  height={64}
+                                  className="object-cover w-full h-full"
+                                />
+                              </div>
+                            </button>
+                            {!isDefault && (
+                              <span className="text-xs text-white font-semibold mt-1 text-center leading-tight max-w-12">
+                                {form.name.toUpperCase()}
+                              </span>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  ));
+                })()}
+              </div>
+            </div>
+          )}
+          <div className="flex justify-center gap-4 mb-0">
+            {(currentFormData?.types || pokemon.types).map((type) => (
               <div key={type} className="flex flex-col items-center">
                 <div className="w-10 h-10 mb-1">
                   <Image
@@ -387,19 +491,23 @@ export default function PokemonDetailPage() {
 
           {/* Category and Description */}
           <div className="mb-6">
-            <h4 className="text-lg font-bold text-white mb-3">SEED POKEMON</h4>
+            <h4 className="text-lg font-bold text-white mb-3">
+              {currentFormData?.category || "SEED POKEMON"}
+            </h4>
             <div className="flex gap-4">
               <div className="w-24 h-24 flex-shrink-0">
                 <Image
-                  src={imageUrl}
-                  alt={pokemon.name}
+                  src={
+                    currentFormData?.imageUrl || getPokemonImageUrl(pokemon.id)
+                  }
+                  alt={currentFormData?.name || pokemon.name}
                   width={96}
                   height={96}
                   className="object-contain"
                 />
               </div>
               <p className="text-sm text-white leading-relaxed">
-                {pokemon.description}
+                {currentFormData?.description || pokemon.description}
               </p>
             </div>
           </div>

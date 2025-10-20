@@ -32,12 +32,21 @@ export interface EvolutionChain {
   requirements: string[];
 }
 
+export interface PokemonForm {
+  name: string;
+  types: string[];
+  description: string;
+  imageUrl: string;
+  category?: string;
+}
+
 export interface PokemonDetail {
   id: number;
   name: string;
   types: string[];
   description: string;
   evolution_chain: EvolutionChain[];
+  forms?: PokemonForm[];
 }
 
 export const REGIONS: Region[] = [
