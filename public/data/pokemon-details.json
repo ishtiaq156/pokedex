@@ -38,7 +38,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Seed Pok\u00e9mon"
   },
   {
     "id": 2,
@@ -79,7 +80,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Seed Pok\u00e9mon"
   },
   {
     "id": 3,
@@ -120,7 +122,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Seed Pok\u00e9mon"
   },
   {
     "id": 4,
@@ -172,7 +175,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Lizard Pok\u00e9mon"
   },
   {
     "id": 5,
@@ -224,7 +228,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Flame Pok\u00e9mon"
   },
   {
     "id": 6,
@@ -276,7 +281,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Flame Pok\u00e9mon"
   },
   {
     "id": 7,
@@ -317,7 +323,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Tiny Turtle Pok\u00e9mon"
   },
   {
     "id": 8,
@@ -358,7 +365,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Turtle Pok\u00e9mon"
   },
   {
     "id": 9,
@@ -399,7 +407,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Shellfish Pok\u00e9mon"
   },
   {
     "id": 10,
@@ -429,7 +438,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Worm Pok\u00e9mon"
   },
   {
     "id": 11,
@@ -459,7 +469,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Cocoon Pok\u00e9mon"
   },
   {
     "id": 12,
@@ -489,7 +500,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Butterfly Pok\u00e9mon"
   },
   {
     "id": 13,
@@ -530,7 +542,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Hairy Bug Pok\u00e9mon"
   },
   {
     "id": 14,
@@ -571,7 +584,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Cocoon Pok\u00e9mon"
   },
   {
     "id": 15,
@@ -612,7 +626,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Poison Bee Pok\u00e9mon"
   },
   {
     "id": 16,
@@ -653,7 +668,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Tiny Bird Pok\u00e9mon"
   },
   {
     "id": 17,
@@ -694,7 +710,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Bird Pok\u00e9mon"
   },
   {
     "id": 18,
@@ -735,7 +752,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Bird Pok\u00e9mon"
   },
   {
     "id": 19,
@@ -762,7 +780,8 @@
         "description": "Night after night, they sneak into people\u2019s homes seeking food. A massive outbreak of them has become an issue of public concern.",
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm19.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Mouse Pok\u00e9mon"
   },
   {
     "id": 20,
@@ -788,7 +807,8 @@
         "types": ["Dark", "Normal"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm20.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Mouse Pok\u00e9mon"
   },
   {
     "id": 21,
@@ -807,7 +827,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Tiny Bird Pok\u00e9mon"
   },
   {
     "id": 22,
@@ -826,7 +847,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Beak Pok\u00e9mon"
   },
   {
     "id": 23,
@@ -845,7 +867,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Snake Pok\u00e9mon"
   },
   {
     "id": 24,
@@ -864,7 +887,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Cobra Pok\u00e9mon"
   },
   {
     "id": 25,
@@ -894,7 +918,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mouse Pok\u00e9mon"
   },
   {
     "id": 26,
@@ -931,7 +956,8 @@
         "types": ["Electric", "Psychic"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm26.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Mouse Pok\u00e9mon"
   },
   {
     "id": 27,
@@ -957,7 +983,8 @@
         "types": ["Ice", "Steel"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm27.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Mouse Pok\u00e9mon"
   },
   {
     "id": 28,
@@ -983,7 +1010,8 @@
         "types": ["Ice", "Steel"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm28.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Mouse Pok\u00e9mon"
   },
   {
     "id": 29,
@@ -1013,7 +1041,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Poison Pin Pok\u00e9mon"
   },
   {
     "id": 30,
@@ -1043,7 +1072,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Poison Pin Pok\u00e9mon"
   },
   {
     "id": 31,
@@ -1073,7 +1103,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Drill Pok\u00e9mon"
   },
   {
     "id": 32,
@@ -1103,7 +1134,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Poison Pin Pok\u00e9mon"
   },
   {
     "id": 33,
@@ -1133,7 +1165,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Poison Pin Pok\u00e9mon"
   },
   {
     "id": 34,
@@ -1163,7 +1196,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Drill Pok\u00e9mon"
   },
   {
     "id": 35,
@@ -1193,7 +1227,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Fairy Pok\u00e9mon"
   },
   {
     "id": 36,
@@ -1223,7 +1258,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Fairy Pok\u00e9mon"
   },
   {
     "id": 37,
@@ -1249,7 +1285,8 @@
         "types": ["Ice"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm37.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Fox Pok\u00e9mon"
   },
   {
     "id": 38,
@@ -1275,7 +1312,8 @@
         "types": ["Ice", "Fairy"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm38.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Fox Pok\u00e9mon"
   },
   {
     "id": 39,
@@ -1305,7 +1343,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Balloon Pok\u00e9mon"
   },
   {
     "id": 40,
@@ -1335,7 +1374,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Balloon Pok\u00e9mon"
   },
   {
     "id": 41,
@@ -1365,7 +1405,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Bat Pok\u00e9mon"
   },
   {
     "id": 42,
@@ -1395,7 +1436,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Bat Pok\u00e9mon"
   },
   {
     "id": 43,
@@ -1436,7 +1478,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sun Stone"]
       }
-    ]
+    ],
+    "category": "Weed Pok\u00e9mon"
   },
   {
     "id": 44,
@@ -1477,7 +1520,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sun Stone"]
       }
-    ]
+    ],
+    "category": "Weed Pok\u00e9mon"
   },
   {
     "id": 45,
@@ -1518,7 +1562,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sun Stone"]
       }
-    ]
+    ],
+    "category": "Flower Pok\u00e9mon"
   },
   {
     "id": 46,
@@ -1537,7 +1582,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mushroom Pok\u00e9mon"
   },
   {
     "id": 47,
@@ -1556,7 +1602,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mushroom Pok\u00e9mon"
   },
   {
     "id": 48,
@@ -1575,7 +1622,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Insect Pok\u00e9mon"
   },
   {
     "id": 49,
@@ -1594,7 +1642,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Poison Moth Pok\u00e9mon"
   },
   {
     "id": 50,
@@ -1620,7 +1669,8 @@
         "types": ["Ground", "Steel"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm50.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Mole Pok\u00e9mon"
   },
   {
     "id": 51,
@@ -1646,7 +1696,8 @@
         "types": ["Ground", "Steel"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm51.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Mole Pok\u00e9mon"
   },
   {
     "id": 52,
@@ -1672,7 +1723,8 @@
         "types": ["Dark"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm52.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Scratch Cat Pok\u00e9mon"
   },
   {
     "id": 53,
@@ -1698,7 +1750,8 @@
         "types": ["Dark"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm53.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Classy Cat Pok\u00e9mon"
   },
   {
     "id": 54,
@@ -1717,7 +1770,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Duck Pok\u00e9mon"
   },
   {
     "id": 55,
@@ -1736,7 +1790,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Duck Pok\u00e9mon"
   },
   {
     "id": 56,
@@ -1769,7 +1824,8 @@
           "Defeat 30 Psychic- or Ghost-type Pok\u00e9mon"
         ]
       }
-    ]
+    ],
+    "category": "Pig Monkey Pok\u00e9mon"
   },
   {
     "id": 57,
@@ -1802,7 +1858,8 @@
           "Defeat 30 Psychic- or Ghost-type Pok\u00e9mon"
         ]
       }
-    ]
+    ],
+    "category": "Pig Monkey Pok\u00e9mon"
   },
   {
     "id": 58,
@@ -1821,7 +1878,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Puppy Pok\u00e9mon"
   },
   {
     "id": 59,
@@ -1840,7 +1898,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Legendary Pok\u00e9mon"
   },
   {
     "id": 60,
@@ -1881,7 +1940,8 @@
         },
         "requirements": ["100 Candy", "Special Item: King's Rock"]
       }
-    ]
+    ],
+    "category": "Tadpole Pok\u00e9mon"
   },
   {
     "id": 61,
@@ -1922,7 +1982,8 @@
         },
         "requirements": ["100 Candy", "Special Item: King's Rock"]
       }
-    ]
+    ],
+    "category": "Tadpole Pok\u00e9mon"
   },
   {
     "id": 62,
@@ -1963,7 +2024,8 @@
         },
         "requirements": ["100 Candy", "Special Item: King's Rock"]
       }
-    ]
+    ],
+    "category": "Tadpole Pok\u00e9mon"
   },
   {
     "id": 63,
@@ -2004,7 +2066,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Psi Pok\u00e9mon"
   },
   {
     "id": 64,
@@ -2045,7 +2108,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Psi Pok\u00e9mon"
   },
   {
     "id": 65,
@@ -2086,7 +2150,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Psi Pok\u00e9mon"
   },
   {
     "id": 66,
@@ -2116,7 +2181,8 @@
         },
         "requirements": ["100 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Superpower Pok\u00e9mon"
   },
   {
     "id": 67,
@@ -2146,7 +2212,8 @@
         },
         "requirements": ["100 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Superpower Pok\u00e9mon"
   },
   {
     "id": 68,
@@ -2176,7 +2243,8 @@
         },
         "requirements": ["100 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Superpower Pok\u00e9mon"
   },
   {
     "id": 69,
@@ -2206,7 +2274,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Flower Pok\u00e9mon"
   },
   {
     "id": 70,
@@ -2236,7 +2305,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Flycatcher Pok\u00e9mon"
   },
   {
     "id": 71,
@@ -2266,7 +2336,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Flycatcher Pok\u00e9mon"
   },
   {
     "id": 72,
@@ -2285,7 +2356,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Jellyfish Pok\u00e9mon"
   },
   {
     "id": 73,
@@ -2304,7 +2376,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Jellyfish Pok\u00e9mon"
   },
   {
     "id": 74,
@@ -2341,7 +2414,8 @@
         "types": ["Rock", "Electric"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm74.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Rock Pok\u00e9mon"
   },
   {
     "id": 75,
@@ -2378,7 +2452,8 @@
         "types": ["Rock", "Electric"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm75.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Rock Pok\u00e9mon"
   },
   {
     "id": 76,
@@ -2415,7 +2490,8 @@
         "types": ["Rock", "Electric"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm76.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Megaton Pok\u00e9mon"
   },
   {
     "id": 77,
@@ -2434,7 +2510,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Fire Horse Pok\u00e9mon"
   },
   {
     "id": 78,
@@ -2453,7 +2530,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Fire Horse Pok\u00e9mon"
   },
   {
     "id": 79,
@@ -2494,7 +2572,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Dopey Pok\u00e9mon"
   },
   {
     "id": 80,
@@ -2524,7 +2603,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Hermit Crab Pok\u00e9mon"
   },
   {
     "id": 81,
@@ -2554,7 +2634,8 @@
         },
         "requirements": ["100 Candy", "Magnetic Lure Module"]
       }
-    ]
+    ],
+    "category": "Magnet Pok\u00e9mon"
   },
   {
     "id": 82,
@@ -2584,14 +2665,16 @@
         },
         "requirements": ["100 Candy", "Magnetic Lure Module"]
       }
-    ]
+    ],
+    "category": "Magnet Pok\u00e9mon"
   },
   {
     "id": 83,
     "name": "Farfetch'd",
     "types": ["Normal", "Flying"],
     "description": "Farfetch\u2019d is always seen with a stalk from a plant of some\nsort. Apparently, there are good stalks and bad stalks. This\nPok\u00e9mon has been known to fight with others over stalks.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Wild Duck Pok\u00e9mon"
   },
   {
     "id": 84,
@@ -2610,7 +2693,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Twin Bird Pok\u00e9mon"
   },
   {
     "id": 85,
@@ -2629,7 +2713,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Triple Bird Pok\u00e9mon"
   },
   {
     "id": 86,
@@ -2648,7 +2733,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Sea Lion Pok\u00e9mon"
   },
   {
     "id": 87,
@@ -2667,7 +2753,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Sea Lion Pok\u00e9mon"
   },
   {
     "id": 88,
@@ -2693,7 +2780,8 @@
         "types": ["Poison", "Dark"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm88.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Sludge Pok\u00e9mon"
   },
   {
     "id": 89,
@@ -2719,7 +2807,8 @@
         "types": ["Poison", "Dark"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm89.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Sludge Pok\u00e9mon"
   },
   {
     "id": 90,
@@ -2738,7 +2827,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Bivalve Pok\u00e9mon"
   },
   {
     "id": 91,
@@ -2757,7 +2847,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Bivalve Pok\u00e9mon"
   },
   {
     "id": 92,
@@ -2798,7 +2889,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Gas Pok\u00e9mon"
   },
   {
     "id": 93,
@@ -2839,7 +2931,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Gas Pok\u00e9mon"
   },
   {
     "id": 94,
@@ -2880,7 +2973,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Shadow Pok\u00e9mon"
   },
   {
     "id": 95,
@@ -2910,7 +3004,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Rock Snake Pok\u00e9mon"
   },
   {
     "id": 96,
@@ -2929,7 +3024,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Hypnosis Pok\u00e9mon"
   },
   {
     "id": 97,
@@ -2948,7 +3044,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Hypnosis Pok\u00e9mon"
   },
   {
     "id": 98,
@@ -2967,7 +3064,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "River Crab Pok\u00e9mon"
   },
   {
     "id": 99,
@@ -2986,7 +3084,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Pincer Pok\u00e9mon"
   },
   {
     "id": 100,
@@ -3005,7 +3104,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Ball Pok\u00e9mon"
   },
   {
     "id": 101,
@@ -3024,7 +3124,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Ball Pok\u00e9mon"
   },
   {
     "id": 102,
@@ -3043,7 +3144,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Egg Pok\u00e9mon"
   },
   {
     "id": 103,
@@ -3069,7 +3171,8 @@
         "types": ["Grass", "Dragon"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm103.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Coconut Pok\u00e9mon"
   },
   {
     "id": 104,
@@ -3088,7 +3191,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Lonely Pok\u00e9mon"
   },
   {
     "id": 105,
@@ -3114,7 +3218,8 @@
         "types": ["Fire", "Ghost"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm105.fALOLA.icon.png"
       }
-    ]
+    ],
+    "category": "Bone Keeper Pok\u00e9mon"
   },
   {
     "id": 106,
@@ -3133,7 +3238,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Kicking Pok\u00e9mon"
   },
   {
     "id": 107,
@@ -3152,7 +3258,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Punching Pok\u00e9mon"
   },
   {
     "id": 108,
@@ -3171,7 +3278,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Licking Pok\u00e9mon"
   },
   {
     "id": 109,
@@ -3190,7 +3298,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Poison Gas Pok\u00e9mon"
   },
   {
     "id": 110,
@@ -3209,7 +3318,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Poison Gas Pok\u00e9mon"
   },
   {
     "id": 111,
@@ -3239,7 +3349,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Spikes Pok\u00e9mon"
   },
   {
     "id": 112,
@@ -3269,7 +3380,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Drill Pok\u00e9mon"
   },
   {
     "id": 113,
@@ -3299,7 +3411,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Egg Pok\u00e9mon"
   },
   {
     "id": 114,
@@ -3318,7 +3431,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Vine Pok\u00e9mon"
   },
   {
     "id": 115,
@@ -3337,7 +3451,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Parent Pok\u00e9mon"
   },
   {
     "id": 116,
@@ -3367,7 +3482,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Dragon Scale"]
       }
-    ]
+    ],
+    "category": "Dragon Pok\u00e9mon"
   },
   {
     "id": 117,
@@ -3397,7 +3513,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Dragon Scale"]
       }
-    ]
+    ],
+    "category": "Dragon Pok\u00e9mon"
   },
   {
     "id": 118,
@@ -3416,7 +3533,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Goldfish Pok\u00e9mon"
   },
   {
     "id": 119,
@@ -3435,7 +3553,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Goldfish Pok\u00e9mon"
   },
   {
     "id": 120,
@@ -3454,7 +3573,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Star Shape Pok\u00e9mon"
   },
   {
     "id": 121,
@@ -3473,7 +3593,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mysterious Pok\u00e9mon"
   },
   {
     "id": 122,
@@ -3492,7 +3613,8 @@
         },
         "requirements": ["50 Candy", "Walk 15 km with your buddy"]
       }
-    ]
+    ],
+    "category": "Barrier Pok\u00e9mon"
   },
   {
     "id": 123,
@@ -3522,7 +3644,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Mantis Pok\u00e9mon"
   },
   {
     "id": 124,
@@ -3541,7 +3664,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Human Shape Pok\u00e9mon"
   },
   {
     "id": 125,
@@ -3571,7 +3695,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Electric Pok\u00e9mon"
   },
   {
     "id": 126,
@@ -3601,7 +3726,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Spitfire Pok\u00e9mon"
   },
   {
     "id": 127,
@@ -3620,14 +3746,16 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Stag Beetle Pok\u00e9mon"
   },
   {
     "id": 128,
     "name": "Tauros",
     "types": ["Normal"],
     "description": "This Pok\u00e9mon is not satisfied unless it is rampaging at all\ntimes. If there is no opponent for Tauros to battle, it will\ncharge at thick trees and knock them down to calm itself.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Wild Bull Pok\u00e9mon"
   },
   {
     "id": 129,
@@ -3657,7 +3785,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Fish Pok\u00e9mon"
   },
   {
     "id": 130,
@@ -3687,21 +3816,24 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Atrocious Pok\u00e9mon"
   },
   {
     "id": 131,
     "name": "Lapras",
     "types": ["Water", "Ice"],
     "description": "People have driven Lapras almost to the point of extinction.\nIn the evenings, this Pok\u00e9mon is said to sing plaintively as it\nseeks what few others of its kind still remain.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Transport Pok\u00e9mon"
   },
   {
     "id": 132,
     "name": "Ditto",
     "types": ["Normal"],
     "description": "Ditto rearranges its cell structure to transform itself into other\nshapes. However, if it tries to transform itself into something\nby relying on its memory, this Pok\u00e9mon manages to get\ndetails wrong.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Transform Pok\u00e9mon"
   },
   {
     "id": 133,
@@ -3807,7 +3939,8 @@
         },
         "requirements": ["25 Candy", "Earn 70 hearts with your buddy"]
       }
-    ]
+    ],
+    "category": "Evolution Pok\u00e9mon"
   },
   {
     "id": 134,
@@ -3826,7 +3959,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Bubble Jet Pok\u00e9mon"
   },
   {
     "id": 135,
@@ -3845,7 +3979,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Lightning Pok\u00e9mon"
   },
   {
     "id": 136,
@@ -3864,7 +3999,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Flame Pok\u00e9mon"
   },
   {
     "id": 137,
@@ -3894,7 +4030,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Virtual Pok\u00e9mon"
   },
   {
     "id": 138,
@@ -3913,7 +4050,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Spiral Pok\u00e9mon"
   },
   {
     "id": 139,
@@ -3932,7 +4070,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Spiral Pok\u00e9mon"
   },
   {
     "id": 140,
@@ -3951,7 +4090,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Shellfish Pok\u00e9mon"
   },
   {
     "id": 141,
@@ -3970,7 +4110,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Shellfish Pok\u00e9mon"
   },
   {
     "id": 142,
@@ -3989,7 +4130,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Fossil Pok\u00e9mon"
   },
   {
     "id": 143,
@@ -4008,28 +4150,32 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Sleeping Pok\u00e9mon"
   },
   {
     "id": 144,
     "name": "Articuno",
     "types": ["Ice", "Flying"],
     "description": "Articuno is a legendary bird Pok\u00e9mon that can control ice.\nThe flapping of its wings chills the air. As a result, it is said\nthat when this Pok\u00e9mon flies, snow will fall.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Freeze Pok\u00e9mon"
   },
   {
     "id": 145,
     "name": "Zapdos",
     "types": ["Electric", "Flying"],
     "description": "Zapdos is a legendary bird Pok\u00e9mon that has the ability to\ncontrol electricity. It usually lives in thunderclouds.\nThe Pok\u00e9mon gains power if it is stricken by lightning bolts.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Electric Pok\u00e9mon"
   },
   {
     "id": 146,
     "name": "Moltres",
     "types": ["Fire", "Flying"],
     "description": "Moltres is a legendary bird Pok\u00e9mon that has the ability to\ncontrol fire. If this Pok\u00e9mon is injured, it is said to dip its body\nin the molten magma of a volcano to burn and heal itself.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Flame Pok\u00e9mon"
   },
   {
     "id": 147,
@@ -4059,7 +4205,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Dragon Pok\u00e9mon"
   },
   {
     "id": 148,
@@ -4089,7 +4236,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Dragon Pok\u00e9mon"
   },
   {
     "id": 149,
@@ -4119,21 +4267,24 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Dragon Pok\u00e9mon"
   },
   {
     "id": 150,
     "name": "Mewtwo",
     "types": ["Psychic"],
     "description": "Mewtwo is a Pok\u00e9mon that was created by genetic\nmanipulation. However, even though the scientific power of\nhumans created this Pok\u00e9mon\u2019s body, they failed to endow\nMewtwo with a compassionate heart.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Genetic Pok\u00e9mon"
   },
   {
     "id": 151,
     "name": "Mew",
     "types": ["Psychic"],
     "description": "Mew is said to possess the genetic composition of all\nPok\u00e9mon. It is capable of making itself invisible at will,\nso it entirely avoids notice even if it approaches people.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "New Species Pok\u00e9mon"
   },
   {
     "id": 152,
@@ -4163,7 +4314,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Leaf Pok\u00e9mon"
   },
   {
     "id": 153,
@@ -4193,7 +4345,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Leaf Pok\u00e9mon"
   },
   {
     "id": 154,
@@ -4223,7 +4376,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Herb Pok\u00e9mon"
   },
   {
     "id": 155,
@@ -4253,7 +4407,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Fire Mouse Pok\u00e9mon"
   },
   {
     "id": 156,
@@ -4283,7 +4438,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Volcano Pok\u00e9mon"
   },
   {
     "id": 157,
@@ -4313,7 +4469,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Volcano Pok\u00e9mon"
   },
   {
     "id": 158,
@@ -4343,7 +4500,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Big Jaw Pok\u00e9mon"
   },
   {
     "id": 159,
@@ -4373,7 +4531,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Big Jaw Pok\u00e9mon"
   },
   {
     "id": 160,
@@ -4403,7 +4562,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Big Jaw Pok\u00e9mon"
   },
   {
     "id": 161,
@@ -4422,7 +4582,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Scout Pok\u00e9mon"
   },
   {
     "id": 162,
@@ -4441,7 +4602,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Long Body Pok\u00e9mon"
   },
   {
     "id": 163,
@@ -4460,7 +4622,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Owl Pok\u00e9mon"
   },
   {
     "id": 164,
@@ -4479,7 +4642,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Owl Pok\u00e9mon"
   },
   {
     "id": 165,
@@ -4498,7 +4662,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Five Star Pok\u00e9mon"
   },
   {
     "id": 166,
@@ -4517,7 +4682,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Five Star Pok\u00e9mon"
   },
   {
     "id": 167,
@@ -4536,7 +4702,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "String Spit Pok\u00e9mon"
   },
   {
     "id": 168,
@@ -4555,7 +4722,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Long Leg Pok\u00e9mon"
   },
   {
     "id": 169,
@@ -4585,7 +4753,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Bat Pok\u00e9mon"
   },
   {
     "id": 170,
@@ -4604,7 +4773,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Angler Pok\u00e9mon"
   },
   {
     "id": 171,
@@ -4623,7 +4793,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Light Pok\u00e9mon"
   },
   {
     "id": 172,
@@ -4653,7 +4824,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Tiny Mouse Pok\u00e9mon"
   },
   {
     "id": 173,
@@ -4683,7 +4855,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Star Shape Pok\u00e9mon"
   },
   {
     "id": 174,
@@ -4713,7 +4886,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Balloon Pok\u00e9mon"
   },
   {
     "id": 175,
@@ -4743,7 +4917,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Spike Ball Pok\u00e9mon"
   },
   {
     "id": 176,
@@ -4773,7 +4948,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Happiness Pok\u00e9mon"
   },
   {
     "id": 177,
@@ -4792,7 +4968,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Tiny Bird Pok\u00e9mon"
   },
   {
     "id": 178,
@@ -4811,7 +4988,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mystic Pok\u00e9mon"
   },
   {
     "id": 179,
@@ -4852,7 +5030,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Wool Pok\u00e9mon"
   },
   {
     "id": 180,
@@ -4893,7 +5072,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Wool Pok\u00e9mon"
   },
   {
     "id": 181,
@@ -4934,7 +5114,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Light Pok\u00e9mon"
   },
   {
     "id": 182,
@@ -4975,7 +5156,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Flower Pok\u00e9mon"
   },
   {
     "id": 183,
@@ -5005,7 +5187,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Aqua Mouse Pok\u00e9mon"
   },
   {
     "id": 184,
@@ -5035,7 +5218,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Aqua Rabbit Pok\u00e9mon"
   },
   {
     "id": 185,
@@ -5054,7 +5238,8 @@
         },
         "requirements": ["50 Candy", "Walk 15 km with your buddy"]
       }
-    ]
+    ],
+    "category": "Imitation Pok\u00e9mon"
   },
   {
     "id": 186,
@@ -5095,7 +5280,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Frog Pok\u00e9mon"
   },
   {
     "id": 187,
@@ -5125,7 +5311,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Cottonweed Pok\u00e9mon"
   },
   {
     "id": 188,
@@ -5155,7 +5342,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Cottonweed Pok\u00e9mon"
   },
   {
     "id": 189,
@@ -5185,7 +5373,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Cottonweed Pok\u00e9mon"
   },
   {
     "id": 190,
@@ -5204,7 +5393,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Long Tail Pok\u00e9mon"
   },
   {
     "id": 191,
@@ -5223,7 +5413,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Sun Stone"]
       }
-    ]
+    ],
+    "category": "Seed Pok\u00e9mon"
   },
   {
     "id": 192,
@@ -5242,7 +5433,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Sun Stone"]
       }
-    ]
+    ],
+    "category": "Sun Pok\u00e9mon"
   },
   {
     "id": 193,
@@ -5261,7 +5453,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Clear Wing Pok\u00e9mon"
   },
   {
     "id": 194,
@@ -5280,7 +5473,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Water Fish Pok\u00e9mon"
   },
   {
     "id": 195,
@@ -5299,7 +5493,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Water Fish Pok\u00e9mon"
   },
   {
     "id": 196,
@@ -5323,7 +5518,8 @@
           "Walk 10 km with your buddy"
         ]
       }
-    ]
+    ],
+    "category": "Sun Pok\u00e9mon"
   },
   {
     "id": 197,
@@ -5347,7 +5543,8 @@
           "Walk 10 km with your buddy"
         ]
       }
-    ]
+    ],
+    "category": "Moonlight Pok\u00e9mon"
   },
   {
     "id": 198,
@@ -5366,7 +5563,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Darkness Pok\u00e9mon"
   },
   {
     "id": 199,
@@ -5385,7 +5583,8 @@
         },
         "requirements": ["50 Candy", "Special Item: King's Rock"]
       }
-    ]
+    ],
+    "category": "Royal Pok\u00e9mon"
   },
   {
     "id": 200,
@@ -5404,14 +5603,16 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Screech Pok\u00e9mon"
   },
   {
     "id": 201,
     "name": "Unown",
     "types": ["Psychic"],
     "description": "This Pok\u00e9mon is shaped like ancient writing. It is a mystery as\nto which came first, the ancient writings or the various Unown.\nResearch into this topic is ongoing but nothing is known.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Symbol Pok\u00e9mon"
   },
   {
     "id": 202,
@@ -5430,14 +5631,16 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Patient Pok\u00e9mon"
   },
   {
     "id": 203,
     "name": "Girafarig",
     "types": ["Normal", "Psychic"],
     "description": "Girafarig\u2019s rear head also has a brain, but it is small. The rear\nhead attacks in response to smells and sounds. Approaching\nthis Pok\u00e9mon from behind can cause the rear head to suddenly\nlash out and bite.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Long Neck Pok\u00e9mon"
   },
   {
     "id": 204,
@@ -5456,7 +5659,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Bagworm Pok\u00e9mon"
   },
   {
     "id": 205,
@@ -5475,7 +5679,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Bagworm Pok\u00e9mon"
   },
   {
     "id": 206,
@@ -5505,7 +5710,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Land Snake Pok\u00e9mon"
   },
   {
     "id": 207,
@@ -5524,7 +5730,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Fly Scorpion Pok\u00e9mon"
   },
   {
     "id": 208,
@@ -5554,7 +5761,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Iron Snake Pok\u00e9mon"
   },
   {
     "id": 209,
@@ -5573,7 +5781,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Fairy Pok\u00e9mon"
   },
   {
     "id": 210,
@@ -5592,14 +5801,16 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Fairy Pok\u00e9mon"
   },
   {
     "id": 211,
     "name": "Qwilfish",
     "types": ["Water", "Poison"],
     "description": "Qwilfish sucks in water, inflating itself. This Pok\u00e9mon\nuses the pressure of the water it swallowed to shoot toxic\nquills all at once from all over its body. It finds swimming\nsomewhat challenging.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Balloon Pok\u00e9mon"
   },
   {
     "id": 212,
@@ -5629,14 +5840,16 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Pincer Pok\u00e9mon"
   },
   {
     "id": 213,
     "name": "Shuckle",
     "types": ["Bug", "Rock"],
     "description": "Shuckle quietly hides itself under rocks, keeping its body\nconcealed inside its hard shell while eating berries it has\nstored away. The berries mix with its body fluids to become\na juice.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Mold Pok\u00e9mon"
   },
   {
     "id": 214,
@@ -5655,7 +5868,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Single Horn Pok\u00e9mon"
   },
   {
     "id": 215,
@@ -5674,7 +5888,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Sharp Claw Pok\u00e9mon"
   },
   {
     "id": 216,
@@ -5704,7 +5919,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Little Bear Pok\u00e9mon"
   },
   {
     "id": 217,
@@ -5734,7 +5950,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Hibernator Pok\u00e9mon"
   },
   {
     "id": 218,
@@ -5753,7 +5970,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Lava Pok\u00e9mon"
   },
   {
     "id": 219,
@@ -5772,7 +5990,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Lava Pok\u00e9mon"
   },
   {
     "id": 220,
@@ -5802,7 +6021,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Pig Pok\u00e9mon"
   },
   {
     "id": 221,
@@ -5832,14 +6052,16 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Swine Pok\u00e9mon"
   },
   {
     "id": 222,
     "name": "Corsola",
     "types": ["Water", "Rock"],
     "description": "Corsola\u2019s branches glitter very beautifully in seven colors when\nthey catch sunlight. If any branch breaks off, this Pok\u00e9mon\ngrows it back in just one night.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Coral Pok\u00e9mon"
   },
   {
     "id": 223,
@@ -5858,7 +6080,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Jet Pok\u00e9mon"
   },
   {
     "id": 224,
@@ -5877,14 +6100,16 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Jet Pok\u00e9mon"
   },
   {
     "id": 225,
     "name": "Delibird",
     "types": ["Ice", "Flying"],
     "description": "Delibird carries its food bundled up in its tail. There once was\na famous explorer who managed to reach the peak of the\nworld\u2019s highest mountain, thanks to one of these Pok\u00e9mon\nsharing its food.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Delivery Pok\u00e9mon"
   },
   {
     "id": 226,
@@ -5903,14 +6128,16 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Kite Pok\u00e9mon"
   },
   {
     "id": 227,
     "name": "Skarmory",
     "types": ["Steel", "Flying"],
     "description": "Skarmory is entirely encased in hard, protective armor.\nThis Pok\u00e9mon flies at close to 190 mph. It slashes foes with\nits wings that possess swordlike cutting edges.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Armor Bird Pok\u00e9mon"
   },
   {
     "id": 228,
@@ -5940,7 +6167,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Dark Pok\u00e9mon"
   },
   {
     "id": 229,
@@ -5970,7 +6198,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Dark Pok\u00e9mon"
   },
   {
     "id": 230,
@@ -6000,7 +6229,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Dragon Scale"]
       }
-    ]
+    ],
+    "category": "Dragon Pok\u00e9mon"
   },
   {
     "id": 231,
@@ -6019,7 +6249,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Long Nose Pok\u00e9mon"
   },
   {
     "id": 232,
@@ -6038,7 +6269,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Armor Pok\u00e9mon"
   },
   {
     "id": 233,
@@ -6068,21 +6300,24 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Virtual Pok\u00e9mon"
   },
   {
     "id": 234,
     "name": "Stantler",
     "types": ["Normal"],
     "description": "Stantler\u2019s magnificent antlers were traded at high prices as\nworks of art. As a result, this Pok\u00e9mon was hunted close to\nextinction by those who were after the priceless antlers.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Big Horn Pok\u00e9mon"
   },
   {
     "id": 235,
     "name": "Smeargle",
     "types": ["Normal"],
     "description": "Smeargle marks the boundaries of its territory using a body\nfluid that leaks out from the tip of its tail. Over 5,000 different\nmarks left by this Pok\u00e9mon have been found.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Painter Pok\u00e9mon"
   },
   {
     "id": 236,
@@ -6123,7 +6358,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Scuffle Pok\u00e9mon"
   },
   {
     "id": 237,
@@ -6142,7 +6378,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Handstand Pok\u00e9mon"
   },
   {
     "id": 238,
@@ -6161,7 +6398,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Kiss Pok\u00e9mon"
   },
   {
     "id": 239,
@@ -6191,7 +6429,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Electric Pok\u00e9mon"
   },
   {
     "id": 240,
@@ -6221,14 +6460,16 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Live Coal Pok\u00e9mon"
   },
   {
     "id": 241,
     "name": "Miltank",
     "types": ["Normal"],
     "description": "Miltank gives over five gallons of milk on a daily basis.\nIts sweet milk is enjoyed by children and grown-ups alike.\nPeople who can\u2019t drink milk turn it into yogurt and eat\nit instead.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Milk Cow Pok\u00e9mon"
   },
   {
     "id": 242,
@@ -6258,28 +6499,32 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Happiness Pok\u00e9mon"
   },
   {
     "id": 243,
     "name": "Raikou",
     "types": ["Electric"],
     "description": "Raikou embodies the speed of lightning. The roars of this\nPok\u00e9mon send shock waves shuddering through the air\nand shake the ground as if lightning bolts had come\ncrashing down.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Thunder Pok\u00e9mon"
   },
   {
     "id": 244,
     "name": "Entei",
     "types": ["Fire"],
     "description": "Entei embodies the passion of magma. This Pok\u00e9mon is\nthought to have been born in the eruption of a volcano.\nIt sends up massive bursts of fire that utterly consume all that\nthey touch.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Volcano Pok\u00e9mon"
   },
   {
     "id": 245,
     "name": "Suicune",
     "types": ["Water"],
     "description": "Suicune embodies the compassion of a pure spring of water.\nIt runs across the land with gracefulness. This Pok\u00e9mon has\nthe power to purify dirty water.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Aurora Pok\u00e9mon"
   },
   {
     "id": 246,
@@ -6320,7 +6565,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Rock Skin Pok\u00e9mon"
   },
   {
     "id": 247,
@@ -6361,7 +6607,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Hard Shell Pok\u00e9mon"
   },
   {
     "id": 248,
@@ -6402,28 +6649,32 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Armor Pok\u00e9mon"
   },
   {
     "id": 249,
     "name": "Lugia",
     "types": ["Psychic", "Flying"],
     "description": "Lugia\u2019s wings pack devastating power\u2014a light fluttering of its\nwings can blow apart regular houses. As a result, this\nPok\u00e9mon chooses to live out of sight deep under the sea.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Diving Pok\u00e9mon"
   },
   {
     "id": 250,
     "name": "Ho-Oh",
     "types": ["Fire", "Flying"],
     "description": "Ho-Oh\u2019s feathers glow in seven colors depending on the angle\nat which they are struck by light. These feathers are said to\nbring happiness to the bearers. This Pok\u00e9mon is said to live at\nthe foot of a rainbow.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Rainbow Pok\u00e9mon"
   },
   {
     "id": 251,
     "name": "Celebi",
     "types": ["Psychic", "Grass"],
     "description": "This Pok\u00e9mon came from the future by crossing over time.\nIt is thought that so long as Celebi appears, a bright and\nshining future awaits us.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Time Travel Pok\u00e9mon"
   },
   {
     "id": 252,
@@ -6464,7 +6715,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Wood Gecko Pok\u00e9mon"
   },
   {
     "id": 253,
@@ -6505,7 +6757,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Wood Gecko Pok\u00e9mon"
   },
   {
     "id": 254,
@@ -6546,7 +6799,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Forest Pok\u00e9mon"
   },
   {
     "id": 255,
@@ -6587,7 +6841,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Chick Pok\u00e9mon"
   },
   {
     "id": 256,
@@ -6628,7 +6883,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Young Fowl Pok\u00e9mon"
   },
   {
     "id": 257,
@@ -6669,7 +6925,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Blaze Pok\u00e9mon"
   },
   {
     "id": 258,
@@ -6710,7 +6967,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Mud Fish Pok\u00e9mon"
   },
   {
     "id": 259,
@@ -6751,7 +7009,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Mud Fish Pok\u00e9mon"
   },
   {
     "id": 260,
@@ -6792,7 +7051,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Mud Fish Pok\u00e9mon"
   },
   {
     "id": 261,
@@ -6811,7 +7071,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Bite Pok\u00e9mon"
   },
   {
     "id": 262,
@@ -6830,7 +7091,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Bite Pok\u00e9mon"
   },
   {
     "id": 263,
@@ -6849,7 +7111,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Tiny Raccoon Pok\u00e9mon"
   },
   {
     "id": 264,
@@ -6868,7 +7131,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Rushing Pok\u00e9mon"
   },
   {
     "id": 265,
@@ -6920,7 +7184,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Worm Pok\u00e9mon"
   },
   {
     "id": 266,
@@ -6950,7 +7215,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Cocoon Pok\u00e9mon"
   },
   {
     "id": 267,
@@ -6980,7 +7246,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Butterfly Pok\u00e9mon"
   },
   {
     "id": 268,
@@ -7010,7 +7277,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Cocoon Pok\u00e9mon"
   },
   {
     "id": 269,
@@ -7040,7 +7308,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Poison Moth Pok\u00e9mon"
   },
   {
     "id": 270,
@@ -7070,7 +7339,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Water Weed Pok\u00e9mon"
   },
   {
     "id": 271,
@@ -7100,7 +7370,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Jolly Pok\u00e9mon"
   },
   {
     "id": 272,
@@ -7130,7 +7401,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Carefree Pok\u00e9mon"
   },
   {
     "id": 273,
@@ -7160,7 +7432,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Acorn Pok\u00e9mon"
   },
   {
     "id": 274,
@@ -7190,7 +7463,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Wily Pok\u00e9mon"
   },
   {
     "id": 275,
@@ -7220,7 +7494,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Wicked Pok\u00e9mon"
   },
   {
     "id": 276,
@@ -7239,7 +7514,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Tiny Swallow Pok\u00e9mon"
   },
   {
     "id": 277,
@@ -7258,7 +7534,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Swallow Pok\u00e9mon"
   },
   {
     "id": 278,
@@ -7277,7 +7554,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Seagull Pok\u00e9mon"
   },
   {
     "id": 279,
@@ -7296,7 +7574,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Water Bird Pok\u00e9mon"
   },
   {
     "id": 280,
@@ -7363,7 +7642,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Feeling Pok\u00e9mon"
   },
   {
     "id": 281,
@@ -7430,7 +7710,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Emotion Pok\u00e9mon"
   },
   {
     "id": 282,
@@ -7497,7 +7778,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Embrace Pok\u00e9mon"
   },
   {
     "id": 283,
@@ -7516,7 +7798,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Pond Skater Pok\u00e9mon"
   },
   {
     "id": 284,
@@ -7535,7 +7818,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Eyeball Pok\u00e9mon"
   },
   {
     "id": 285,
@@ -7554,7 +7838,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mushroom Pok\u00e9mon"
   },
   {
     "id": 286,
@@ -7573,7 +7858,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mushroom Pok\u00e9mon"
   },
   {
     "id": 287,
@@ -7603,7 +7889,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Slacker Pok\u00e9mon"
   },
   {
     "id": 288,
@@ -7633,7 +7920,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Wild Monkey Pok\u00e9mon"
   },
   {
     "id": 289,
@@ -7663,7 +7951,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Lazy Pok\u00e9mon"
   },
   {
     "id": 290,
@@ -7682,7 +7971,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Trainee Pok\u00e9mon"
   },
   {
     "id": 291,
@@ -7701,14 +7991,16 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Ninja Pok\u00e9mon"
   },
   {
     "id": 292,
     "name": "Shedinja",
     "types": ["Bug", "Ghost"],
     "description": "Shedinja\u2019s hard body doesn\u2019t move\u2014not even a twitch. In fact,\nits body appears to be merely a hollow shell. It is believed that\nthis Pok\u00e9mon will steal the spirit of anyone peering into its\nhollow body from its back.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Shed Pok\u00e9mon"
   },
   {
     "id": 293,
@@ -7738,7 +8030,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Whisper Pok\u00e9mon"
   },
   {
     "id": 294,
@@ -7768,7 +8061,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Big Voice Pok\u00e9mon"
   },
   {
     "id": 295,
@@ -7798,7 +8092,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Loud Noise Pok\u00e9mon"
   },
   {
     "id": 296,
@@ -7817,7 +8112,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Guts Pok\u00e9mon"
   },
   {
     "id": 297,
@@ -7836,7 +8132,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Arm Thrust Pok\u00e9mon"
   },
   {
     "id": 298,
@@ -7866,7 +8163,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Polka Dot Pok\u00e9mon"
   },
   {
     "id": 299,
@@ -7885,7 +8183,8 @@
         },
         "requirements": ["50 Candy", "Magnetic Lure Module"]
       }
-    ]
+    ],
+    "category": "Compass Pok\u00e9mon"
   },
   {
     "id": 300,
@@ -7904,7 +8203,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Kitten Pok\u00e9mon"
   },
   {
     "id": 301,
@@ -7923,7 +8223,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Prim Pok\u00e9mon"
   },
   {
     "id": 302,
@@ -7942,7 +8243,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Darkness Pok\u00e9mon"
   },
   {
     "id": 303,
@@ -7961,7 +8263,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Deceiver Pok\u00e9mon"
   },
   {
     "id": 304,
@@ -7991,7 +8294,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Iron Armor Pok\u00e9mon"
   },
   {
     "id": 305,
@@ -8021,7 +8325,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Iron Armor Pok\u00e9mon"
   },
   {
     "id": 306,
@@ -8051,7 +8356,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Iron Armor Pok\u00e9mon"
   },
   {
     "id": 307,
@@ -8081,7 +8387,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Meditate Pok\u00e9mon"
   },
   {
     "id": 308,
@@ -8111,7 +8418,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Meditate Pok\u00e9mon"
   },
   {
     "id": 309,
@@ -8141,7 +8449,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Lightning Pok\u00e9mon"
   },
   {
     "id": 310,
@@ -8171,35 +8480,40 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Discharge Pok\u00e9mon"
   },
   {
     "id": 311,
     "name": "Plusle",
     "types": ["Electric"],
     "description": "Plusle always acts as a cheerleader for its partners.\nWhenever a teammate puts out a good effort in battle, this\nPok\u00e9mon shorts out its body to create the crackling noises of\nsparks to show its joy.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Cheering Pok\u00e9mon"
   },
   {
     "id": 312,
     "name": "Minun",
     "types": ["Electric"],
     "description": "Minun is more concerned about cheering on its partners than\nits own safety. It shorts out the electricity in its body to create\nbrilliant showers of sparks to cheer on its teammates.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Cheering Pok\u00e9mon"
   },
   {
     "id": 313,
     "name": "Volbeat",
     "types": ["Bug"],
     "description": "With the arrival of night, Volbeat emits light from its tail.\nIt communicates with others by adjusting the intensity and\nflashing of its light. This Pok\u00e9mon is attracted by the sweet\naroma of Illumise.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Firefly Pok\u00e9mon"
   },
   {
     "id": 314,
     "name": "Illumise",
     "types": ["Bug"],
     "description": "Illumise attracts a swarm of Volbeat using a sweet fragrance.\nOnce the Volbeat have gathered, this Pok\u00e9mon leads the\nlit-up swarm in drawing geometric designs on the canvas of\nthe night sky.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Firefly Pok\u00e9mon"
   },
   {
     "id": 315,
@@ -8229,7 +8543,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Thorn Pok\u00e9mon"
   },
   {
     "id": 316,
@@ -8248,7 +8563,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Stomach Pok\u00e9mon"
   },
   {
     "id": 317,
@@ -8267,7 +8583,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Poison Bag Pok\u00e9mon"
   },
   {
     "id": 318,
@@ -8297,7 +8614,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Savage Pok\u00e9mon"
   },
   {
     "id": 319,
@@ -8327,7 +8645,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Brutal Pok\u00e9mon"
   },
   {
     "id": 320,
@@ -8346,7 +8665,8 @@
         },
         "requirements": ["400 Candy"]
       }
-    ]
+    ],
+    "category": "Ball Whale Pok\u00e9mon"
   },
   {
     "id": 321,
@@ -8365,7 +8685,8 @@
         },
         "requirements": ["400 Candy"]
       }
-    ]
+    ],
+    "category": "Float Whale Pok\u00e9mon"
   },
   {
     "id": 322,
@@ -8395,7 +8716,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Numb Pok\u00e9mon"
   },
   {
     "id": 323,
@@ -8425,14 +8747,16 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Eruption Pok\u00e9mon"
   },
   {
     "id": 324,
     "name": "Torkoal",
     "types": ["Fire"],
     "description": "Torkoal digs through mountains in search of coal. If it finds\nsome, it fills hollow spaces on its shell with the coal and burns\nit. If it is attacked, this Pok\u00e9mon spouts thick black smoke to\nbeat a retreat.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Coal Pok\u00e9mon"
   },
   {
     "id": 325,
@@ -8451,7 +8775,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Bounce Pok\u00e9mon"
   },
   {
     "id": 326,
@@ -8470,14 +8795,16 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Manipulate Pok\u00e9mon"
   },
   {
     "id": 327,
     "name": "Spinda",
     "types": ["Normal"],
     "description": "All the Spinda that exist in the world are said to have utterly\nunique spot patterns. The shaky, tottering steps of this\nPok\u00e9mon give it the appearance of dancing.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Spot Panda Pok\u00e9mon"
   },
   {
     "id": 328,
@@ -8507,7 +8834,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Ant Pit Pok\u00e9mon"
   },
   {
     "id": 329,
@@ -8537,7 +8865,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Vibration Pok\u00e9mon"
   },
   {
     "id": 330,
@@ -8567,7 +8896,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Mystic Pok\u00e9mon"
   },
   {
     "id": 331,
@@ -8586,7 +8916,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Cactus Pok\u00e9mon"
   },
   {
     "id": 332,
@@ -8605,7 +8936,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Scarecrow Pok\u00e9mon"
   },
   {
     "id": 333,
@@ -8635,7 +8967,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Cotton Bird Pok\u00e9mon"
   },
   {
     "id": 334,
@@ -8665,35 +8998,40 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Humming Pok\u00e9mon"
   },
   {
     "id": 335,
     "name": "Zangoose",
     "types": ["Normal"],
     "description": "Memories of battling its archrival Seviper are etched into every\ncell of Zangoose\u2019s body. This Pok\u00e9mon adroitly dodges\nattacks with incredible agility.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Cat Ferret Pok\u00e9mon"
   },
   {
     "id": 336,
     "name": "Seviper",
     "types": ["Poison"],
     "description": "Seviper shares a generations-long feud with Zangoose.\nThe scars on its body are evidence of vicious battles.\nThis Pok\u00e9mon attacks using its sword-edged tail.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Fang Snake Pok\u00e9mon"
   },
   {
     "id": 337,
     "name": "Lunatone",
     "types": ["Rock", "Psychic"],
     "description": "Lunatone was discovered at a location where a meteoroid fell.\nAs a result, some people theorize that this Pok\u00e9mon came\nfrom space. However, no one has been able to prove this\ntheory so far.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Meteorite Pok\u00e9mon"
   },
   {
     "id": 338,
     "name": "Solrock",
     "types": ["Rock", "Psychic"],
     "description": "Solrock is a new species of Pok\u00e9mon that is said to have fallen\nfrom space. It floats in air and moves silently. In battle, this\nPok\u00e9mon releases intensely bright light.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Meteorite Pok\u00e9mon"
   },
   {
     "id": 339,
@@ -8712,7 +9050,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Whiskers Pok\u00e9mon"
   },
   {
     "id": 340,
@@ -8731,7 +9070,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Whiskers Pok\u00e9mon"
   },
   {
     "id": 341,
@@ -8750,7 +9090,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Ruffian Pok\u00e9mon"
   },
   {
     "id": 342,
@@ -8769,7 +9110,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Rogue Pok\u00e9mon"
   },
   {
     "id": 343,
@@ -8788,7 +9130,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Clay Doll Pok\u00e9mon"
   },
   {
     "id": 344,
@@ -8807,7 +9150,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Clay Doll Pok\u00e9mon"
   },
   {
     "id": 345,
@@ -8826,7 +9170,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Sea Lily Pok\u00e9mon"
   },
   {
     "id": 346,
@@ -8845,7 +9190,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Barnacle Pok\u00e9mon"
   },
   {
     "id": 347,
@@ -8864,7 +9210,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Old Shrimp Pok\u00e9mon"
   },
   {
     "id": 348,
@@ -8883,7 +9230,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Plate Pok\u00e9mon"
   },
   {
     "id": 349,
@@ -8902,7 +9250,8 @@
         },
         "requirements": ["100 Candy", "Walk 20 km with your buddy"]
       }
-    ]
+    ],
+    "category": "Fish Pok\u00e9mon"
   },
   {
     "id": 350,
@@ -8921,21 +9270,24 @@
         },
         "requirements": ["100 Candy", "Walk 20 km with your buddy"]
       }
-    ]
+    ],
+    "category": "Tender Pok\u00e9mon"
   },
   {
     "id": 351,
     "name": "Castform",
     "types": ["Normal"],
     "description": "Castform\u2019s appearance changes with the weather.\nThis Pok\u00e9mon gained the ability to use the vast power of\nnature to protect its tiny body.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Weather Pok\u00e9mon"
   },
   {
     "id": 352,
     "name": "Kecleon",
     "types": ["Normal"],
     "description": "Kecleon is capable of changing its body colors at will to blend\nin with its surroundings. There is one exception\u2014this Pok\u00e9mon\ncan\u2019t change the zigzag pattern on its belly.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Color Swap Pok\u00e9mon"
   },
   {
     "id": 353,
@@ -8965,7 +9317,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Puppet Pok\u00e9mon"
   },
   {
     "id": 354,
@@ -8995,7 +9348,8 @@
         },
         "requirements": ["100 / 20 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Marionette Pok\u00e9mon"
   },
   {
     "id": 355,
@@ -9025,7 +9379,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Requiem Pok\u00e9mon"
   },
   {
     "id": 356,
@@ -9055,14 +9410,16 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Beckon Pok\u00e9mon"
   },
   {
     "id": 357,
     "name": "Tropius",
     "types": ["Grass", "Flying"],
     "description": "The bunches of fruit around Tropius\u2019s neck are very popular\nwith children. This Pok\u00e9mon loves fruit, and eats it\ncontinuously. Apparently, its love for fruit resulted in its own\noutgrowth of fruit.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Fruit Pok\u00e9mon"
   },
   {
     "id": 358,
@@ -9081,7 +9438,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Wind Chime Pok\u00e9mon"
   },
   {
     "id": 359,
@@ -9100,7 +9458,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Disaster Pok\u00e9mon"
   },
   {
     "id": 360,
@@ -9119,7 +9478,8 @@
         },
         "requirements": ["25 Candy"]
       }
-    ]
+    ],
+    "category": "Bright Pok\u00e9mon"
   },
   {
     "id": 361,
@@ -9164,7 +9524,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Snow Hat Pok\u00e9mon"
   },
   {
     "id": 362,
@@ -9194,7 +9555,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Face Pok\u00e9mon"
   },
   {
     "id": 363,
@@ -9224,7 +9586,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Clap Pok\u00e9mon"
   },
   {
     "id": 364,
@@ -9254,7 +9617,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Ball Roll Pok\u00e9mon"
   },
   {
     "id": 365,
@@ -9284,7 +9648,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Ice Break Pok\u00e9mon"
   },
   {
     "id": 366,
@@ -9314,7 +9679,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Bivalve Pok\u00e9mon"
   },
   {
     "id": 367,
@@ -9333,7 +9699,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Deep Sea Pok\u00e9mon"
   },
   {
     "id": 368,
@@ -9352,21 +9719,24 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "South Sea Pok\u00e9mon"
   },
   {
     "id": 369,
     "name": "Relicanth",
     "types": ["Water", "Rock"],
     "description": "Relicanth is a Pok\u00e9mon species that existed for a hundred\nmillion years without ever changing its form. This ancient\nPok\u00e9mon feeds on microscopic organisms with its\ntoothless mouth.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Longevity Pok\u00e9mon"
   },
   {
     "id": 370,
     "name": "Luvdisc",
     "types": ["Water"],
     "description": "Luvdisc live in shallow seas in the tropics. This heart-shaped\nPok\u00e9mon earned its name by swimming after loving couples it\nspotted in the ocean\u2019s waves.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Rendezvous Pok\u00e9mon"
   },
   {
     "id": 371,
@@ -9407,7 +9777,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Rock Head Pok\u00e9mon"
   },
   {
     "id": 372,
@@ -9448,7 +9819,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Endurance Pok\u00e9mon"
   },
   {
     "id": 373,
@@ -9489,7 +9861,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Dragon Pok\u00e9mon"
   },
   {
     "id": 374,
@@ -9530,7 +9903,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Iron Ball Pok\u00e9mon"
   },
   {
     "id": 375,
@@ -9571,7 +9945,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Iron Claw Pok\u00e9mon"
   },
   {
     "id": 376,
@@ -9612,28 +9987,32 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Iron Leg Pok\u00e9mon"
   },
   {
     "id": 377,
     "name": "Regirock",
     "types": ["Rock"],
     "description": "Regirock was sealed away by people long ago. If this\nPok\u00e9mon\u2019s body is damaged in battle, it is said to seek\nout suitable rocks on its own to repair itself.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Rock Peak Pok\u00e9mon"
   },
   {
     "id": 378,
     "name": "Regice",
     "types": ["Ice"],
     "description": "Regice\u2019s body was made during an ice age. The deep-frozen\nbody can\u2019t be melted, even by fire. This Pok\u00e9mon controls\nfrigid air of -328 degrees Fahrenheit.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Iceberg Pok\u00e9mon"
   },
   {
     "id": 379,
     "name": "Registeel",
     "types": ["Steel"],
     "description": "Registeel has a body that is harder than any kind of metal.\nIts body is apparently hollow. No one has any idea what this\nPok\u00e9mon eats.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Iron Pok\u00e9mon"
   },
   {
     "id": 380,
@@ -9652,7 +10031,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Eon Pok\u00e9mon"
   },
   {
     "id": 381,
@@ -9671,7 +10051,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Eon Pok\u00e9mon"
   },
   {
     "id": 382,
@@ -9690,7 +10071,8 @@
         },
         "requirements": ["400 / 80 Primal Energy"]
       }
-    ]
+    ],
+    "category": "Sea Basin Pok\u00e9mon"
   },
   {
     "id": 383,
@@ -9709,7 +10091,8 @@
         },
         "requirements": ["400 / 80 Primal Energy"]
       }
-    ]
+    ],
+    "category": "Continent Pok\u00e9mon"
   },
   {
     "id": 384,
@@ -9728,14 +10111,16 @@
         },
         "requirements": ["400 / 80 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Sky High Pok\u00e9mon"
   },
   {
     "id": 385,
     "name": "Jirachi",
     "types": ["Steel", "Psychic"],
     "description": "A legend states that Jirachi will make true any wish that is\nwritten on notes attached to its head when it awakens. If this\nPok\u00e9mon senses danger, it will fight without awakening.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Wish Pok\u00e9mon"
   },
   {
     "id": 387,
@@ -9765,7 +10150,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Tiny Leaf Pok\u00e9mon"
   },
   {
     "id": 388,
@@ -9795,7 +10181,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Grove Pok\u00e9mon"
   },
   {
     "id": 389,
@@ -9825,7 +10212,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Continent Pok\u00e9mon"
   },
   {
     "id": 390,
@@ -9855,7 +10243,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Chimp Pok\u00e9mon"
   },
   {
     "id": 391,
@@ -9885,7 +10274,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Playful Pok\u00e9mon"
   },
   {
     "id": 392,
@@ -9915,7 +10305,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Flame Pok\u00e9mon"
   },
   {
     "id": 393,
@@ -9945,7 +10336,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Penguin Pok\u00e9mon"
   },
   {
     "id": 394,
@@ -9975,7 +10367,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Penguin Pok\u00e9mon"
   },
   {
     "id": 395,
@@ -10005,7 +10398,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Emperor Pok\u00e9mon"
   },
   {
     "id": 396,
@@ -10035,7 +10429,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Starling Pok\u00e9mon"
   },
   {
     "id": 397,
@@ -10065,7 +10460,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Starling Pok\u00e9mon"
   },
   {
     "id": 398,
@@ -10095,7 +10491,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Predator Pok\u00e9mon"
   },
   {
     "id": 399,
@@ -10114,7 +10511,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Plump Mouse Pok\u00e9mon"
   },
   {
     "id": 400,
@@ -10133,7 +10531,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Beaver Pok\u00e9mon"
   },
   {
     "id": 401,
@@ -10152,7 +10551,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Cricket Pok\u00e9mon"
   },
   {
     "id": 402,
@@ -10171,7 +10571,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Cricket Pok\u00e9mon"
   },
   {
     "id": 403,
@@ -10201,7 +10602,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Flash Pok\u00e9mon"
   },
   {
     "id": 404,
@@ -10231,7 +10633,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Spark Pok\u00e9mon"
   },
   {
     "id": 405,
@@ -10261,7 +10664,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Gleam Eyes Pok\u00e9mon"
   },
   {
     "id": 406,
@@ -10291,7 +10695,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Bud Pok\u00e9mon"
   },
   {
     "id": 407,
@@ -10321,7 +10726,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Bouquet Pok\u00e9mon"
   },
   {
     "id": 408,
@@ -10340,7 +10746,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Head Butt Pok\u00e9mon"
   },
   {
     "id": 409,
@@ -10359,7 +10766,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Head Butt Pok\u00e9mon"
   },
   {
     "id": 410,
@@ -10378,7 +10786,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Shield Pok\u00e9mon"
   },
   {
     "id": 411,
@@ -10397,7 +10806,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Shield Pok\u00e9mon"
   },
   {
     "id": 412,
@@ -10427,14 +10837,16 @@
         },
         "requirements": ["50 Candy", "Male required"]
       }
-    ]
+    ],
+    "category": "Bagworm Pok\u00e9mon"
   },
   {
     "id": 413,
     "name": "Wormadam",
     "types": ["Bug", "Grass"],
     "description": "Its appearance changes depending on where it\nevolved. The materials on hand become a part of\nits body.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Bagworm Pok\u00e9mon"
   },
   {
     "id": 414,
@@ -10486,7 +10898,8 @@
         },
         "requirements": ["50 Candy", "Male required"]
       }
-    ]
+    ],
+    "category": "Moth Pok\u00e9mon"
   },
   {
     "id": 415,
@@ -10505,7 +10918,8 @@
         },
         "requirements": ["50 Candy", "Female required"]
       }
-    ]
+    ],
+    "category": "Tiny Bee Pok\u00e9mon"
   },
   {
     "id": 416,
@@ -10524,14 +10938,16 @@
         },
         "requirements": ["50 Candy", "Female required"]
       }
-    ]
+    ],
+    "category": "Beehive Pok\u00e9mon"
   },
   {
     "id": 417,
     "name": "Pachirisu",
     "types": ["Electric"],
     "description": "It makes fur balls that crackle with static electricity.\nIt stores them with berries in tree holes.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "EleSquirrel Pok\u00e9mon"
   },
   {
     "id": 418,
@@ -10550,7 +10966,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Sea Weasel Pok\u00e9mon"
   },
   {
     "id": 419,
@@ -10569,7 +10986,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Sea Weasel Pok\u00e9mon"
   },
   {
     "id": 420,
@@ -10599,14 +11017,16 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Cherry Pok\u00e9mon"
   },
   {
     "id": 421,
     "name": "Cherrim",
     "types": ["Grass"],
     "description": "During times of strong sunlight, its bud blooms,\nits petals open fully, and it becomes very active.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Blossom Pok\u00e9mon"
   },
   {
     "id": 424,
@@ -10625,7 +11045,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Long Tail Pok\u00e9mon"
   },
   {
     "id": 425,
@@ -10644,7 +11065,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Balloon Pok\u00e9mon"
   },
   {
     "id": 426,
@@ -10663,7 +11085,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Blimp Pok\u00e9mon"
   },
   {
     "id": 427,
@@ -10693,7 +11116,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Rabbit Pok\u00e9mon"
   },
   {
     "id": 428,
@@ -10723,7 +11147,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Rabbit Pok\u00e9mon"
   },
   {
     "id": 429,
@@ -10742,7 +11167,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Magical Pok\u00e9mon"
   },
   {
     "id": 430,
@@ -10761,7 +11187,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Big Boss Pok\u00e9mon"
   },
   {
     "id": 431,
@@ -10780,7 +11207,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Catty Pok\u00e9mon"
   },
   {
     "id": 432,
@@ -10799,7 +11227,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Tiger Cat Pok\u00e9mon"
   },
   {
     "id": 433,
@@ -10818,7 +11247,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Bell Pok\u00e9mon"
   },
   {
     "id": 434,
@@ -10837,7 +11267,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Skunk Pok\u00e9mon"
   },
   {
     "id": 435,
@@ -10856,7 +11287,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Skunk Pok\u00e9mon"
   },
   {
     "id": 436,
@@ -10875,7 +11307,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Bronze Pok\u00e9mon"
   },
   {
     "id": 437,
@@ -10894,7 +11327,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Bronze Bell Pok\u00e9mon"
   },
   {
     "id": 438,
@@ -10913,7 +11347,8 @@
         },
         "requirements": ["50 Candy", "Walk 15 km with your buddy"]
       }
-    ]
+    ],
+    "category": "Bonsai Pok\u00e9mon"
   },
   {
     "id": 439,
@@ -10932,7 +11367,8 @@
         },
         "requirements": ["50 Candy", "Walk 15 km with your buddy"]
       }
-    ]
+    ],
+    "category": "Mime Pok\u00e9mon"
   },
   {
     "id": 440,
@@ -10962,21 +11398,24 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Playhouse Pok\u00e9mon"
   },
   {
     "id": 441,
     "name": "Chatot",
     "types": ["Normal", "Flying"],
     "description": "It mimics the cries of other Pok\u00e9mon to trick them\ninto thinking it\u2019s one of them. This way they won\u2019t\nattack it.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Music Note Pok\u00e9mon"
   },
   {
     "id": 442,
     "name": "Spiritomb",
     "types": ["Ghost", "Dark"],
     "description": "A Pok\u00e9mon that was formed by 108 spirits. It is\nbound to a fissure in an odd keystone.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Forbidden Pok\u00e9mon"
   },
   {
     "id": 443,
@@ -11017,7 +11456,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Land Shark Pok\u00e9mon"
   },
   {
     "id": 444,
@@ -11058,7 +11498,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Cave Pok\u00e9mon"
   },
   {
     "id": 445,
@@ -11099,7 +11540,8 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Mach Pok\u00e9mon"
   },
   {
     "id": 446,
@@ -11118,7 +11560,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Big Eater Pok\u00e9mon"
   },
   {
     "id": 447,
@@ -11148,7 +11591,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Emanation Pok\u00e9mon"
   },
   {
     "id": 448,
@@ -11178,7 +11622,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Aura Pok\u00e9mon"
   },
   {
     "id": 449,
@@ -11197,7 +11642,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Hippo Pok\u00e9mon"
   },
   {
     "id": 450,
@@ -11216,7 +11662,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Heavyweight Pok\u00e9mon"
   },
   {
     "id": 451,
@@ -11235,7 +11682,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Scorpion Pok\u00e9mon"
   },
   {
     "id": 452,
@@ -11254,7 +11702,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Ogre Scorpion Pok\u00e9mon"
   },
   {
     "id": 453,
@@ -11273,7 +11722,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Toxic Mouth Pok\u00e9mon"
   },
   {
     "id": 454,
@@ -11292,14 +11742,16 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Toxic Mouth Pok\u00e9mon"
   },
   {
     "id": 455,
     "name": "Carnivine",
     "types": ["Grass"],
     "description": "It attracts prey with its sweet-smelling saliva, then\nchomps down. It takes a whole day to eat prey.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Bug Catcher Pok\u00e9mon"
   },
   {
     "id": 456,
@@ -11318,7 +11770,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Wing Fish Pok\u00e9mon"
   },
   {
     "id": 457,
@@ -11337,7 +11790,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Neon Pok\u00e9mon"
   },
   {
     "id": 458,
@@ -11356,7 +11810,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Kite Pok\u00e9mon"
   },
   {
     "id": 459,
@@ -11386,7 +11841,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Frost Tree Pok\u00e9mon"
   },
   {
     "id": 460,
@@ -11416,7 +11872,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Frost Tree Pok\u00e9mon"
   },
   {
     "id": 461,
@@ -11435,7 +11892,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Sharp Claw Pok\u00e9mon"
   },
   {
     "id": 462,
@@ -11465,7 +11923,8 @@
         },
         "requirements": ["100 Candy", "Magnetic Lure Module"]
       }
-    ]
+    ],
+    "category": "Magnet Area Pok\u00e9mon"
   },
   {
     "id": 463,
@@ -11484,7 +11943,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Licking Pok\u00e9mon"
   },
   {
     "id": 464,
@@ -11514,7 +11974,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Drill Pok\u00e9mon"
   },
   {
     "id": 465,
@@ -11533,7 +11994,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Vine Pok\u00e9mon"
   },
   {
     "id": 466,
@@ -11563,7 +12025,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Thunderbolt Pok\u00e9mon"
   },
   {
     "id": 467,
@@ -11593,7 +12056,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Blast Pok\u00e9mon"
   },
   {
     "id": 468,
@@ -11623,7 +12087,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Jubilee Pok\u00e9mon"
   },
   {
     "id": 469,
@@ -11642,7 +12107,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Ogre Darner Pok\u00e9mon"
   },
   {
     "id": 470,
@@ -11661,7 +12127,8 @@
         },
         "requirements": ["25 Candy", "Mossy Lure Module"]
       }
-    ]
+    ],
+    "category": "Verdant Pok\u00e9mon"
   },
   {
     "id": 471,
@@ -11680,7 +12147,8 @@
         },
         "requirements": ["25 Candy", "Glacial Lure Module"]
       }
-    ]
+    ],
+    "category": "Fresh Snow Pok\u00e9mon"
   },
   {
     "id": 472,
@@ -11699,7 +12167,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Fang Scorpion Pok\u00e9mon"
   },
   {
     "id": 473,
@@ -11729,7 +12198,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Twin Tusk Pok\u00e9mon"
   },
   {
     "id": 474,
@@ -11759,7 +12229,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Virtual Pok\u00e9mon"
   },
   {
     "id": 475,
@@ -11826,7 +12297,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Blade Pok\u00e9mon"
   },
   {
     "id": 476,
@@ -11845,7 +12317,8 @@
         },
         "requirements": ["50 Candy", "Magnetic Lure Module"]
       }
-    ]
+    ],
+    "category": "Compass Pok\u00e9mon"
   },
   {
     "id": 477,
@@ -11875,7 +12348,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
-    ]
+    ],
+    "category": "Gripper Pok\u00e9mon"
   },
   {
     "id": 478,
@@ -11898,105 +12372,120 @@
           "Female required"
         ]
       }
-    ]
+    ],
+    "category": "Snow Land Pok\u00e9mon"
   },
   {
     "id": 479,
     "name": "Rotom",
     "types": ["Electric", "Ghost"],
     "description": "Research continues on this Pok\u00e9mon, which could\nbe the power source of a unique motor.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Plasma Pok\u00e9mon"
   },
   {
     "id": 480,
     "name": "Uxie",
     "types": ["Psychic"],
     "description": "Known as \u201cThe Being of Knowledge.\u201d It is said that\nit can wipe out the memory of those who see\nits eyes.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Knowledge Pok\u00e9mon"
   },
   {
     "id": 481,
     "name": "Mesprit",
     "types": ["Psychic"],
     "description": "Known as \u201cThe Being of Emotion.\u201d It taught\nhumans the nobility of sorrow, pain, and joy.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Emotion Pok\u00e9mon"
   },
   {
     "id": 482,
     "name": "Azelf",
     "types": ["Psychic"],
     "description": "Known as \u201cThe Being of Willpower.\u201d It sleeps at the\nbottom of a lake to keep the world in balance.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Willpower Pok\u00e9mon"
   },
   {
     "id": 483,
     "name": "Dialga",
     "types": ["Steel", "Dragon"],
     "description": "A Pok\u00e9mon spoken of in legend. It is said that time\nbegan moving when Dialga was born.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Temporal Pok\u00e9mon"
   },
   {
     "id": 484,
     "name": "Palkia",
     "types": ["Water", "Dragon"],
     "description": "It is said to live in a gap in the spatial dimension\nparallel to ours. It appears in mythology.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Spatial Pok\u00e9mon"
   },
   {
     "id": 485,
     "name": "Heatran",
     "types": ["Fire", "Steel"],
     "description": "It dwells in volcanic caves. It digs in with its\ncross-shaped feet to crawl on ceilings and walls.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Lava Dome Pok\u00e9mon"
   },
   {
     "id": 486,
     "name": "Regigigas",
     "types": ["Normal"],
     "description": "It is said to have made Pok\u00e9mon that look like\nitself from a special ice mountain, rocks,\nand magma.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Colossal Pok\u00e9mon"
   },
   {
     "id": 488,
     "name": "Cresselia",
     "types": ["Psychic"],
     "description": "Shiny particles are released from its wings like a\nveil. It is said to represent the crescent moon.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Lunar Pok\u00e9mon"
   },
   {
     "id": 489,
     "name": "Phione",
     "types": ["Water"],
     "description": "When the water warms, they inflate the flotation sac\non their heads and drift languidly on the sea\nin packs.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Sea Drifter Pok\u00e9mon"
   },
   {
     "id": 490,
     "name": "Manaphy",
     "types": ["Water"],
     "description": "It is born with a wondrous power that lets it bond\nwith any kind of Pok\u00e9mon.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Seafaring Pok\u00e9mon"
   },
   {
     "id": 491,
     "name": "Darkrai",
     "types": ["Dark"],
     "description": "It chases people and Pok\u00e9mon from its territory by\ncausing them to experience deep,\nnightmarish slumbers.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Pitch-Black Pok\u00e9mon"
   },
   {
     "id": 492,
     "name": "Shaymin",
     "types": ["Grass"],
     "description": "It can dissolve toxins in the air to instantly\ntransform ruined land into a lush field of flowers.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Gratitude Pok\u00e9mon"
   },
   {
     "id": 494,
     "name": "Victini",
     "types": ["Psychic", "Fire"],
     "description": "This Pok\u00e9mon brings victory. It is said that Trainers\nwith Victini always win, regardless of the type\nof encounter.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Victory Pok\u00e9mon"
   },
   {
     "id": 495,
@@ -12026,7 +12515,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Grass Snake Pok\u00e9mon"
   },
   {
     "id": 496,
@@ -12056,7 +12546,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Grass Snake Pok\u00e9mon"
   },
   {
     "id": 497,
@@ -12086,7 +12577,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Regal Pok\u00e9mon"
   },
   {
     "id": 498,
@@ -12116,7 +12608,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Fire Pig Pok\u00e9mon"
   },
   {
     "id": 499,
@@ -12146,7 +12639,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Fire Pig Pok\u00e9mon"
   },
   {
     "id": 500,
@@ -12176,7 +12670,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Mega Fire Pig Pok\u00e9mon"
   },
   {
     "id": 501,
@@ -12206,7 +12701,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Sea Otter Pok\u00e9mon"
   },
   {
     "id": 502,
@@ -12236,7 +12732,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Discipline Pok\u00e9mon"
   },
   {
     "id": 503,
@@ -12266,7 +12763,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Formidable Pok\u00e9mon"
   },
   {
     "id": 504,
@@ -12285,7 +12783,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Scout Pok\u00e9mon"
   },
   {
     "id": 505,
@@ -12304,7 +12803,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Lookout Pok\u00e9mon"
   },
   {
     "id": 506,
@@ -12334,7 +12834,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Puppy Pok\u00e9mon"
   },
   {
     "id": 507,
@@ -12364,7 +12865,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Loyal Dog Pok\u00e9mon"
   },
   {
     "id": 508,
@@ -12394,7 +12896,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Big-Hearted Pok\u00e9mon"
   },
   {
     "id": 509,
@@ -12413,7 +12916,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Devious Pok\u00e9mon"
   },
   {
     "id": 510,
@@ -12432,7 +12936,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Cruel Pok\u00e9mon"
   },
   {
     "id": 511,
@@ -12451,7 +12956,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "Grass Monkey Pok\u00e9mon"
   },
   {
     "id": 512,
@@ -12470,7 +12976,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "Thorn Monkey Pok\u00e9mon"
   },
   {
     "id": 513,
@@ -12489,7 +12996,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "High Temp Pok\u00e9mon"
   },
   {
     "id": 514,
@@ -12508,7 +13016,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "Ember Pok\u00e9mon"
   },
   {
     "id": 515,
@@ -12527,7 +13036,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "Spray Pok\u00e9mon"
   },
   {
     "id": 516,
@@ -12546,7 +13056,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "Geyser Pok\u00e9mon"
   },
   {
     "id": 517,
@@ -12565,7 +13076,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "Dream Eater Pok\u00e9mon"
   },
   {
     "id": 518,
@@ -12584,7 +13096,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "Drowsing Pok\u00e9mon"
   },
   {
     "id": 519,
@@ -12614,7 +13127,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Tiny Pigeon Pok\u00e9mon"
   },
   {
     "id": 520,
@@ -12644,7 +13158,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Wild Pigeon Pok\u00e9mon"
   },
   {
     "id": 521,
@@ -12674,7 +13189,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Proud Pok\u00e9mon"
   },
   {
     "id": 522,
@@ -12693,7 +13209,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Electrified Pok\u00e9mon"
   },
   {
     "id": 523,
@@ -12712,7 +13229,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Thunderbolt Pok\u00e9mon"
   },
   {
     "id": 524,
@@ -12742,7 +13260,8 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Mantle Pok\u00e9mon"
   },
   {
     "id": 525,
@@ -12772,7 +13291,8 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Ore Pok\u00e9mon"
   },
   {
     "id": 526,
@@ -12802,7 +13322,8 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Compressed Pok\u00e9mon"
   },
   {
     "id": 527,
@@ -12821,7 +13342,8 @@
         },
         "requirements": ["50 Candy", "Walk 1 km with your buddy"]
       }
-    ]
+    ],
+    "category": "Bat Pok\u00e9mon"
   },
   {
     "id": 528,
@@ -12840,7 +13362,8 @@
         },
         "requirements": ["50 Candy", "Walk 1 km with your buddy"]
       }
-    ]
+    ],
+    "category": "Courting Pok\u00e9mon"
   },
   {
     "id": 529,
@@ -12859,7 +13382,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mole Pok\u00e9mon"
   },
   {
     "id": 530,
@@ -12878,7 +13402,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Subterrene Pok\u00e9mon"
   },
   {
     "id": 531,
@@ -12897,7 +13422,8 @@
         },
         "requirements": ["200 / 40 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Hearing Pok\u00e9mon"
   },
   {
     "id": 532,
@@ -12927,7 +13453,8 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Muscular Pok\u00e9mon"
   },
   {
     "id": 533,
@@ -12957,7 +13484,8 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Muscular Pok\u00e9mon"
   },
   {
     "id": 534,
@@ -12987,7 +13515,8 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Muscular Pok\u00e9mon"
   },
   {
     "id": 535,
@@ -13017,7 +13546,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Tadpole Pok\u00e9mon"
   },
   {
     "id": 536,
@@ -13047,7 +13577,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Vibration Pok\u00e9mon"
   },
   {
     "id": 537,
@@ -13077,21 +13608,24 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Vibration Pok\u00e9mon"
   },
   {
     "id": 538,
     "name": "Throh",
     "types": ["Fighting"],
     "description": "When it tightens its belt, it becomes stronger. Wild\nThroh use vines to weave their own belts.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Judo Pok\u00e9mon"
   },
   {
     "id": 539,
     "name": "Sawk",
     "types": ["Fighting"],
     "description": "Desiring the strongest karate chop, they seclude\nthemselves in mountains and train without sleeping.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Karate Pok\u00e9mon"
   },
   {
     "id": 540,
@@ -13121,7 +13655,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Sewing Pok\u00e9mon"
   },
   {
     "id": 541,
@@ -13151,7 +13686,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Leaf-Wrapped Pok\u00e9mon"
   },
   {
     "id": 542,
@@ -13181,7 +13717,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Nurturing Pok\u00e9mon"
   },
   {
     "id": 543,
@@ -13211,7 +13748,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Centipede Pok\u00e9mon"
   },
   {
     "id": 544,
@@ -13241,7 +13779,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Curlipede Pok\u00e9mon"
   },
   {
     "id": 545,
@@ -13271,7 +13810,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Megapede Pok\u00e9mon"
   },
   {
     "id": 546,
@@ -13290,7 +13830,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Sun Stone"]
       }
-    ]
+    ],
+    "category": "Cotton Puff Pok\u00e9mon"
   },
   {
     "id": 547,
@@ -13309,7 +13850,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Sun Stone"]
       }
-    ]
+    ],
+    "category": "Windveiled Pok\u00e9mon"
   },
   {
     "id": 548,
@@ -13328,7 +13870,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Sun Stone"]
       }
-    ]
+    ],
+    "category": "Bulb Pok\u00e9mon"
   },
   {
     "id": 549,
@@ -13347,14 +13890,16 @@
         },
         "requirements": ["50 Candy", "Special Item: Sun Stone"]
       }
-    ]
+    ],
+    "category": "Flowering Pok\u00e9mon"
   },
   {
     "id": 550,
     "name": "Basculin",
     "types": ["Water"],
     "description": "Red- and blue-striped Basculin are very violent and\nalways fighting. They are also remarkably tasty.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Hostile Pok\u00e9mon"
   },
   {
     "id": 551,
@@ -13384,7 +13929,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Desert Croc Pok\u00e9mon"
   },
   {
     "id": 552,
@@ -13414,7 +13960,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Desert Croc Pok\u00e9mon"
   },
   {
     "id": 553,
@@ -13444,7 +13991,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Intimidation Pok\u00e9mon"
   },
   {
     "id": 554,
@@ -13463,21 +14011,24 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Zen Charm Pok\u00e9mon"
   },
   {
     "id": 555,
     "name": "Darmanitan",
     "types": ["Fire"],
     "description": "When one is injured in a fierce battle, it hardens\ninto a stone-like form. Then it meditates and\nsharpens its mind.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Blazing Pok\u00e9mon"
   },
   {
     "id": 556,
     "name": "Maractus",
     "types": ["Grass"],
     "description": "It uses an up-tempo song and dance to drive away\nthe bird Pok\u00e9mon that prey on its flower seeds.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Cactus Pok\u00e9mon"
   },
   {
     "id": 557,
@@ -13496,7 +14047,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Rock Inn Pok\u00e9mon"
   },
   {
     "id": 558,
@@ -13515,7 +14067,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Stone Home Pok\u00e9mon"
   },
   {
     "id": 559,
@@ -13534,7 +14087,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Shedding Pok\u00e9mon"
   },
   {
     "id": 560,
@@ -13553,14 +14107,16 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Hoodlum Pok\u00e9mon"
   },
   {
     "id": 561,
     "name": "Sigilyph",
     "types": ["Psychic", "Flying"],
     "description": "The guardians of an ancient city, they use their\npsychic power to attack enemies that invade\ntheir territory.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Avianoid Pok\u00e9mon"
   },
   {
     "id": 562,
@@ -13579,7 +14135,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Spirit Pok\u00e9mon"
   },
   {
     "id": 563,
@@ -13598,7 +14155,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Coffin Pok\u00e9mon"
   },
   {
     "id": 564,
@@ -13617,7 +14175,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Prototurtle Pok\u00e9mon"
   },
   {
     "id": 565,
@@ -13636,7 +14195,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Prototurtle Pok\u00e9mon"
   },
   {
     "id": 566,
@@ -13655,7 +14215,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "First Bird Pok\u00e9mon"
   },
   {
     "id": 567,
@@ -13674,7 +14235,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "First Bird Pok\u00e9mon"
   },
   {
     "id": 568,
@@ -13693,7 +14255,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Trash Bag Pok\u00e9mon"
   },
   {
     "id": 569,
@@ -13712,7 +14275,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Trash Heap Pok\u00e9mon"
   },
   {
     "id": 570,
@@ -13731,7 +14295,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Tricky Fox Pok\u00e9mon"
   },
   {
     "id": 571,
@@ -13750,7 +14315,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Illusion Fox Pok\u00e9mon"
   },
   {
     "id": 572,
@@ -13769,7 +14335,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "Chinchilla Pok\u00e9mon"
   },
   {
     "id": 573,
@@ -13788,7 +14355,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "Scarf Pok\u00e9mon"
   },
   {
     "id": 574,
@@ -13818,7 +14386,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Fixation Pok\u00e9mon"
   },
   {
     "id": 575,
@@ -13848,7 +14417,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Manipulate Pok\u00e9mon"
   },
   {
     "id": 576,
@@ -13878,7 +14448,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Astral Body Pok\u00e9mon"
   },
   {
     "id": 577,
@@ -13908,7 +14479,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Cell Pok\u00e9mon"
   },
   {
     "id": 578,
@@ -13938,7 +14510,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Mitosis Pok\u00e9mon"
   },
   {
     "id": 579,
@@ -13968,7 +14541,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Multiplying Pok\u00e9mon"
   },
   {
     "id": 580,
@@ -13987,7 +14561,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Water Bird Pok\u00e9mon"
   },
   {
     "id": 581,
@@ -14006,7 +14581,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "White Bird Pok\u00e9mon"
   },
   {
     "id": 582,
@@ -14036,7 +14612,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Fresh Snow Pok\u00e9mon"
   },
   {
     "id": 583,
@@ -14066,7 +14643,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Icy Snow Pok\u00e9mon"
   },
   {
     "id": 584,
@@ -14096,28 +14674,32 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Snowstorm Pok\u00e9mon"
   },
   {
     "id": 585,
     "name": "Deerling",
     "types": ["Normal", "Grass"],
     "description": "Their coloring changes according to the seasons\nand can be slightly affected by the temperature and\nhumidity as well.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Season Pok\u00e9mon"
   },
   {
     "id": 586,
     "name": "Sawsbuck",
     "types": ["Normal", "Grass"],
     "description": "They migrate according to the seasons. People can\ntell the season by looking at Sawsbuck\u2019s horns.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Season Pok\u00e9mon"
   },
   {
     "id": 587,
     "name": "Emolga",
     "types": ["Electric", "Flying"],
     "description": "They live on treetops and glide using the inside of\na cape-like membrane while discharging electricity.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Sky Squirrel Pok\u00e9mon"
   },
   {
     "id": 588,
@@ -14136,7 +14718,8 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Clamping Pok\u00e9mon"
   },
   {
     "id": 589,
@@ -14155,7 +14738,8 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Cavalry Pok\u00e9mon"
   },
   {
     "id": 590,
@@ -14174,7 +14758,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mushroom Pok\u00e9mon"
   },
   {
     "id": 591,
@@ -14193,7 +14778,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mushroom Pok\u00e9mon"
   },
   {
     "id": 592,
@@ -14212,7 +14798,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Floating Pok\u00e9mon"
   },
   {
     "id": 593,
@@ -14231,14 +14818,16 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Floating Pok\u00e9mon"
   },
   {
     "id": 594,
     "name": "Alomomola",
     "types": ["Water"],
     "description": "Floating in the open sea is how they live.\nWhen they find a wounded Pok\u00e9mon,\nthey embrace it and bring it to shore.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Caring Pok\u00e9mon"
   },
   {
     "id": 595,
@@ -14257,7 +14846,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Attaching Pok\u00e9mon"
   },
   {
     "id": 596,
@@ -14276,7 +14866,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "EleSpider Pok\u00e9mon"
   },
   {
     "id": 597,
@@ -14295,7 +14886,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Thorn Seed Pok\u00e9mon"
   },
   {
     "id": 598,
@@ -14314,7 +14906,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Thorn Pod Pok\u00e9mon"
   },
   {
     "id": 599,
@@ -14344,7 +14937,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Gear Pok\u00e9mon"
   },
   {
     "id": 600,
@@ -14374,7 +14968,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Gear Pok\u00e9mon"
   },
   {
     "id": 601,
@@ -14404,7 +14999,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Gear Pok\u00e9mon"
   },
   {
     "id": 602,
@@ -14434,7 +15030,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "EleFish Pok\u00e9mon"
   },
   {
     "id": 603,
@@ -14464,7 +15061,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "EleFish Pok\u00e9mon"
   },
   {
     "id": 604,
@@ -14494,7 +15092,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "EleFish Pok\u00e9mon"
   },
   {
     "id": 605,
@@ -14513,7 +15112,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Cerebral Pok\u00e9mon"
   },
   {
     "id": 606,
@@ -14532,7 +15132,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Cerebral Pok\u00e9mon"
   },
   {
     "id": 607,
@@ -14562,7 +15163,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "Candle Pok\u00e9mon"
   },
   {
     "id": 608,
@@ -14592,7 +15194,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "Lamp Pok\u00e9mon"
   },
   {
     "id": 609,
@@ -14622,7 +15225,8 @@
         },
         "requirements": ["100 Candy", "Special Item: Unova Stone"]
       }
-    ]
+    ],
+    "category": "Luring Pok\u00e9mon"
   },
   {
     "id": 610,
@@ -14652,7 +15256,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Tusk Pok\u00e9mon"
   },
   {
     "id": 611,
@@ -14682,7 +15287,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Axe Jaw Pok\u00e9mon"
   },
   {
     "id": 612,
@@ -14712,7 +15318,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Axe Jaw Pok\u00e9mon"
   },
   {
     "id": 613,
@@ -14731,7 +15338,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Chill Pok\u00e9mon"
   },
   {
     "id": 614,
@@ -14750,14 +15358,16 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Freezing Pok\u00e9mon"
   },
   {
     "id": 615,
     "name": "Cryogonal",
     "types": ["Ice"],
     "description": "They are born in snow clouds. They use chains\nmade of ice crystals to capture prey.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Crystallizing Pok\u00e9mon"
   },
   {
     "id": 616,
@@ -14776,7 +15386,8 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Snail Pok\u00e9mon"
   },
   {
     "id": 617,
@@ -14795,14 +15406,16 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Shell Out Pok\u00e9mon"
   },
   {
     "id": 618,
     "name": "Stunfisk",
     "types": ["Ground", "Electric"],
     "description": "Its skin is very hard, so it is unhurt even if stepped\non by sumo wrestlers. It smiles when\ntransmitting electricity.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Trap Pok\u00e9mon"
   },
   {
     "id": 619,
@@ -14821,7 +15434,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Martial Arts Pok\u00e9mon"
   },
   {
     "id": 620,
@@ -14840,14 +15454,16 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Martial Arts Pok\u00e9mon"
   },
   {
     "id": 621,
     "name": "Druddigon",
     "types": ["Dragon"],
     "description": "It races through narrow caves, using its sharp claws\nto catch prey. The skin on its face is harder than\na rock.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Cave Pok\u00e9mon"
   },
   {
     "id": 622,
@@ -14866,7 +15482,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Automaton Pok\u00e9mon"
   },
   {
     "id": 623,
@@ -14885,7 +15502,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Automaton Pok\u00e9mon"
   },
   {
     "id": 624,
@@ -14918,7 +15536,8 @@
           "Defeat 15 Dark- or Steel-type Raid Bosses"
         ]
       }
-    ]
+    ],
+    "category": "Sharp Blade Pok\u00e9mon"
   },
   {
     "id": 625,
@@ -14951,14 +15570,16 @@
           "Defeat 15 Dark- or Steel-type Raid Bosses"
         ]
       }
-    ]
+    ],
+    "category": "Sword Blade Pok\u00e9mon"
   },
   {
     "id": 626,
     "name": "Bouffalant",
     "types": ["Normal"],
     "description": "They charge wildly and headbutt everything.\nTheir headbutts have enough destructive force to\nderail a train.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Bash Buffalo Pok\u00e9mon"
   },
   {
     "id": 627,
@@ -14977,7 +15598,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Eaglet Pok\u00e9mon"
   },
   {
     "id": 628,
@@ -14996,7 +15618,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Valiant Pok\u00e9mon"
   },
   {
     "id": 629,
@@ -15015,7 +15638,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Diapered Pok\u00e9mon"
   },
   {
     "id": 630,
@@ -15034,21 +15658,24 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Bone Vulture Pok\u00e9mon"
   },
   {
     "id": 631,
     "name": "Heatmor",
     "types": ["Fire"],
     "description": "Using their very hot, flame-covered tongues,\nthey burn through Durant\u2019s steel bodies and\nconsume their insides.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Anteater Pok\u00e9mon"
   },
   {
     "id": 632,
     "name": "Durant",
     "types": ["Bug", "Steel"],
     "description": "Individuals each play different roles in driving\nHeatmor, their natural predator, away from\ntheir colony.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Iron Ant Pok\u00e9mon"
   },
   {
     "id": 633,
@@ -15078,7 +15705,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Irate Pok\u00e9mon"
   },
   {
     "id": 634,
@@ -15108,7 +15736,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Hostile Pok\u00e9mon"
   },
   {
     "id": 635,
@@ -15138,7 +15767,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Brutal Pok\u00e9mon"
   },
   {
     "id": 636,
@@ -15157,7 +15787,8 @@
         },
         "requirements": ["400 Candy"]
       }
-    ]
+    ],
+    "category": "Torch Pok\u00e9mon"
   },
   {
     "id": 637,
@@ -15176,84 +15807,96 @@
         },
         "requirements": ["400 Candy"]
       }
-    ]
+    ],
+    "category": "Sun Pok\u00e9mon"
   },
   {
     "id": 638,
     "name": "Cobalion",
     "types": ["Steel", "Fighting"],
     "description": "It has a body and heart of steel. Its glare is\nsufficient to make even an unruly Pok\u00e9mon obey it.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Iron Will Pok\u00e9mon"
   },
   {
     "id": 639,
     "name": "Terrakion",
     "types": ["Rock", "Fighting"],
     "description": "Its charge is strong enough to break through a\ngiant castle wall in one blow. This Pok\u00e9mon is\nspoken of in legends.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Cavern Pok\u00e9mon"
   },
   {
     "id": 640,
     "name": "Virizion",
     "types": ["Grass", "Fighting"],
     "description": "Its head sprouts horns as sharp as blades. Using\nwhirlwind-like movements, it confounds and swiftly\ncuts opponents.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Grassland Pok\u00e9mon"
   },
   {
     "id": 641,
     "name": "Tornadus",
     "types": ["Flying"],
     "description": "The lower half of its body is wrapped in a cloud of\nenergy. It zooms through the sky at 200 mph.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Cyclone Pok\u00e9mon"
   },
   {
     "id": 642,
     "name": "Thundurus",
     "types": ["Electric", "Flying"],
     "description": "The spikes on its tail discharge immense bolts of\nlightning. It flies around the Unova region firing off\nlightning bolts.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Bolt Strike Pok\u00e9mon"
   },
   {
     "id": 643,
     "name": "Reshiram",
     "types": ["Dragon", "Fire"],
     "description": "This legendary Pok\u00e9mon can scorch the world with\nfire. It helps those who want to build a world\nof truth.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Vast White Pok\u00e9mon"
   },
   {
     "id": 644,
     "name": "Zekrom",
     "types": ["Dragon", "Electric"],
     "description": "This legendary Pok\u00e9mon can scorch the world with\nlightning. It assists those who want to build an\nideal world.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Deep Black Pok\u00e9mon"
   },
   {
     "id": 645,
     "name": "Landorus",
     "types": ["Ground", "Flying"],
     "description": "Lands visited by Landorus grant such bountiful\ncrops that it has been hailed as \u201cThe Guardian of\nthe Fields.\u201d",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Abundance Pok\u00e9mon"
   },
   {
     "id": 646,
     "name": "Kyurem",
     "types": ["Dragon", "Ice"],
     "description": "This legendary ice Pok\u00e9mon waits for a hero to fill\nin the missing parts of its body with truth or ideals.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Boundary Pok\u00e9mon"
   },
   {
     "id": 647,
     "name": "Keldeo",
     "types": ["Water", "Fighting"],
     "description": "It crosses the world, running over the surfaces of\noceans and rivers. It appears at scenic waterfronts.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Colt Pok\u00e9mon"
   },
   {
     "id": 648,
     "name": "Meloetta",
     "types": ["Normal", "Psychic"],
     "description": "The melodies sung by Meloetta have the power to\nmake Pok\u00e9mon that hear them happy or sad.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Melody Pok\u00e9mon"
   },
   {
     "id": 650,
@@ -15283,7 +15926,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Spiny Nut Pok\u00e9mon"
   },
   {
     "id": 651,
@@ -15313,7 +15957,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Spiny Armor Pok\u00e9mon"
   },
   {
     "id": 652,
@@ -15343,7 +15988,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Spiny Armor Pok\u00e9mon"
   },
   {
     "id": 653,
@@ -15373,7 +16019,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Fox Pok\u00e9mon"
   },
   {
     "id": 654,
@@ -15403,7 +16050,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Fox Pok\u00e9mon"
   },
   {
     "id": 655,
@@ -15433,7 +16081,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Fox Pok\u00e9mon"
   },
   {
     "id": 656,
@@ -15463,7 +16112,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Bubble Frog Pok\u00e9mon"
   },
   {
     "id": 657,
@@ -15493,7 +16143,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Bubble Frog Pok\u00e9mon"
   },
   {
     "id": 658,
@@ -15523,7 +16174,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Ninja Pok\u00e9mon"
   },
   {
     "id": 659,
@@ -15542,7 +16194,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Digging Pok\u00e9mon"
   },
   {
     "id": 660,
@@ -15561,7 +16214,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Digging Pok\u00e9mon"
   },
   {
     "id": 661,
@@ -15591,7 +16245,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Tiny Robin Pok\u00e9mon"
   },
   {
     "id": 662,
@@ -15621,7 +16276,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Ember Pok\u00e9mon"
   },
   {
     "id": 663,
@@ -15651,7 +16307,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Scorching Pok\u00e9mon"
   },
   {
     "id": 664,
@@ -15681,7 +16338,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Scatterdust Pok\u00e9mon"
   },
   {
     "id": 665,
@@ -15711,7 +16369,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Scatterdust Pok\u00e9mon"
   },
   {
     "id": 666,
@@ -15741,7 +16400,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Scale Pok\u00e9mon"
   },
   {
     "id": 667,
@@ -15771,7 +16431,8 @@
         },
         "requirements": ["50 Candy", "Female required"]
       }
-    ]
+    ],
+    "category": "Lion Cub Pok\u00e9mon"
   },
   {
     "id": 668,
@@ -15790,7 +16451,8 @@
         },
         "requirements": ["50 Candy", "Male required"]
       }
-    ]
+    ],
+    "category": "Royal Pok\u00e9mon"
   },
   {
     "id": 669,
@@ -15831,7 +16493,8 @@
         },
         "requirements": ["100 Candy", "Earn 20 hearts with your buddy"]
       }
-    ]
+    ],
+    "category": "Single Bloom Pok\u00e9mon"
   },
   {
     "id": 670,
@@ -15850,14 +16513,16 @@
         },
         "requirements": ["100 Candy", "Earn 20 hearts with your buddy"]
       }
-    ]
+    ],
+    "category": "Single Bloom Pok\u00e9mon"
   },
   {
     "id": 671,
     "name": "Florges",
     "types": ["Fairy"],
     "description": "It claims exquisite flower gardens as its territory,\nand it obtains power from basking in the energy\nemitted by flowering plants.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Garden Pok\u00e9mon"
   },
   {
     "id": 672,
@@ -15876,7 +16541,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mount Pok\u00e9mon"
   },
   {
     "id": 673,
@@ -15895,7 +16561,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mount Pok\u00e9mon"
   },
   {
     "id": 674,
@@ -15914,7 +16581,8 @@
         },
         "requirements": ["50 Candy", "Catch 32 Dark-type Pok\u00e9mon"]
       }
-    ]
+    ],
+    "category": "Playful Pok\u00e9mon"
   },
   {
     "id": 675,
@@ -15933,14 +16601,16 @@
         },
         "requirements": ["50 Candy", "Catch 32 Dark-type Pok\u00e9mon"]
       }
-    ]
+    ],
+    "category": "Daunting Pok\u00e9mon"
   },
   {
     "id": 676,
     "name": "Furfrou",
     "types": ["Normal"],
     "description": "Trimming its fluffy fur not only makes\nit more elegant but also increases the\nswiftness of its movements.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Poodle Pok\u00e9mon"
   },
   {
     "id": 677,
@@ -15970,7 +16640,8 @@
         },
         "requirements": ["50 Candy", "Female required"]
       }
-    ]
+    ],
+    "category": "Restraint Pok\u00e9mon"
   },
   {
     "id": 678,
@@ -15989,7 +16660,8 @@
         },
         "requirements": ["50 Candy", "Male required"]
       }
-    ]
+    ],
+    "category": "Constraint Pok\u00e9mon"
   },
   {
     "id": 679,
@@ -16019,7 +16691,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Sword Pok\u00e9mon"
   },
   {
     "id": 680,
@@ -16049,7 +16722,8 @@
         },
         "requirements": ["100 Candy"]
       }
-    ]
+    ],
+    "category": "Sword Pok\u00e9mon"
   },
   {
     "id": 682,
@@ -16068,7 +16742,8 @@
         },
         "requirements": ["50 Candy", "Use an Incense"]
       }
-    ]
+    ],
+    "category": "Perfume Pok\u00e9mon"
   },
   {
     "id": 683,
@@ -16087,7 +16762,8 @@
         },
         "requirements": ["50 Candy", "Use an Incense"]
       }
-    ]
+    ],
+    "category": "Fragrance Pok\u00e9mon"
   },
   {
     "id": 684,
@@ -16106,7 +16782,8 @@
         },
         "requirements": ["50 Candy", "Give your buddy 25 treats"]
       }
-    ]
+    ],
+    "category": "Cotton Candy Pok\u00e9mon"
   },
   {
     "id": 685,
@@ -16125,7 +16802,8 @@
         },
         "requirements": ["50 Candy", "Give your buddy 25 treats"]
       }
-    ]
+    ],
+    "category": "Meringue Pok\u00e9mon"
   },
   {
     "id": 686,
@@ -16144,7 +16822,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Revolving Pok\u00e9mon"
   },
   {
     "id": 687,
@@ -16163,7 +16842,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Overturning Pok\u00e9mon"
   },
   {
     "id": 688,
@@ -16182,7 +16862,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Two-Handed Pok\u00e9mon"
   },
   {
     "id": 689,
@@ -16201,7 +16882,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Collective Pok\u00e9mon"
   },
   {
     "id": 690,
@@ -16220,7 +16902,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mock Kelp Pok\u00e9mon"
   },
   {
     "id": 691,
@@ -16239,7 +16922,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Mock Kelp Pok\u00e9mon"
   },
   {
     "id": 692,
@@ -16258,7 +16942,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Water Gun Pok\u00e9mon"
   },
   {
     "id": 693,
@@ -16277,7 +16962,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Howitzer Pok\u00e9mon"
   },
   {
     "id": 694,
@@ -16296,7 +16982,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Sun Stone"]
       }
-    ]
+    ],
+    "category": "Generator Pok\u00e9mon"
   },
   {
     "id": 695,
@@ -16315,7 +17002,8 @@
         },
         "requirements": ["50 Candy", "Special Item: Sun Stone"]
       }
-    ]
+    ],
+    "category": "Generator Pok\u00e9mon"
   },
   {
     "id": 696,
@@ -16334,7 +17022,8 @@
         },
         "requirements": ["50 Candy", "Only during the day"]
       }
-    ]
+    ],
+    "category": "Royal Heir Pok\u00e9mon"
   },
   {
     "id": 697,
@@ -16353,7 +17042,8 @@
         },
         "requirements": ["50 Candy", "Only during the day"]
       }
-    ]
+    ],
+    "category": "Despot Pok\u00e9mon"
   },
   {
     "id": 698,
@@ -16372,7 +17062,8 @@
         },
         "requirements": ["50 Candy", "Only during the night"]
       }
-    ]
+    ],
+    "category": "Tundra Pok\u00e9mon"
   },
   {
     "id": 699,
@@ -16391,7 +17082,8 @@
         },
         "requirements": ["50 Candy", "Only during the night"]
       }
-    ]
+    ],
+    "category": "Tundra Pok\u00e9mon"
   },
   {
     "id": 700,
@@ -16410,28 +17102,32 @@
         },
         "requirements": ["25 Candy", "Earn 70 hearts with your buddy"]
       }
-    ]
+    ],
+    "category": "Intertwining Pok\u00e9mon"
   },
   {
     "id": 701,
     "name": "Hawlucha",
     "types": ["Fighting", "Flying"],
     "description": "Although its body is small, its proficient\nfighting skills enable it to keep up with\nbig bruisers like Machamp and Hariyama.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Wrestling Pok\u00e9mon"
   },
   {
     "id": 702,
     "name": "Dedenne",
     "types": ["Electric", "Fairy"],
     "description": "Its whiskers serve as antennas. By sending and\nreceiving electrical waves, it can communicate\nwith others over vast distances.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Antenna Pok\u00e9mon"
   },
   {
     "id": 703,
     "name": "Carbink",
     "types": ["Rock", "Fairy"],
     "description": "Born from the temperatures and pressures\ndeep underground, it fires beams from the\nstone in its head.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Jewel Pok\u00e9mon"
   },
   {
     "id": 704,
@@ -16461,7 +17157,8 @@
         },
         "requirements": ["100 Candy", "Rainy Lure Module"]
       }
-    ]
+    ],
+    "category": "Soft Tissue Pok\u00e9mon"
   },
   {
     "id": 705,
@@ -16491,7 +17188,8 @@
         },
         "requirements": ["100 Candy", "Rainy Lure Module"]
       }
-    ]
+    ],
+    "category": "Soft Tissue Pok\u00e9mon"
   },
   {
     "id": 706,
@@ -16521,14 +17219,16 @@
         },
         "requirements": ["100 Candy", "Rainy Lure Module"]
       }
-    ]
+    ],
+    "category": "Dragon Pok\u00e9mon"
   },
   {
     "id": 707,
     "name": "Klefki",
     "types": ["Steel", "Fairy"],
     "description": "These key collectors threaten any attackers\nby fiercely jingling their keys at them.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Key Ring Pok\u00e9mon"
   },
   {
     "id": 708,
@@ -16547,7 +17247,8 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Stump Pok\u00e9mon"
   },
   {
     "id": 709,
@@ -16566,7 +17267,8 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Elder Tree Pok\u00e9mon"
   },
   {
     "id": 710,
@@ -16585,14 +17287,16 @@
         },
         "requirements": ["200 Candy", "0 Candy if traded"]
       }
-    ]
+    ],
+    "category": "Pumpkin Pok\u00e9mon"
   },
   {
     "id": 711,
     "name": "Gourgeist",
     "types": ["Ghost", "Grass"],
     "description": "Singing in eerie voices, they wander\ntown streets on the night of the new moon.\nAnyone who hears their song is cursed.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Pumpkin Pok\u00e9mon"
   },
   {
     "id": 712,
@@ -16611,7 +17315,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Ice Chunk Pok\u00e9mon"
   },
   {
     "id": 713,
@@ -16630,7 +17335,8 @@
         },
         "requirements": ["50 Candy"]
       }
-    ]
+    ],
+    "category": "Iceberg Pok\u00e9mon"
   },
   {
     "id": 714,
@@ -16649,7 +17355,8 @@
         },
         "requirements": ["400 Candy"]
       }
-    ]
+    ],
+    "category": "Sound Wave Pok\u00e9mon"
   },
   {
     "id": 715,
@@ -16668,21 +17375,24 @@
         },
         "requirements": ["400 Candy"]
       }
-    ]
+    ],
+    "category": "Sound Wave Pok\u00e9mon"
   },
   {
     "id": 716,
     "name": "Xerneas",
     "types": ["Fairy"],
     "description": "Legends say it can share eternal life.\nIt slept for a thousand years in the form\nof a tree before its revival.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Life Pok\u00e9mon"
   },
   {
     "id": 717,
     "name": "Yveltal",
     "types": ["Dark", "Flying"],
     "description": "When this legendary Pok\u00e9mon\u2019s wings and\ntail feathers spread wide and glow red,\nit absorbs the life force of living creatures.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Destruction Pok\u00e9mon"
   },
   {
     "id": 718,
@@ -16723,7 +17433,8 @@
         },
         "requirements": ["50 Zygarde Cell"]
       }
-    ]
+    ],
+    "category": "Order Pok\u00e9mon"
   },
   {
     "id": 719,
@@ -16742,13 +17453,15 @@
         },
         "requirements": ["300 / 60 Mega Energy"]
       }
-    ]
+    ],
+    "category": "Jewel Pok\u00e9mon"
   },
   {
     "id": 721,
     "name": "Volcanion",
     "types": ["Fire", "Water"],
     "description": "It lets out billows of steam and disappears into\nthe dense fog. It\u2019s said to live in mountains\nwhere humans do not tread.",
-    "evolution_chain": null
+    "evolution_chain": null,
+    "category": "Steam Pok\u00e9mon"
   }
 ]
