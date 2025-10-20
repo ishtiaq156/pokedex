@@ -3,6 +3,7 @@
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { PokemonDetail } from "@/app/types/pokemon";
+import { getPokemonImageUrl } from "@/app/types/pokemon";
 import Image from "next/image";
 import ScanningAnimation from "../../../components/ScanningAnimation";
 
@@ -324,7 +325,7 @@ export default function PokemonDetailPage() {
 
   const evolutionFamily = getEvolutionFamily();
   const dexNumber = pokemon.id.toString().padStart(4, "0");
-  const imageUrl = `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm${pokemon.id}.icon.png`;
+  const imageUrl = getPokemonImageUrl(pokemon.id);
 
   return (
     <div
@@ -427,7 +428,7 @@ export default function PokemonDetailPage() {
                           >
                             <div className="w-20 h-20 mb-1">
                               <Image
-                                src={`https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm${chain[0].id}.icon.png`}
+                                src={getPokemonImageUrl(parseInt(chain[0].id))}
                                 alt={chain[0].name}
                                 width={80}
                                 height={80}
@@ -451,7 +452,7 @@ export default function PokemonDetailPage() {
                           >
                             <div className="w-20 h-20 mb-1">
                               <Image
-                                src={`https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm${chain[1].id}.icon.png`}
+                                src={getPokemonImageUrl(parseInt(chain[1].id))}
                                 alt={chain[1].name}
                                 width={80}
                                 height={80}
@@ -466,7 +467,9 @@ export default function PokemonDetailPage() {
                       </>
                     ) : (
                       chain.map((evo, index) => {
-                        const evoImageUrl = `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm${evo.id}.icon.png`;
+                        const evoImageUrl = getPokemonImageUrl(
+                          parseInt(evo.id),
+                        );
 
                         return (
                           <div key={evo.id} className="flex items-center gap-2">

@@ -281,6 +281,20 @@ const POKEMON_ADDRESSABLE_EXCEPTIONS: Record<number, string> = {
   982: "pm982.fTWO.icon.png", // Dudunsparce - Two-Segment Form
 };
 
+export function getPokemonImageUrl(pokemonId: number): string {
+  // Check if this Pokemon has a form exception
+  if (POKEMON_ROOT_EXCEPTIONS[pokemonId]) {
+    // Type 1: Root directory exceptions
+    return `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/${POKEMON_ROOT_EXCEPTIONS[pokemonId]}`;
+  } else if (POKEMON_ADDRESSABLE_EXCEPTIONS[pokemonId]) {
+    // Type 2: Addressable Assets directory exceptions
+    return `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/${POKEMON_ADDRESSABLE_EXCEPTIONS[pokemonId]}`;
+  } else {
+    // Default: Standard Addressable Assets format
+    return `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm${pokemonId}.icon.png`;
+  }
+}
+
 export function generatePokemonData(
   startDex: number,
   endDex: number,
@@ -290,24 +304,10 @@ export function generatePokemonData(
   for (let i = startDex; i <= endDex; i++) {
     const dexNumber = i.toString().padStart(4, "0");
 
-    // Check if this Pokemon has a form exception
-    let imageUrl: string;
-
-    if (POKEMON_ROOT_EXCEPTIONS[i]) {
-      // Type 1: Root directory exceptions
-      imageUrl = `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/${POKEMON_ROOT_EXCEPTIONS[i]}`;
-    } else if (POKEMON_ADDRESSABLE_EXCEPTIONS[i]) {
-      // Type 2: Addressable Assets directory exceptions
-      imageUrl = `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/${POKEMON_ADDRESSABLE_EXCEPTIONS[i]}`;
-    } else {
-      // Default: Standard Addressable Assets format
-      imageUrl = `https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm${i}.icon.png`;
-    }
-
     pokemon.push({
       id: i,
       name: `Pokemon ${i}`, // We'll need to add actual names later
-      imageUrl,
+      imageUrl: getPokemonImageUrl(i),
       dexNumber,
       isReleased: !UNRELEASED_POKEMON.has(i),
     });

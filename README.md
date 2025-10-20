@@ -72,9 +72,7 @@ pokedex/
 │   ├── pokedex/           # Dynamic routes for regions/Pokemon
 │   └── types/             # TypeScript type definitions
 ├── data-extractions/      # Web scraping scripts and data
-├── public/                # Static assets and Pokemon data
-├── scripts/               # Utility scripts
-└── swiper-demo/           # Demo swiper implementation
+├── public/                # Static assets and Pokemon
 ```
 
 ## 🎯 Usage
