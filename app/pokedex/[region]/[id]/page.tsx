@@ -340,7 +340,7 @@ export default function PokemonDetailPage() {
         types: pokemon.types,
         description: pokemon.description,
         imageUrl: getPokemonImageUrl(pokemon.id),
-        category: "SEED POKEMON", // Default category, could be made dynamic
+        category: pokemon.category,
       };
     }
     const selectedForm = pokemon.forms[selectedFormIndex - 1]; // -1 because index 0 is default, 1 is first form
@@ -349,7 +349,7 @@ export default function PokemonDetailPage() {
       types: selectedForm.types,
       description: selectedForm.description,
       imageUrl: selectedForm.imageUrl,
-      category: selectedForm.category || "SEED POKEMON",
+      category: selectedForm.category || pokemon.category,
     };
   };
 

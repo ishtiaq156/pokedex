@@ -47,6 +47,7 @@ export interface PokemonDetail {
   description: string;
   evolution_chain: EvolutionChain[];
   forms?: PokemonForm[];
+  category: string;
 }
 
 export const REGIONS: Region[] = [
