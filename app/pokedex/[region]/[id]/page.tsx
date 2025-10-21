@@ -353,6 +353,12 @@ export default function PokemonDetailPage() {
     };
   };
 
+  const getFontSizeClass = (name: string) => {
+    if (name.length <= 6) return "text-xs";
+    if (name.length <= 10) return "text-[10px]";
+    return "text-[8px]";
+  };
+
   const currentFormData = getCurrentFormData();
 
   return (
@@ -448,7 +454,9 @@ export default function PokemonDetailPage() {
                               </div>
                             </button>
                             {!isDefault && (
-                              <span className="text-xs text-white font-semibold mt-1 text-center leading-tight max-w-12">
+                              <span
+                                className={`${getFontSizeClass(form.name)} text-white font-semibold mt-1 text-center leading-tight max-w-12`}
+                              >
                                 {form.name.toUpperCase()}
                               </span>
                             )}
