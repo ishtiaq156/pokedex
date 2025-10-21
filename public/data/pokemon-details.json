@@ -17858,6 +17858,13 @@
     "types": ["Grass", "Ghost"],
     "description": "Decidueye can nock and fire an arrow at an enemy in a tenth of a second, so its battles are decided in the blink of an eye.",
     "evolution_chain": null,
-    "category": "Arrow Quill Pokémon"
+    "category": "Arrow Quill Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Grass", "Fight"],
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm724.fHISUIAN.icon.png"
+      }
+    ]
   }
 ]
