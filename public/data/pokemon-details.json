@@ -778,7 +778,7 @@
         "name": "Alolan",
         "types": ["Dark", "Normal"],
         "description": "Night after night, they sneak into people’s homes seeking food. A massive outbreak of them has become an issue of public concern.",
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm19.fALOLA.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm19.fALOLA.icon.png"
       }
     ],
     "category": "Mouse Pokémon"
@@ -805,7 +805,7 @@
       {
         "name": "Alolan",
         "types": ["Dark", "Normal"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm20.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm20.fALOLA.icon.png",
         "description": "It commands a nest of Rattata. Different nests don’t get along, whipping up severe fights over feeding grounds."
       }
     ],
@@ -955,7 +955,7 @@
       {
         "name": "Alolan",
         "types": ["Electric", "Psychic"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm26.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm26.fALOLA.icon.png",
         "description": "When you rub its cheeks, a sweet fragrance comes wafting out. However, you’ll also get a light shock!"
       }
     ],
@@ -983,7 +983,7 @@
       {
         "name": "Alolan",
         "types": ["Ice", "Steel"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm27.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm27.fALOLA.icon.png",
         "description": "The skin on its back is as hard as steel. Predators go after its soft belly, so it clings to the ground desperately."
       }
     ],
@@ -1011,7 +1011,7 @@
       {
         "name": "Alolan",
         "types": ["Ice", "Steel"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm28.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm28.fALOLA.icon.png",
         "description": "A long, long time ago, it lived in the desert. With its sharp claws fully extended, it can climb right up an iceberg without slipping."
       }
     ],
@@ -1287,7 +1287,7 @@
       {
         "name": "Alolan",
         "types": ["Ice"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm37.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm37.fALOLA.icon.png",
         "description": "They live together in a skulk, helping one another. Before eating their prey, they freeze it solid with their –58 degree Fahrenheit breath."
       }
     ],
@@ -1315,7 +1315,7 @@
       {
         "name": "Alolan",
         "types": ["Ice", "Fairy"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm38.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm38.fALOLA.icon.png",
         "description": "Some said that deities visited mountains where Ninetales live, so in times long past, no one was allowed to go into those mountains."
       }
     ],
@@ -1673,7 +1673,7 @@
       {
         "name": "Alolan",
         "types": ["Ground", "Steel"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm50.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm50.fALOLA.icon.png",
         "description": "The need to dig through volcanic rock in the ground has made them more powerful than the Diglett of other regions."
       }
     ],
@@ -1701,7 +1701,7 @@
       {
         "name": "Alolan",
         "types": ["Ground", "Steel"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm51.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm51.fALOLA.icon.png",
         "description": "Its shining gold whiskers are advanced sensors that can detect vibrations from sounds several miles away."
       }
     ],
@@ -1729,13 +1729,13 @@
       {
         "name": "Alolan",
         "types": ["Dark"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm52.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm52.fALOLA.icon.png",
         "description": "A royal house that flourished in the distant past brought it here from another region. Meowth is both selfish and prideful."
       },
       {
         "name": "Galarian",
         "types": ["Steel"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm52.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm52.fGALARIAN.icon.png"
       }
     ],
     "category": "Scratch Cat Pokémon"
@@ -1762,7 +1762,7 @@
       {
         "name": "Alolan",
         "types": ["Dark"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm53.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm53.fALOLA.icon.png",
         "description": "Its round face is a symbol of wealth. Persian that have bigger, plumper faces are considered more beautiful."
       }
     ],
@@ -1894,7 +1894,22 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Puppy Pokémon"
+    "category": "Puppy Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Fire", "Rock"],
+        "stats": {
+          "hp": 95,
+          "attack": 115,
+          "defense": 80,
+          "specialAttack": 95,
+          "specialDefense": 80,
+          "speed": 90
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm58.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 59,
@@ -1914,7 +1929,22 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Legendary Pokémon"
+    "category": "Legendary Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Fire", "Rock"],
+        "stats": {
+          "hp": 95,
+          "attack": 115,
+          "defense": 80,
+          "specialAttack": 95,
+          "specialDefense": 80,
+          "speed": 90
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm59.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 60,
@@ -2427,7 +2457,7 @@
       {
         "name": "Alolan",
         "types": ["Rock", "Electric"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm74.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm74.fALOLA.icon.png",
         "description": "Geodude compete against each other with headbutts. The iron sand on their heads will stick to whichever one has stronger magnetism."
       }
     ],
@@ -2466,7 +2496,7 @@
       {
         "name": "Alolan",
         "types": ["Rock", "Electric"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm75.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm75.fALOLA.icon.png",
         "description": "Graveler’s entire body is tinged with electricity due to the stones it likes to eat. It’s very quick-tempered."
       }
     ],
@@ -2505,7 +2535,7 @@
       {
         "name": "Alolan",
         "types": ["Rock", "Electric"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm76.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm76.fALOLA.icon.png",
         "description": "It shoots large rocks that are charged with electricity. Tremendous electric shocks are flung out across the whole area of impact."
       }
     ],
@@ -2534,7 +2564,7 @@
       {
         "name": "Galarian",
         "types": ["Psychic"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm77.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm77.fGALARIAN.icon.png"
       }
     ]
   },
@@ -2561,7 +2591,7 @@
       {
         "name": "Galarian",
         "types": ["Psychic", "Fairy"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm78.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm78.fGALARIAN.icon.png"
       }
     ]
   },
@@ -2610,7 +2640,7 @@
       {
         "name": "Galarian",
         "types": ["Psychic"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm79.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm79.fGALARIAN.icon.png"
       }
     ]
   },
@@ -2648,7 +2678,7 @@
       {
         "name": "Galarian",
         "types": ["Poison", "Psychic"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm80.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm80.fGALARIAN.icon.png"
       }
     ]
   },
@@ -2725,7 +2755,7 @@
       {
         "name": "Galarian",
         "types": ["Fighting"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm83.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm83.fGALARIAN.icon.png"
       }
     ]
   },
@@ -2831,7 +2861,7 @@
       {
         "name": "Alolan",
         "types": ["Poison", "Dark"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm88.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm88.fALOLA.icon.png",
         "description": "Brought to Alola to solve the garbage problem, Grimer seems to relish any and all kinds of trash."
       }
     ],
@@ -2859,7 +2889,7 @@
       {
         "name": "Alolan",
         "types": ["Poison", "Dark"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm89.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm89.fALOLA.icon.png",
         "description": "What look like fangs and claws are actually crystallized poison that will afflict you at a mere touch, so don’t get too close."
       }
     ],
@@ -3160,7 +3190,22 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Ball Pokémon"
+    "category": "Ball Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Electric", "Grass"],
+        "stats": {
+          "hp": 40,
+          "attack": 30,
+          "defense": 50,
+          "specialAttack": 55,
+          "specialDefense": 55,
+          "speed": 100
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm100.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 101,
@@ -3180,7 +3225,22 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Ball Pokémon"
+    "category": "Ball Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Electric", "Grass"],
+        "stats": {
+          "hp": 60,
+          "attack": 50,
+          "defense": 70,
+          "specialAttack": 80,
+          "specialDefense": 80,
+          "speed": 150
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm101.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 102,
@@ -3224,7 +3284,7 @@
       {
         "name": "Alolan",
         "types": ["Grass", "Dragon"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm103.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm103.fALOLA.icon.png",
         "description": "It swings its long neck like a whip and smacks its opponents. This makes Exeggutor itself dizzy, too."
       }
     ],
@@ -3272,7 +3332,7 @@
       {
         "name": "Alolan",
         "types": ["Fire", "Ghost"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm105.fALOLA.icon.png",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm105.fALOLA.icon.png",
         "description": "When it beats opponents with its bone, the cursed flames spread to them. No amount of water will stop those flames from burning."
       }
     ],
@@ -3381,7 +3441,7 @@
       {
         "name": "Galarian",
         "types": ["Poison", "Fairy"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm110.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm110.fGALARIAN.icon.png"
       }
     ]
   },
@@ -3683,7 +3743,7 @@
       {
         "name": "Galarian",
         "types": ["Ice", "Psychic"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm122.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm122.fGALARIAN.icon.png"
       }
     ]
   },
@@ -4235,7 +4295,7 @@
       {
         "name": "Galarian",
         "types": ["Psychic", "Flying"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm144.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm144.fGALARIAN.icon.png"
       }
     ]
   },
@@ -4250,7 +4310,7 @@
       {
         "name": "Galarian",
         "types": ["Fighting", "Flying"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm145.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm145.fGALARIAN.icon.png"
       }
     ]
   },
@@ -4265,7 +4325,7 @@
       {
         "name": "Galarian",
         "types": ["Dark", "Flying"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm146.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm146.fGALARIAN.icon.png"
       }
     ]
   },
@@ -4562,7 +4622,22 @@
         "requirements": ["100 Candy"]
       }
     ],
-    "category": "Volcano Pokémon"
+    "category": "Volcano Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Fire", "Ghost"],
+        "stats": {
+          "hp": 73,
+          "attack": 84,
+          "defense": 78,
+          "specialAttack": 119,
+          "specialDefense": 85,
+          "speed": 95
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm157.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 158,
@@ -5681,7 +5756,7 @@
       {
         "name": "Galarian",
         "types": ["Poison", "Psychic"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm199.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm199.fGALARIAN.icon.png"
       }
     ]
   },
@@ -5909,7 +5984,22 @@
     "types": ["Water", "Poison"],
     "description": "Qwilfish sucks in water, inflating itself. This Pokémon\nuses the pressure of the water it swallowed to shoot toxic\nquills all at once from all over its body. It finds swimming\nsomewhat challenging.",
     "evolution_chain": null,
-    "category": "Balloon Pokémon"
+    "category": "Balloon Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Dark", "Poison"],
+        "stats": {
+          "hp": 65,
+          "attack": 95,
+          "defense": 85,
+          "specialAttack": 55,
+          "specialDefense": 55,
+          "speed": 85
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm211.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 212,
@@ -5988,7 +6078,22 @@
         "requirements": ["100 Candy", "Special Item: Sinnoh Stone"]
       }
     ],
-    "category": "Sharp Claw Pokémon"
+    "category": "Sharp Claw Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Fighting", "Poison"],
+        "stats": {
+          "hp": 55,
+          "attack": 95,
+          "defense": 55,
+          "specialAttack": 35,
+          "specialDefense": 75,
+          "speed": 115
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm215.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 216,
@@ -6165,7 +6270,7 @@
       {
         "name": "Galarian",
         "types": ["Ghost"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm222.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm222.fGALARIAN.icon.png"
       }
     ]
   },
@@ -7223,7 +7328,7 @@
       {
         "name": "Galarian",
         "types": ["Dark", "Normal"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm263.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm263.fGALARIAN.icon.png"
       }
     ]
   },
@@ -7250,7 +7355,7 @@
       {
         "name": "Galarian",
         "types": ["Dark", "Normal"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm264.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm264.fGALARIAN.icon.png"
       }
     ]
   },
@@ -10850,24 +10955,39 @@
     "category": "Bouquet Pokémon"
   },
   {
-    "id": 408,
-    "name": "Cranidos",
-    "types": ["Rock"],
-    "description": "It was resurrected from an iron ball-like fossil.\nIt downs prey with its headbutts.",
+    "id": 58,
+    "name": "Growlithe",
+    "types": ["Fire"],
+    "description": "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
     "evolution_chain": [
       {
         "from": {
-          "id": "408",
-          "name": "Cranidos"
+          "id": "58",
+          "name": "Growlithe"
         },
         "to": {
-          "id": "409",
-          "name": "Rampardos"
+          "id": "59",
+          "name": "Arcanine"
         },
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Head Butt Pokémon"
+    "category": "Puppy Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Fire", "Rock"],
+        "stats": {
+          "hp": 60,
+          "attack": 75,
+          "defense": 45,
+          "specialAttack": 65,
+          "specialDefense": 50,
+          "speed": 55
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm58.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 409,
@@ -12884,7 +13004,22 @@
         "requirements": ["100 Candy"]
       }
     ],
-    "category": "Formidable Pokémon"
+    "category": "Formidable Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Water", "Dark"],
+        "stats": {
+          "hp": 90,
+          "attack": 108,
+          "defense": 80,
+          "specialAttack": 100,
+          "specialDefense": 65,
+          "speed": 85
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm503.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 504,
@@ -14011,7 +14146,22 @@
         "requirements": ["50 Candy", "Special Item: Sun Stone"]
       }
     ],
-    "category": "Flowering Pokémon"
+    "category": "Flowering Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Grass", "Fighting"],
+        "stats": {
+          "hp": 70,
+          "attack": 105,
+          "defense": 75,
+          "specialAttack": 50,
+          "specialDefense": 75,
+          "speed": 105
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm549.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 550,
@@ -14137,7 +14287,7 @@
       {
         "name": "Galarian",
         "types": ["Ice"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm554.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm554.fGALARIAN.icon.png"
       }
     ]
   },
@@ -14152,7 +14302,7 @@
       {
         "name": "Galarian",
         "types": ["Ice"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm555.fGALARIAN_STANDARD.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm555.fGALARIAN_STANDARD.icon.png"
       }
     ]
   },
@@ -14275,7 +14425,7 @@
       {
         "name": "Galarian",
         "types": ["Ground", "Ghost"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm562.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm562.fGALARIAN.icon.png"
       }
     ]
   },
@@ -14437,7 +14587,22 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Tricky Fox Pokémon"
+    "category": "Tricky Fox Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Normal", "Ghost"],
+        "stats": {
+          "hp": 35,
+          "attack": 60,
+          "defense": 40,
+          "specialAttack": 85,
+          "specialDefense": 40,
+          "speed": 70
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm570.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 571,
@@ -14457,7 +14622,22 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Illusion Fox Pokémon"
+    "category": "Illusion Fox Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Normal", "Ghost"],
+        "stats": {
+          "hp": 55,
+          "attack": 100,
+          "defense": 60,
+          "specialAttack": 125,
+          "specialDefense": 60,
+          "speed": 110
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm571.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 572,
@@ -15561,7 +15741,7 @@
       {
         "name": "Galarian",
         "types": ["Ground", "Steel"],
-        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm618.fGALARIAN.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm618.fGALARIAN.icon.png"
       }
     ]
   },
@@ -15767,7 +15947,22 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Valiant Pokémon"
+    "category": "Valiant Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Psychic", "Flying"],
+        "stats": {
+          "hp": 110,
+          "attack": 83,
+          "defense": 70,
+          "specialAttack": 112,
+          "specialDefense": 70,
+          "speed": 65
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm628.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 629,
@@ -17337,7 +17532,22 @@
         "requirements": ["100 Candy", "Rainy Lure Module"]
       }
     ],
-    "category": "Soft Tissue Pokémon"
+    "category": "Soft Tissue Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Steel", "Dragon"],
+        "stats": {
+          "hp": 58,
+          "attack": 75,
+          "defense": 83,
+          "specialAttack": 83,
+          "specialDefense": 113,
+          "speed": 40
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm705.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 706,
@@ -17368,7 +17578,22 @@
         "requirements": ["100 Candy", "Rainy Lure Module"]
       }
     ],
-    "category": "Dragon Pokémon"
+    "category": "Dragon Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Steel", "Dragon"],
+        "stats": {
+          "hp": 80,
+          "attack": 100,
+          "defense": 100,
+          "specialAttack": 110,
+          "specialDefense": 150,
+          "speed": 60
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm706.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 707,
@@ -17484,7 +17709,22 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Iceberg Pokémon"
+    "category": "Iceberg Pokémon",
+    "forms": [
+      {
+        "name": "Hisuian",
+        "types": ["Ice", "Rock"],
+        "stats": {
+          "hp": 95,
+          "attack": 127,
+          "defense": 184,
+          "specialAttack": 34,
+          "specialDefense": 36,
+          "speed": 38
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm713.fHISUIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 714,
@@ -17611,5 +17851,13 @@
     "description": "It lets out billows of steam and disappears into\nthe dense fog. It’s said to live in mountains\nwhere humans do not tread.",
     "evolution_chain": null,
     "category": "Steam Pokémon"
+  },
+  {
+    "id": 724,
+    "name": "Decidueye",
+    "types": ["Grass", "Ghost"],
+    "description": "Decidueye can nock and fire an arrow at an enemy in a tenth of a second, so its battles are decided in the blink of an eye.",
+    "evolution_chain": null,
+    "category": "Arrow Quill Pokémon"
   }
 ]
