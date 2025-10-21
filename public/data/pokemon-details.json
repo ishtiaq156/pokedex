@@ -1731,6 +1731,11 @@
         "types": ["Dark"],
         "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm52.fALOLA.icon.png",
         "description": "A royal house that flourished in the distant past brought it here from another region. Meowth is both selfish and prideful."
+      },
+      {
+        "name": "Galarian",
+        "types": ["Steel"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm52.fGALARIAN.icon.png"
       }
     ],
     "category": "Scratch Cat Pokémon"
@@ -2524,7 +2529,14 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Fire Horse Pokémon"
+    "category": "Fire Horse Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Psychic"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm77.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 78,
@@ -2544,7 +2556,14 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Fire Horse Pokémon"
+    "category": "Fire Horse Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Psychic", "Fairy"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm78.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 79,
@@ -2586,7 +2605,14 @@
         "requirements": ["100 / 20 Mega Energy"]
       }
     ],
-    "category": "Dopey Pokémon"
+    "category": "Dopey Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Psychic"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm79.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 80,
@@ -2617,7 +2643,14 @@
         "requirements": ["100 / 20 Mega Energy"]
       }
     ],
-    "category": "Hermit Crab Pokémon"
+    "category": "Hermit Crab Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Poison", "Psychic"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm80.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 81,
@@ -2687,7 +2720,14 @@
     "types": ["Normal", "Flying"],
     "description": "Farfetch’d is always seen with a stalk from a plant of some\nsort. Apparently, there are good stalks and bad stalks. This\nPokémon has been known to fight with others over stalks.",
     "evolution_chain": null,
-    "category": "Wild Duck Pokémon"
+    "category": "Wild Duck Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Fighting"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm83.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 84,
@@ -3336,7 +3376,14 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Poison Gas Pokémon"
+    "category": "Poison Gas Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Poison", "Fairy"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm110.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 111,
@@ -3631,7 +3678,14 @@
         "requirements": ["50 Candy", "Walk 15 km with your buddy"]
       }
     ],
-    "category": "Barrier Pokémon"
+    "category": "Barrier Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Ice", "Psychic"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm122.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 123,
@@ -4176,7 +4230,14 @@
     "types": ["Ice", "Flying"],
     "description": "Articuno is a legendary bird Pokémon that can control ice.\nThe flapping of its wings chills the air. As a result, it is said\nthat when this Pokémon flies, snow will fall.",
     "evolution_chain": null,
-    "category": "Freeze Pokémon"
+    "category": "Freeze Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Psychic", "Flying"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm144.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 145,
@@ -4184,7 +4245,14 @@
     "types": ["Electric", "Flying"],
     "description": "Zapdos is a legendary bird Pokémon that has the ability to\ncontrol electricity. It usually lives in thunderclouds.\nThe Pokémon gains power if it is stricken by lightning bolts.",
     "evolution_chain": null,
-    "category": "Electric Pokémon"
+    "category": "Electric Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Fighting", "Flying"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm145.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 146,
@@ -4192,7 +4260,14 @@
     "types": ["Fire", "Flying"],
     "description": "Moltres is a legendary bird Pokémon that has the ability to\ncontrol fire. If this Pokémon is injured, it is said to dip its body\nin the molten magma of a volcano to burn and heal itself.",
     "evolution_chain": null,
-    "category": "Flame Pokémon"
+    "category": "Flame Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Dark", "Flying"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm146.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 147,
@@ -5601,7 +5676,14 @@
         "requirements": ["50 Candy", "Special Item: King's Rock"]
       }
     ],
-    "category": "Royal Pokémon"
+    "category": "Royal Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Poison", "Psychic"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm199.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 200,
@@ -6078,7 +6160,14 @@
     "types": ["Water", "Rock"],
     "description": "Corsola’s branches glitter very beautifully in seven colors when\nthey catch sunlight. If any branch breaks off, this Pokémon\ngrows it back in just one night.",
     "evolution_chain": null,
-    "category": "Coral Pokémon"
+    "category": "Coral Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Ghost"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm222.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 223,
@@ -7129,7 +7218,14 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Tiny Raccoon Pokémon"
+    "category": "Tiny Raccoon Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Dark", "Normal"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm263.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 264,
@@ -7149,7 +7245,14 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Rushing Pokémon"
+    "category": "Rushing Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Dark", "Normal"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm264.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 265,
@@ -14029,7 +14132,14 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Zen Charm Pokémon"
+    "category": "Zen Charm Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Ice"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm554.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 555,
@@ -14037,7 +14147,14 @@
     "types": ["Fire"],
     "description": "When one is injured in a fierce battle, it hardens\ninto a stone-like form. Then it meditates and\nsharpens its mind.",
     "evolution_chain": null,
-    "category": "Blazing Pokémon"
+    "category": "Blazing Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Ice"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm555.fGALARIAN_STANDARD.icon.png"
+      }
+    ]
   },
   {
     "id": 556,
@@ -14153,7 +14270,14 @@
         "requirements": ["50 Candy"]
       }
     ],
-    "category": "Spirit Pokémon"
+    "category": "Spirit Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Ground", "Ghost"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm562.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 563,
@@ -15432,7 +15556,14 @@
     "types": ["Ground", "Electric"],
     "description": "Its skin is very hard, so it is unhurt even if stepped\non by sumo wrestlers. It smiles when\ntransmitting electricity.",
     "evolution_chain": null,
-    "category": "Trap Pokémon"
+    "category": "Trap Pokémon",
+    "forms": [
+      {
+        "name": "Galarian",
+        "types": ["Ground", "Steel"],
+        "imageUrl": "https://cdn.jsdelivr.net/gh/PokeMiners/pogo_assets@master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm618.fGALARIAN.icon.png"
+      }
+    ]
   },
   {
     "id": 619,
