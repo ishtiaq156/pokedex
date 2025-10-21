@@ -506,7 +506,7 @@ export default function PokemonDetailPage() {
                   className="object-contain"
                 />
               </div>
-              <p className="text-sm text-white leading-relaxed">
+              <p className="text-sm text-white font-medium leading-relaxed">
                 {currentFormData?.description || pokemon.description}
               </p>
             </div>
