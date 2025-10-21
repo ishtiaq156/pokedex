@@ -17862,7 +17862,7 @@
     "forms": [
       {
         "name": "Hisuian",
-        "types": ["Grass", "Fight"],
+        "types": ["Grass", "Fighting"],
         "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm724.fHISUIAN.icon.png"
       }
     ]
