@@ -256,8 +256,6 @@ export const UNRELEASED_POKEMON: Set<number> = new Set([
   1008, // Miraidon
   1009, // Walking Wake
   1010, // Iron Leaves
-  1012, // Poltchageist
-  1013, // Sinistcha
   1014, // Okidogi
   1015, // Munkidori
   1016, // Fezandipiti
