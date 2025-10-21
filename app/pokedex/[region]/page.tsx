@@ -7,6 +7,8 @@ import { Pokemon, REGIONS, getRegionProgress } from "../../types/pokemon";
 import { generatePokemonData } from "../../types/pokemon";
 import Image from "next/image";
 
+export const runtime = "edge";
+
 export default function PokedexPage() {
   const params = useParams();
   const router = useRouter();

@@ -7,6 +7,8 @@ import { getPokemonImageUrl } from "@/app/types/pokemon";
 import Image from "next/image";
 import ScanningAnimation from "../../../components/ScanningAnimation";
 
+export const runtime = "edge";
+
 export default function PokemonDetailPage() {
   const params = useParams();
   const router = useRouter();
