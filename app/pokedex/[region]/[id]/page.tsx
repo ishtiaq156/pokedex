@@ -382,7 +382,7 @@ export default function PokemonDetailPage() {
                 alt={currentFormData?.name || pokemon.name}
                 width={256}
                 height={256}
-                className="object-contain"
+                className="object-contain mx-auto"
               />
             </div>
           </div>
@@ -480,7 +480,7 @@ export default function PokemonDetailPage() {
                     alt={type}
                     width={40}
                     height={40}
-                    className="object-contain"
+                    className="object-contain mx-auto"
                   />
                 </div>
                 <span className="text-white font-semibold text-sm">{type}</span>
@@ -513,7 +513,7 @@ export default function PokemonDetailPage() {
                   alt={currentFormData?.name || pokemon.name}
                   width={96}
                   height={96}
-                  className="object-contain"
+                  className="object-contain mx-auto"
                 />
               </div>
               <p className="text-sm text-white font-medium leading-relaxed">
@@ -550,10 +550,10 @@ export default function PokemonDetailPage() {
                                 alt={chain[0].name}
                                 width={80}
                                 height={80}
-                                className="object-contain"
+                                className="object-contain mx-auto"
                               />
                             </div>
-                            <p className="text-xs font-semibold text-white uppercase">
+                            <p className="text-xs font-semibold text-white uppercase text-center">
                               {chain[0].name}
                             </p>
                           </button>
@@ -574,10 +574,10 @@ export default function PokemonDetailPage() {
                                 alt={chain[1].name}
                                 width={80}
                                 height={80}
-                                className="object-contain"
+                                className="object-contain mx-auto"
                               />
                             </div>
-                            <p className="text-xs font-semibold text-white uppercase">
+                            <p className="text-xs font-semibold text-white uppercase text-center">
                               {chain[1].name}
                             </p>
                           </button>
@@ -603,10 +603,10 @@ export default function PokemonDetailPage() {
                                   alt={evo.name}
                                   width={80}
                                   height={80}
-                                  className="object-contain"
+                                  className="object-contain mx-auto"
                                 />
                               </div>
-                              <p className="text-xs font-semibold text-white uppercase">
+                              <p className="text-xs font-semibold text-white uppercase text-center">
                                 {evo.name}
                               </p>
                             </button>
@@ -632,16 +632,16 @@ export default function PokemonDetailPage() {
                   <div className="flex flex-wrap justify-center gap-6">
                     {pokemon.mega.map((mega, index) => (
                       <div key={index} className="text-center">
-                        <div className="w-24 h-24 mb-2">
+                        <div className="w-24 h-24 mb-2 mx-auto">
                           <Image
                             src={mega.imageUrl}
                             alt={mega.name}
                             width={96}
                             height={96}
-                            className="object-contain"
+                            className="object-contain mx-auto"
                           />
                         </div>
-                        <p className="text-xs font-semibold text-white uppercase">
+                        <p className="text-xs font-semibold text-white uppercase text-center">
                           {mega.name}
                         </p>
                       </div>
@@ -659,16 +659,16 @@ export default function PokemonDetailPage() {
                   <div className="flex flex-wrap justify-center gap-6">
                     {pokemon.primal.map((primal, index) => (
                       <div key={index} className="text-center">
-                        <div className="w-24 h-24 mb-2">
+                        <div className="w-24 h-24 mb-2 mx-auto">
                           <Image
                             src={primal.imageUrl}
                             alt={primal.name}
                             width={96}
                             height={96}
-                            className="object-contain"
+                            className="object-contain mx-auto"
                           />
                         </div>
-                        <p className="text-xs font-semibold text-white uppercase">
+                        <p className="text-xs font-semibold text-white uppercase text-center">
                           {primal.name}
                         </p>
                       </div>
@@ -686,16 +686,16 @@ export default function PokemonDetailPage() {
                   <div className="flex flex-wrap justify-center gap-6">
                     {pokemon.gigantamax.map((gmax, index) => (
                       <div key={index} className="text-center">
-                        <div className="w-24 h-24 mb-2">
+                        <div className="w-24 h-24 mb-2 mx-auto">
                           <Image
                             src={gmax.imageUrl}
                             alt={gmax.name}
                             width={96}
                             height={96}
-                            className="object-contain"
+                            className="object-contain mx-auto"
                           />
                         </div>
-                        <p className="text-xs font-semibold text-white uppercase">
+                        <p className="text-xs font-semibold text-white uppercase text-center">
                           {gmax.name}
                         </p>
                       </div>
