@@ -373,8 +373,8 @@ export default function PokemonDetailPage() {
       <div className="max-w-md mx-auto">
         {/* Header with Pokemon Image */}
         <div className="p-6 pt-8">
-          <div className="flex justify-center mb-4">
-            <div className="w-64 h-64 relative">
+          <div className="flex justify-center mb-0">
+            <div className="w-72 h-72 relative">
               <Image
                 src={
                   currentFormData?.imageUrl || getPokemonImageUrl(pokemon.id)
@@ -505,14 +505,14 @@ export default function PokemonDetailPage() {
               {currentFormData?.category || "SEED POKEMON"}
             </h4>
             <div className="flex gap-4">
-              <div className="w-24 h-24 flex-shrink-0">
+              <div className="w-28 h-28 flex-shrink-0">
                 <Image
                   src={
                     currentFormData?.imageUrl || getPokemonImageUrl(pokemon.id)
                   }
                   alt={currentFormData?.name || pokemon.name}
-                  width={96}
-                  height={96}
+                  width={112}
+                  height={112}
                   className="object-contain mx-auto"
                 />
               </div>
@@ -544,12 +544,12 @@ export default function PokemonDetailPage() {
                             }
                             className="text-center cursor-pointer hover:scale-105 transition-transform"
                           >
-                            <div className="w-20 h-20 mb-1">
+                            <div className="w-24 h-24 mb-0">
                               <Image
                                 src={getPokemonImageUrl(parseInt(chain[0].id))}
                                 alt={chain[0].name}
-                                width={80}
-                                height={80}
+                                width={96}
+                                height={96}
                                 className="object-contain mx-auto"
                               />
                             </div>
@@ -568,12 +568,12 @@ export default function PokemonDetailPage() {
                             }
                             className="text-center cursor-pointer hover:scale-105 transition-transform"
                           >
-                            <div className="w-20 h-20 mb-1">
+                            <div className="w-24 h-24 mb-0">
                               <Image
                                 src={getPokemonImageUrl(parseInt(chain[1].id))}
                                 alt={chain[1].name}
-                                width={80}
-                                height={80}
+                                width={96}
+                                height={96}
                                 className="object-contain mx-auto"
                               />
                             </div>
@@ -597,12 +597,12 @@ export default function PokemonDetailPage() {
                               }
                               className="text-center cursor-pointer hover:scale-105 transition-transform"
                             >
-                              <div className="w-20 h-20 mb-1">
+                              <div className="w-24 h-24 mb-0">
                                 <Image
                                   src={evoImageUrl}
                                   alt={evo.name}
-                                  width={80}
-                                  height={80}
+                                  width={96}
+                                  height={96}
                                   className="object-contain mx-auto"
                                 />
                               </div>
@@ -632,12 +632,12 @@ export default function PokemonDetailPage() {
                   <div className="flex flex-wrap justify-center gap-6">
                     {pokemon.mega.map((mega, index) => (
                       <div key={index} className="text-center">
-                        <div className="w-24 h-24 mb-2 mx-auto">
+                        <div className="w-28 h-28 mb-2 mx-auto">
                           <Image
                             src={mega.imageUrl}
                             alt={mega.name}
-                            width={96}
-                            height={96}
+                            width={112}
+                            height={112}
                             className="object-contain mx-auto"
                           />
                         </div>
@@ -659,12 +659,12 @@ export default function PokemonDetailPage() {
                   <div className="flex flex-wrap justify-center gap-6">
                     {pokemon.primal.map((primal, index) => (
                       <div key={index} className="text-center">
-                        <div className="w-24 h-24 mb-2 mx-auto">
+                        <div className="w-28 h-28 mb-2 mx-auto">
                           <Image
                             src={primal.imageUrl}
                             alt={primal.name}
-                            width={96}
-                            height={96}
+                            width={112}
+                            height={112}
                             className="object-contain mx-auto"
                           />
                         </div>
@@ -686,12 +686,12 @@ export default function PokemonDetailPage() {
                   <div className="flex flex-wrap justify-center gap-6">
                     {pokemon.gigantamax.map((gmax, index) => (
                       <div key={index} className="text-center">
-                        <div className="w-24 h-24 mb-2 mx-auto">
+                        <div className="w-28 h-28 mb-2 mx-auto">
                           <Image
                             src={gmax.imageUrl}
                             alt={gmax.name}
-                            width={96}
-                            height={96}
+                            width={112}
+                            height={112}
                             className="object-contain mx-auto"
                           />
                         </div>

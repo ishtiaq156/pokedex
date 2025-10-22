@@ -8,14 +8,12 @@ interface PokemonCardProps {
 }
 
 export default function PokemonCard({ pokemon, onClick }: PokemonCardProps) {
-  const [imageError, setImageError] = useState(false);
   const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
-    const img = new (window as any).Image();
+    const img = new globalThis.Image();
     img.src = pokemon.imageUrl;
     img.onload = () => setImageLoaded(true);
-    img.onerror = () => setImageError(true);
   }, [pokemon.imageUrl]);
 
   const cardStripeBackground =
@@ -55,23 +53,19 @@ export default function PokemonCard({ pokemon, onClick }: PokemonCardProps) {
 
       {imageLoaded ? (
         <>
-          <div className="w-20 h-20 md:w-24 md:h-24 mb-0 flex items-center justify-center relative">
+          <div className="w-24 h-24 md:w-28 md:h-28 mb-0 flex items-center justify-center relative">
             <Image
               src={pokemon.imageUrl}
               alt={pokemon.name}
-              width={96}
-              height={96}
+              width={112}
+              height={112}
               className="object-contain"
-              onError={() => {
-                setImageError(true);
-                setImageLoaded(false);
-              }}
               style={{
                 filter: pokemon.isReleased ? "none" : "grayscale(100%)",
               }}
             />
           </div>
-          <div className="text-center">
+          <div className="text-center -mb-2">
             <p className="text-lg md:text-xl font-semibold text-[#0b8fbc]">
               {pokemon.dexNumber}
             </p>
