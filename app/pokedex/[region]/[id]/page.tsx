@@ -44,7 +44,7 @@ export default function PokemonDetailPage() {
   const getEvolutionFamily = () => {
     if (!pokemon) return [];
 
-    // Get all Pokemon IDs in the evolution chain
+    // Get all Pokémon IDs in the evolution chain
     const allEvoIds = new Set<string>();
     allEvoIds.add(pokemon.id.toString());
 
@@ -365,7 +365,7 @@ export default function PokemonDetailPage() {
 
   return (
     <div
-      className="min-h-screen overflow-y-auto pb-24 md:pb-0"
+      className="min-h-screen overflow-y-auto pb-24"
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
@@ -472,7 +472,7 @@ export default function PokemonDetailPage() {
             </div>
           )}
           <div className="flex justify-center gap-4 mb-0">
-            {(currentFormData?.types || pokemon.types).map((type) => (
+            {(currentFormData?.types || pokemon.types).map((type: string) => (
               <div key={type} className="flex flex-col items-center">
                 <div className="w-10 h-10 mb-1">
                   <Image
@@ -622,6 +622,60 @@ export default function PokemonDetailPage() {
                   </div>
                 ))}
               </div>
+
+              {/* Mega Evolutions */}
+              {pokemon.mega && pokemon.mega.length > 0 && (
+                <div className="mt-10">
+                  <h5 className="text-sm font-bold text-white mb-4 text-center">
+                    - MEGA EVOLUTION -
+                  </h5>
+                  <div className="flex flex-wrap justify-center gap-6">
+                    {pokemon.mega.map((mega, index) => (
+                      <div key={index} className="text-center">
+                        <div className="w-24 h-24 mb-2">
+                          <Image
+                            src={mega.imageUrl}
+                            alt={mega.name}
+                            width={96}
+                            height={96}
+                            className="object-contain"
+                          />
+                        </div>
+                        <p className="text-xs font-semibold text-white uppercase">
+                          {mega.name}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Primal Evolutions */}
+              {pokemon.primal && pokemon.primal.length > 0 && (
+                <div className="mt-10">
+                  <h5 className="text-sm font-bold text-white mb-4 text-center">
+                    - PRIMAL REVERSION -
+                  </h5>
+                  <div className="flex flex-wrap justify-center gap-6">
+                    {pokemon.primal.map((primal, index) => (
+                      <div key={index} className="text-center">
+                        <div className="w-24 h-24 mb-2">
+                          <Image
+                            src={primal.imageUrl}
+                            alt={primal.name}
+                            width={96}
+                            height={96}
+                            className="object-contain"
+                          />
+                        </div>
+                        <p className="text-xs font-semibold text-white uppercase">
+                          {primal.name}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           )}
         </div>

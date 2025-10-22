@@ -123,6 +123,12 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
+    "mega": [
+      {
+        "name": "Mega Venusaur",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm3.fMEGA.icon.png"
+      }
+    ],
     "category": "Seed Pok\u00e9mon"
   },
   {
@@ -282,6 +288,16 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
+    "mega": [
+      {
+        "name": "Mega Charizard X",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm6.fMEGA_X.icon.png"
+      },
+      {
+        "name": "Mega Charizard Y",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm6.fMEGA_Y.icon.png"
+      }
+    ],
     "category": "Flame Pok\u00e9mon"
   },
   {
@@ -406,6 +422,12 @@
           "name": "Mega Blastoise"
         },
         "requirements": ["200 / 40 Mega Energy"]
+      }
+    ],
+    "mega": [
+      {
+        "name": "Mega Blastoise",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm9.fMEGA.icon.png"
       }
     ],
     "category": "Shellfish Pok\u00e9mon"
@@ -627,6 +649,12 @@
         "requirements": ["100 / 20 Mega Energy"]
       }
     ],
+    "mega": [
+      {
+        "name": "Mega Beedrill",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm15.fMEGA.icon.png"
+      }
+    ],
     "category": "Poison Bee Pok\u00e9mon"
   },
   {
@@ -751,6 +779,12 @@
           "name": "Mega Pidgeot"
         },
         "requirements": ["100 / 20 Mega Energy"]
+      }
+    ],
+    "mega": [
+      {
+        "name": "Mega Pidgeot",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm18.fMEGA.icon.png"
       }
     ],
     "category": "Bird Pok\u00e9mon"
@@ -2200,6 +2234,12 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
+    "mega": [
+      {
+        "name": "Mega Alakazam",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm65.fMEGA.icon.png"
+      }
+    ],
     "category": "Psi Pok\u00e9mon"
   },
   {
@@ -2683,6 +2723,12 @@
       }
     ],
     "category": "Hermit Crab Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Slowbro",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm80.fMEGA.icon.png"
+      }
+    ],
     "forms": [
       {
         "name": "Galarian",
@@ -3068,6 +3114,12 @@
           "name": "Mega Gengar"
         },
         "requirements": ["200 / 40 Mega Energy"]
+      }
+    ],
+    "mega": [
+      {
+        "name": "Mega Gengar",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm94.fMEGA.icon.png"
       }
     ],
     "category": "Shadow Pok\u00e9mon"
@@ -3592,6 +3644,12 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
+    "mega": [
+      {
+        "name": "Mega Kangaskhan",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm115.fMEGA.icon.png"
+      }
+    ],
     "category": "Parent Pok\u00e9mon"
   },
   {
@@ -3896,7 +3954,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Stag Beetle Pok\u00e9mon"
+    "category": "Stag Beetle Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Pinsir",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm127.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 128,
@@ -3966,7 +4030,13 @@
         "requirements": ["300 / 60 Mega Energy"]
       }
     ],
-    "category": "Atrocious Pok\u00e9mon"
+    "category": "Atrocious Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Gyarados",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm130.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 131,
@@ -4280,7 +4350,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Fossil Pok\u00e9mon"
+    "category": "Fossil Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Aerodactyl",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm142.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 143,
@@ -4452,7 +4528,17 @@
     "types": ["Psychic"],
     "description": "Mewtwo is a Pok\u00e9mon that was created by genetic\nmanipulation. However, even though the scientific power of\nhumans created this Pok\u00e9mon\u2019s body, they failed to endow\nMewtwo with a compassionate heart.",
     "evolution_chain": null,
-    "category": "Genetic Pok\u00e9mon"
+    "category": "Genetic Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Mewtwo X",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm150.fMEGA_X.icon.png"
+      },
+      {
+        "name": "Mega Mewtwo Y",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm150.fMEGA_Y.icon.png"
+      }
+    ]
   },
   {
     "id": 151,
@@ -5308,7 +5394,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Light Pok\u00e9mon"
+    "category": "Light Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Ampharos",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm181.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 182,
@@ -5964,7 +6056,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Iron Snake Pok\u00e9mon"
+    "category": "Iron Snake Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Steelix",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm208.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 209,
@@ -6059,7 +6157,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Pincer Pok\u00e9mon"
+    "category": "Pincer Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Scizor",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm212.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 213,
@@ -6087,7 +6191,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Single Horn Pok\u00e9mon"
+    "category": "Single Horn Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Heracross",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm214.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 215,
@@ -6440,7 +6550,13 @@
         "requirements": ["100 / 20 Mega Energy"]
       }
     ],
-    "category": "Dark Pok\u00e9mon"
+    "category": "Dark Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Houndoom",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm229.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 230,
@@ -6891,7 +7007,13 @@
         "requirements": ["300 / 60 Mega Energy"]
       }
     ],
-    "category": "Armor Pok\u00e9mon"
+    "category": "Armor Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Tyranitar",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm248.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 249,
@@ -7041,7 +7163,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Forest Pok\u00e9mon"
+    "category": "Forest Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Sceptile",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm254.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 255,
@@ -7167,7 +7295,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Blaze Pok\u00e9mon"
+    "category": "Blaze Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Blaziken",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm257.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 258,
@@ -7293,7 +7427,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Mud Fish Pok\u00e9mon"
+    "category": "Mud Fish Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Swampert",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm260.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 261,
@@ -8036,7 +8176,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Embrace Pok\u00e9mon"
+    "category": "Embrace Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Gardevoir",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm282.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 283,
@@ -8501,7 +8647,13 @@
         "requirements": ["100 / 20 Mega Energy"]
       }
     ],
-    "category": "Darkness Pok\u00e9mon"
+    "category": "Darkness Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Sableye",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm302.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 303,
@@ -8521,7 +8673,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Deceiver Pok\u00e9mon"
+    "category": "Deceiver Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Mawile",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm303.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 304,
@@ -8614,7 +8772,13 @@
         "requirements": ["100 Candy"]
       }
     ],
-    "category": "Iron Armor Pok\u00e9mon"
+    "category": "Iron Armor Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Aggron",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm306.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 307,
@@ -8676,7 +8840,13 @@
         "requirements": ["100 / 20 Mega Energy"]
       }
     ],
-    "category": "Meditate Pok\u00e9mon"
+    "category": "Meditate Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Medicham",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm308.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 309,
@@ -8738,7 +8908,13 @@
         "requirements": ["100 / 20 Mega Energy"]
       }
     ],
-    "category": "Discharge Pok\u00e9mon"
+    "category": "Discharge Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Manectric",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm310.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 311,
@@ -8903,7 +9079,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Brutal Pok\u00e9mon"
+    "category": "Brutal Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Sharpedo",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm319.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 320,
@@ -9005,7 +9187,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Eruption Pok\u00e9mon"
+    "category": "Eruption Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Camerupt",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm323.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 324,
@@ -9256,7 +9444,13 @@
         "requirements": ["300 / 60 Mega Energy"]
       }
     ],
-    "category": "Humming Pok\u00e9mon"
+    "category": "Humming Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Altaria",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm334.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 335,
@@ -9606,7 +9800,13 @@
         "requirements": ["100 / 20 Mega Energy"]
       }
     ],
-    "category": "Marionette Pok\u00e9mon"
+    "category": "Marionette Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Banette",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm354.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 355,
@@ -9716,7 +9916,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Disaster Pok\u00e9mon"
+    "category": "Disaster Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Absol",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm359.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 360,
@@ -9813,7 +10019,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Face Pok\u00e9mon"
+    "category": "Face Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Glalie",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm362.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 363,
@@ -10119,7 +10331,13 @@
         "requirements": ["300 / 60 Mega Energy"]
       }
     ],
-    "category": "Dragon Pok\u00e9mon"
+    "category": "Dragon Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Salamence",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm373.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 374,
@@ -10245,7 +10463,13 @@
         "requirements": ["300 / 60 Mega Energy"]
       }
     ],
-    "category": "Iron Leg Pok\u00e9mon"
+    "category": "Iron Leg Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Metagross",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm376.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 377,
@@ -10289,7 +10513,13 @@
         "requirements": ["300 / 60 Mega Energy"]
       }
     ],
-    "category": "Eon Pok\u00e9mon"
+    "category": "Eon Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Latias",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm380.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 381,
@@ -10309,7 +10539,13 @@
         "requirements": ["300 / 60 Mega Energy"]
       }
     ],
-    "category": "Eon Pok\u00e9mon"
+    "category": "Eon Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Latios",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm381.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 382,
@@ -10329,7 +10565,13 @@
         "requirements": ["400 / 80 Primal Energy"]
       }
     ],
-    "category": "Sea Basin Pok\u00e9mon"
+    "category": "Sea Basin Pok\u00e9mon",
+    "primal": [
+      {
+        "name": "Primal Kyogre",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm382.fPRIMAL.icon.png"
+      }
+    ]
   },
   {
     "id": 383,
@@ -10349,7 +10591,13 @@
         "requirements": ["400 / 80 Primal Energy"]
       }
     ],
-    "category": "Continent Pok\u00e9mon"
+    "category": "Continent Pok\u00e9mon",
+    "primal": [
+      {
+        "name": "Primal Groudon",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm383.fPRIMAL.icon.png"
+      }
+    ]
   },
   {
     "id": 384,
@@ -10369,7 +10617,13 @@
         "requirements": ["400 / 80 Mega Energy"]
       }
     ],
-    "category": "Sky High Pok\u00e9mon"
+    "category": "Sky High Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Rayquaza",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm384.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 385,
@@ -11422,7 +11676,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Rabbit Pok\u00e9mon"
+    "category": "Rabbit Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Lopunny",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm428.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 429,
@@ -11815,7 +12075,13 @@
         "requirements": ["300 / 60 Mega Energy"]
       }
     ],
-    "category": "Mach Pok\u00e9mon"
+    "category": "Mach Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Garchomp",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm445.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 446,
@@ -11897,7 +12163,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Aura Pok\u00e9mon"
+    "category": "Aura Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Lucario",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm448.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 449,
@@ -12147,7 +12419,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Frost Tree Pok\u00e9mon"
+    "category": "Frost Tree Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Abomasnow",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm460.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 461,
@@ -12572,7 +12850,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Blade Pok\u00e9mon"
+    "category": "Blade Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Gallade",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm475.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 476,
@@ -13713,7 +13997,13 @@
         "requirements": ["200 / 40 Mega Energy"]
       }
     ],
-    "category": "Hearing Pok\u00e9mon"
+    "category": "Hearing Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Audino",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm531.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 532,
@@ -17901,7 +18191,13 @@
         "requirements": ["300 / 60 Mega Energy"]
       }
     ],
-    "category": "Jewel Pok\u00e9mon"
+    "category": "Jewel Pok\u00e9mon",
+    "mega": [
+      {
+        "name": "Mega Diancie",
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm719.fMEGA.icon.png"
+      }
+    ]
   },
   {
     "id": 721,

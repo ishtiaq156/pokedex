@@ -40,6 +40,11 @@ export interface PokemonForm {
   category?: string;
 }
 
+export interface MegaEvolution {
+  name: string;
+  imageUrl: string;
+}
+
 export interface PokemonDetail {
   id: number;
   name: string;
@@ -47,6 +52,8 @@ export interface PokemonDetail {
   description: string;
   evolution_chain: EvolutionChain[];
   forms?: PokemonForm[];
+  mega?: MegaEvolution[];
+  primal?: MegaEvolution[];
   category: string;
 }
 
