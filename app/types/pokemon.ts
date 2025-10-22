@@ -54,6 +54,7 @@ export interface PokemonDetail {
   forms?: PokemonForm[];
   mega?: MegaEvolution[];
   primal?: MegaEvolution[];
+  gigantamax?: MegaEvolution[];
   category: string;
 }
 

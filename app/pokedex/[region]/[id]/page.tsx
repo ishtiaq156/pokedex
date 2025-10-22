@@ -676,6 +676,33 @@ export default function PokemonDetailPage() {
                   </div>
                 </div>
               )}
+
+              {/* Gigantamax Evolutions */}
+              {pokemon.gigantamax && pokemon.gigantamax.length > 0 && (
+                <div className="mt-10">
+                  <h5 className="text-sm font-bold text-white mb-4 text-center">
+                    - GIGANTAMAX -
+                  </h5>
+                  <div className="flex flex-wrap justify-center gap-6">
+                    {pokemon.gigantamax.map((gmax, index) => (
+                      <div key={index} className="text-center">
+                        <div className="w-24 h-24 mb-2">
+                          <Image
+                            src={gmax.imageUrl}
+                            alt={gmax.name}
+                            width={96}
+                            height={96}
+                            className="object-contain"
+                          />
+                        </div>
+                        <p className="text-xs font-semibold text-white uppercase">
+                          {gmax.name}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           )}
         </div>
