@@ -18,6 +18,7 @@ export default function PokemonDetailPage() {
   const [touchStart, setTouchStart] = useState<number>(0);
   const [touchEnd, setTouchEnd] = useState<number>(0);
   const [selectedFormIndex, setSelectedFormIndex] = useState<number>(0);
+  const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
 
   const regionId = params.region as string;
   const pokemonId = parseInt(params.id as string);
@@ -374,7 +375,7 @@ export default function PokemonDetailPage() {
         {/* Header with Pokemon Image */}
         <div className="p-6 pt-8">
           <div className="flex justify-center mb-0">
-            <div className="w-72 h-72 relative">
+            <div className="w-64 h-64 relative">
               <Image
                 src={
                   currentFormData?.imageUrl || getPokemonImageUrl(pokemon.id)
@@ -502,7 +503,7 @@ export default function PokemonDetailPage() {
           {/* Category and Description */}
           <div className="mb-6">
             <h4 className="text-lg font-bold text-white mb-3">
-              {currentFormData?.category || "SEED POKEMON"}
+              {currentFormData?.category || "POKEMON"}
             </h4>
             <div className="flex gap-4">
               <div className="w-28 h-28 flex-shrink-0">
@@ -686,14 +687,25 @@ export default function PokemonDetailPage() {
                   <div className="flex flex-wrap justify-center gap-6">
                     {pokemon.gigantamax.map((gmax, index) => (
                       <div key={index} className="text-center">
-                        <div className="w-28 h-28 mb-2 mx-auto">
-                          <Image
-                            src={gmax.imageUrl}
-                            alt={gmax.name}
-                            width={112}
-                            height={112}
-                            className="object-contain mx-auto"
-                          />
+                        <div className="w-28 h-28 mb-2 mx-auto flex items-center justify-center">
+                          {failedImages.has(gmax.imageUrl) ? (
+                            <span className="text-2xl font-bold text-white opacity-60">
+                              ???
+                            </span>
+                          ) : (
+                            <Image
+                              src={gmax.imageUrl}
+                              alt={gmax.name}
+                              width={112}
+                              height={112}
+                              className="object-contain mx-auto"
+                              onError={() =>
+                                setFailedImages((prev) =>
+                                  new Set(prev).add(gmax.imageUrl),
+                                )
+                              }
+                            />
+                          )}
                         </div>
                         <p className="text-xs font-semibold text-white uppercase text-center">
                           {gmax.name}
