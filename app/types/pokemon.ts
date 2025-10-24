@@ -32,12 +32,20 @@ export interface EvolutionChain {
   requirements: string[];
 }
 
+export interface AlolanEvolutionChain {
+  from?: EvolutionNode;
+  to?: EvolutionNode;
+  requirements?: string[];
+  no_evolve?: EvolutionNode;
+}
+
 export interface PokemonForm {
   name: string;
   types: string[];
   description: string;
   imageUrl: string;
   category?: string;
+  evolution_chain?: AlolanEvolutionChain[];
 }
 
 export interface MegaEvolution {

@@ -836,7 +836,20 @@
         "name": "Alolan",
         "types": ["Dark", "Normal"],
         "description": "Night after night, they sneak into people\u2019s homes seeking food. A massive outbreak of them has become an issue of public concern.",
-        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm19.fALOLA.icon.png"
+        "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm19.fALOLA.icon.png",
+        "evolution_chain": [
+          {
+            "from": {
+              "id": "19",
+              "name": "Rattata"
+            },
+            "to": {
+              "id": "20",
+              "name": "Raticate"
+            },
+            "requirements": ["25 Candy"]
+          }
+        ]
       }
     ],
     "category": "Mouse Pok\u00e9mon"
@@ -864,7 +877,20 @@
         "name": "Alolan",
         "types": ["Dark", "Normal"],
         "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm20.fALOLA.icon.png",
-        "description": "It commands a nest of Rattata. Different nests don\u2019t get along, whipping up severe fights over feeding grounds."
+        "description": "It commands a nest of Rattata. Different nests don\u2019t get along, whipping up severe fights over feeding grounds.",
+        "evolution_chain": [
+          {
+            "from": {
+              "id": "19",
+              "name": "Rattata"
+            },
+            "to": {
+              "id": "20",
+              "name": "Raticate"
+            },
+            "requirements": ["25 Candy"]
+          }
+        ]
       }
     ],
     "category": "Mouse Pok\u00e9mon"
@@ -1020,7 +1046,15 @@
         "name": "Alolan",
         "types": ["Electric", "Psychic"],
         "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm26.fALOLA.icon.png",
-        "description": "When you rub its cheeks, a sweet fragrance comes wafting out. However, you\u2019ll also get a light shock!"
+        "description": "When you rub its cheeks, a sweet fragrance comes wafting out. However, you\u2019ll also get a light shock!",
+        "evolution_chain": [
+          {
+            "no_evolve": {
+              "id": "26",
+              "name": "Raichu"
+            }
+          }
+        ]
       }
     ],
     "category": "Mouse Pok\u00e9mon"
@@ -1048,7 +1082,20 @@
         "name": "Alolan",
         "types": ["Ice", "Steel"],
         "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm27.fALOLA.icon.png",
-        "description": "The skin on its back is as hard as steel. Predators go after its soft belly, so it clings to the ground desperately."
+        "description": "The skin on its back is as hard as steel. Predators go after its soft belly, so it clings to the ground desperately.",
+        "evolution_chain": [
+          {
+            "from": {
+              "id": "27",
+              "name": "Sandshrew"
+            },
+            "to": {
+              "id": "28",
+              "name": "Sandslash"
+            },
+            "requirements": ["50 Candy"]
+          }
+        ]
       }
     ],
     "category": "Mouse Pok\u00e9mon"
@@ -1076,7 +1123,20 @@
         "name": "Alolan",
         "types": ["Ice", "Steel"],
         "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm28.fALOLA.icon.png",
-        "description": "A long, long time ago, it lived in the desert. With its sharp claws fully extended, it can climb right up an iceberg without slipping."
+        "description": "A long, long time ago, it lived in the desert. With its sharp claws fully extended, it can climb right up an iceberg without slipping.",
+        "evolution_chain": [
+          {
+            "from": {
+              "id": "27",
+              "name": "Sandshrew"
+            },
+            "to": {
+              "id": "28",
+              "name": "Sandslash"
+            },
+            "requirements": ["50 Candy"]
+          }
+        ]
       }
     ],
     "category": "Mouse Pok\u00e9mon"
