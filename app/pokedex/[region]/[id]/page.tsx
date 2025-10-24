@@ -790,6 +790,177 @@ export default function PokemonDetailPage() {
                   </div>
                 )}
 
+              {/* Galarian Form Evolution Chains */}
+              {pokemon.forms &&
+                pokemon.forms.some(
+                  (form) =>
+                    form.name === "Galarian" &&
+                    form.evolution_chain &&
+                    form.evolution_chain.length > 0,
+                ) && (
+                  <div className="mt-10">
+                    <h5 className="text-sm font-bold text-white mb-4 text-center">
+                      - GALARIAN FORM -
+                    </h5>
+                    {pokemon.forms
+                      .filter(
+                        (form) =>
+                          form.name === "Galarian" &&
+                          form.evolution_chain &&
+                          form.evolution_chain.length > 0,
+                      )
+                      .map((form, formIndex: number) => (
+                        <div key={formIndex} className="mb-6">
+                          <div className="flex flex-wrap justify-center gap-6">
+                            {form.evolution_chain?.map(
+                              (chain, chainIndex: number) => {
+                                // Handle no_evolve case (single Pokemon)
+                                if (chain.no_evolve) {
+                                  return (
+                                    <div
+                                      key={chainIndex}
+                                      className="flex items-center gap-2"
+                                    >
+                                      <button
+                                        onClick={() =>
+                                          router.push(
+                                            `/pokedex/${regionId}/${chain.no_evolve!.id}`,
+                                          )
+                                        }
+                                        className="text-center cursor-pointer hover:scale-105 transition-transform"
+                                      >
+                                        <div className="w-24 h-24 mb-0">
+                                          <Image
+                                            src={form.imageUrl}
+                                            alt={chain.no_evolve!.name}
+                                            width={96}
+                                            height={96}
+                                            className="object-contain mx-auto"
+                                          />
+                                        </div>
+                                        <p className="text-xs font-semibold text-white uppercase text-center">
+                                          {chain.no_evolve!.name}
+                                        </p>
+                                      </button>
+                                    </div>
+                                  );
+                                }
+
+                                // Handle regular evolution chain (from -> to)
+                                // For Galarian forms, we need to find the Galarian form image for both from and to Pokemon
+
+                                // Helper function to get Galarian form image for any Pokemon
+                                const getGalarianFormImage = (
+                                  pokemonId: number,
+                                ) => {
+                                  try {
+                                    const pokemonWithGalarianForm =
+                                      allPokemon.find(
+                                        (p) =>
+                                          p.id === pokemonId &&
+                                          p.forms &&
+                                          p.forms.some(
+                                            (f) => f.name === "Galarian",
+                                          ),
+                                      );
+
+                                    if (
+                                      pokemonWithGalarianForm &&
+                                      pokemonWithGalarianForm.forms
+                                    ) {
+                                      const galarianForm =
+                                        pokemonWithGalarianForm.forms.find(
+                                          (f) => f.name === "Galarian",
+                                        );
+                                      if (
+                                        galarianForm &&
+                                        galarianForm.imageUrl
+                                      ) {
+                                        return galarianForm.imageUrl;
+                                      }
+                                    }
+                                  } catch {
+                                    // Fallback to regular image if Galarian form not found
+                                  }
+                                  return getPokemonImageUrl(pokemonId);
+                                };
+
+                                // Use Galarian form images for both from and to Pokemon
+                                const fromImageUrl = chain.from
+                                  ? getGalarianFormImage(
+                                      parseInt(chain.from.id),
+                                    )
+                                  : "";
+                                const toImageUrl = chain.to
+                                  ? getGalarianFormImage(parseInt(chain.to.id))
+                                  : "";
+
+                                return (
+                                  <div
+                                    key={chainIndex}
+                                    className="flex items-center gap-2"
+                                  >
+                                    {chain.from && (
+                                      <button
+                                        onClick={() =>
+                                          router.push(
+                                            `/pokedex/${regionId}/${chain.from!.id}`,
+                                          )
+                                        }
+                                        className="text-center cursor-pointer hover:scale-105 transition-transform"
+                                      >
+                                        <div className="w-24 h-24 mb-0">
+                                          <Image
+                                            src={fromImageUrl}
+                                            alt={chain.from!.name}
+                                            width={96}
+                                            height={96}
+                                            className="object-contain mx-auto"
+                                          />
+                                        </div>
+                                        <p className="text-xs font-semibold text-white uppercase text-center">
+                                          {chain.from!.name}
+                                        </p>
+                                      </button>
+                                    )}
+                                    {chain.from && chain.to && (
+                                      <span className="text-2xl text-white font-bold">
+                                        →
+                                      </span>
+                                    )}
+                                    {chain.to && (
+                                      <button
+                                        onClick={() =>
+                                          router.push(
+                                            `/pokedex/${regionId}/${chain.to!.id}`,
+                                          )
+                                        }
+                                        className="text-center cursor-pointer hover:scale-105 transition-transform"
+                                      >
+                                        <div className="w-24 h-24 mb-0">
+                                          <Image
+                                            src={toImageUrl}
+                                            alt={chain.to!.name}
+                                            width={96}
+                                            height={96}
+                                            className="object-contain mx-auto"
+                                          />
+                                        </div>
+                                        <p className="text-xs font-semibold text-white uppercase text-center">
+                                          {chain.to!.name}
+                                        </p>
+                                      </button>
+                                    )}
+                                  </div>
+                                );
+                              },
+                            )}
+                          </div>
+                        </div>
+                      ))}
+                  </div>
+                )}
+
               {/* Mega Evolutions */}
               {pokemon.mega && pokemon.mega.length > 0 && (
                 <div className="mt-10">

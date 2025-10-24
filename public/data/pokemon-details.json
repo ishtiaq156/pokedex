@@ -2712,7 +2712,19 @@
         "types": ["Psychic"],
         "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm77.fGALARIAN.icon.png",
         "description": "Its small horn hides a healing power. With a few rubs from this Pok\u00e9mon's horn, any slight wound you have will be healed.",
-        "category": "Unique Horn Pok\u00e9mon"
+        "category": "Unique Horn Pok\u00e9mon",
+        "evolution_chain": [
+          {
+            "from": {
+              "id": "77",
+              "name": "Ponyta"
+            },
+            "to": {
+              "id": "78",
+              "name": "Rapidash"
+            }
+          }
+        ]
       }
     ]
   },
@@ -2741,7 +2753,19 @@
         "types": ["Psychic", "Fairy"],
         "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm78.fGALARIAN.icon.png",
         "description": "Little can stand up to its psycho cut. Unleashed from this Pok\u00e9mon's horn, the move will punch a hole right through a thick metal sheet.",
-        "category": "Unique Horn Pok\u00e9mon"
+        "category": "Unique Horn Pok\u00e9mon",
+        "evolution_chain": [
+          {
+            "from": {
+              "id": "77",
+              "name": "Ponyta"
+            },
+            "to": {
+              "id": "78",
+              "name": "Rapidash"
+            }
+          }
+        ]
       }
     ]
   },
@@ -2791,7 +2815,19 @@
         "name": "Galarian",
         "types": ["Psychic"],
         "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm79.fGALARIAN.icon.png",
-        "description": "Although this Pok\u00e9mon is normally zoned out, its expression abruptly sharpens on occasion. The cause for this seems to lie in Slowpoke's diet."
+        "description": "Although this Pok\u00e9mon is normally zoned out, its expression abruptly sharpens on occasion. The cause for this seems to lie in Slowpoke's diet.",
+        "evolution_chain": [
+          {
+            "from": {
+              "id": "79",
+              "name": "Slowpoke"
+            },
+            "to": {
+              "id": "80",
+              "name": "Slowbro"
+            }
+          }
+        ]
       }
     ]
   },
@@ -2836,7 +2872,19 @@
         "name": "Galarian",
         "types": ["Poison", "Psychic"],
         "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm80.fGALARIAN.icon.png",
-        "description": "A Shellder bite set off a chemical reaction with the spices inside Slowbro's body, causing Slowbro to become a Poison-type Pok\u00e9mon."
+        "description": "A Shellder bite set off a chemical reaction with the spices inside Slowbro's body, causing Slowbro to become a Poison-type Pok\u00e9mon.",
+        "evolution_chain": [
+          {
+            "from": {
+              "id": "79",
+              "name": "Slowpoke"
+            },
+            "to": {
+              "id": "80",
+              "name": "Slowbro"
+            }
+          }
+        ]
       }
     ]
   },
