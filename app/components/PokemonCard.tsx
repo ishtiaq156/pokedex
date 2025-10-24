@@ -1,6 +1,7 @@
 import { Pokemon } from "../types/pokemon";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { soundManager } from "../utils/sound";
 
 interface PokemonCardProps {
   pokemon: Pokemon;
@@ -9,6 +10,13 @@ interface PokemonCardProps {
 
 export default function PokemonCard({ pokemon, onClick }: PokemonCardProps) {
   const [imageLoaded, setImageLoaded] = useState(false);
+
+  const handleClick = () => {
+    soundManager.playClickSound();
+    if (onClick) {
+      onClick();
+    }
+  };
 
   useEffect(() => {
     const img = new globalThis.Image();
@@ -42,7 +50,7 @@ export default function PokemonCard({ pokemon, onClick }: PokemonCardProps) {
         opacity: pokemon.isReleased ? 1 : 0.5,
         aspectRatio: "3/4",
       }}
-      onClick={onClick}
+      onClick={handleClick}
     >
       {/* Unreleased Badge */}
       {!pokemon.isReleased && (

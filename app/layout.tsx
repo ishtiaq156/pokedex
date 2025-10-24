@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import ServiceWorkerRegister from "./components/ServiceWorkerRegister";
+import SoundInitializer from "./components/SoundInitializer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -270,6 +271,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ServiceWorkerRegister />
+        <SoundInitializer />
         {children}
       </body>
     </html>

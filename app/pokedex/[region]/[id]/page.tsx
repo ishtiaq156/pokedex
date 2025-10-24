@@ -6,6 +6,7 @@ import { PokemonDetail } from "@/app/types/pokemon";
 import { getPokemonImageUrl } from "@/app/types/pokemon";
 import Image from "next/image";
 import ScanningAnimation from "../../../components/ScanningAnimation";
+import { soundManager } from "@/app/utils/sound";
 
 export const runtime = "edge";
 
@@ -363,6 +364,11 @@ export default function PokemonDetailPage() {
   };
 
   const currentFormData = getCurrentFormData();
+
+  const handleCloseClick = () => {
+    soundManager.playCancelSound();
+    router.push(`/pokedex/${regionId}`);
+  };
 
   return (
     <div
@@ -1059,7 +1065,7 @@ export default function PokemonDetailPage() {
 
       {/* Floating Close Button */}
       <button
-        onClick={() => router.push(`/pokedex/${regionId}`)}
+        onClick={handleCloseClick}
         className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50 hover:scale-110 active:scale-95 transition-all duration-200 ease-in-out hover:brightness-110 active:brightness-90 cursor-pointer"
         aria-label="Close and return to pokedex"
       >
