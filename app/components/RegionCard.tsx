@@ -1,4 +1,4 @@
-import { Region, getRegionProgress } from "../types/pokemon";
+import { getRegionProgress, Region } from "../types/pokemon";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
@@ -49,7 +49,7 @@ export default function RegionCard({ region, onClick }: RegionCardProps) {
   return (
     <div
       onClick={onClick}
-      className={`rounded-2xl p-2 sm:p-4 text-black shadow-lg hover:shadow-xl transition-all duration-200 cursor-pointer transform hover:scale-101 active:scale-95 hover:brightness-105 active:brightness-95 relative w-full ${hasPlatinumBadge ? "border-shine-container" : "border-static"}`}
+      className={`rounded-2xl p-2 sm:p-4 text-black shadow-lg hover:shadow-xl cursor-pointer relative w-full ${hasPlatinumBadge ? "border-shine-container" : "border-static"}`}
       style={{
         backgroundImage: `url('${region.backgroundImage}'), url('/pokedex/backdrop.png'), ${stripeBackground}`,
         backgroundSize: "contain, cover, cover",

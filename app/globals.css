@@ -1,1 +1,133 @@
 @import "tailwindcss";
+
+/* Custom animations for smooth transitions */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideOutLeft {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slideOutRight {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+@keyframes slideOutDown {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slideInRight {
+    animation: slideInRight 0.4s ease-out;
+}
+
+.animate-slideInUp {
+    animation: slideInUp 0.4s ease-out;
+}
+
+.animate-slideOutLeft {
+    animation: slideOutLeft 0.3s ease-in;
+}
+
+.animate-slideOutRight {
+    animation: slideOutRight 0.3s ease-in;
+}
+
+.animate-slideOutDown {
+    animation: slideOutDown 0.3s ease-in;
+}
+
+/* Smooth transitions for Pokemon cards */
+.pokemon-card {
+    transition: all 0.2s ease-in-out;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-card:active {
+    transform: scale(0.95);
+}
+
+/* Smooth transitions for buttons */
+.smooth-button {
+    transition: all 0.2s ease-in-out;
+}
+
+.smooth-button:hover {
+    transform: scale(1.1);
+}
+
+.smooth-button:active {
+    transform: scale(0.95);
+}
+
+/* Prevent text selection during swipes */
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+/* Smooth scrolling */
+.smooth-scroll {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}

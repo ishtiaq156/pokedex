@@ -1,6 +1,6 @@
 import { Pokemon } from "../types/pokemon";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { soundManager } from "../utils/sound";
 
 interface PokemonCardProps {
@@ -42,7 +42,7 @@ export default function PokemonCard({ pokemon, onClick }: PokemonCardProps) {
 
   return (
     <div
-      className="rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-200 p-3 md:p-4 flex flex-col items-center relative border border-white cursor-pointer"
+      className="rounded-xl shadow-lg hover:shadow-xl p-3 md:p-4 flex flex-col items-center relative border border-white cursor-pointer"
       style={{
         backgroundImage: cardStripeBackground,
         backgroundRepeat: "no-repeat",
@@ -54,7 +54,7 @@ export default function PokemonCard({ pokemon, onClick }: PokemonCardProps) {
     >
       {/* Unreleased Badge */}
       {!pokemon.isReleased && (
-        <div className="absolute top-1 right-1 bg-red-500 text-white text-xs md:text-sm font-bold px-1.5 py-0.5 rounded-full shadow-md z-10">
+        <div className="absolute top-1 right-1 bg-red-500 text-white text-[8px] md:text-[10px] font-bold px-1.5 py-0.5 rounded-full shadow-md z-50">
           TBA
         </div>
       )}
