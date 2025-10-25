@@ -4,7 +4,11 @@ import React, { useEffect, useState } from "react";
 import { cacheManager } from "../utils/cacheManager";
 
 export default function CacheStatus() {
-  const [cacheStats, setCacheStats] = useState({
+  const [cacheStats, setCacheStats] = useState<{
+    totalCaches: number;
+    totalEntries: number;
+    cacheNames: string[];
+  }>({
     totalCaches: 0,
     totalEntries: 0,
     cacheNames: [],

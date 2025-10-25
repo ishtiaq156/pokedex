@@ -93,11 +93,12 @@ function appReducer(state: AppState, action: AppAction): AppState {
         currentPokemon: null,
       };
 
-    case "NAVIGATE_TO_PREVIOUS_POKEMON":
+    case "NAVIGATE_TO_PREVIOUS_POKEMON": {
       if (!state.currentPokemon || state.allPokemon.length === 0) return state;
 
+      const currentPokemon = state.currentPokemon;
       const currentIndex = state.allPokemon.findIndex(
-        (p) => p.id === state.currentPokemon.id,
+        (p) => p.id === currentPokemon.id,
       );
       if (currentIndex > 0) {
         const prevPokemon = state.allPokemon[currentIndex - 1];
@@ -107,12 +108,14 @@ function appReducer(state: AppState, action: AppAction): AppState {
         };
       }
       return state;
+    }
 
-    case "NAVIGATE_TO_NEXT_POKEMON":
+    case "NAVIGATE_TO_NEXT_POKEMON": {
       if (!state.currentPokemon || state.allPokemon.length === 0) return state;
 
+      const currentPokemon = state.currentPokemon;
       const nextIndex = state.allPokemon.findIndex(
-        (p) => p.id === state.currentPokemon.id,
+        (p) => p.id === currentPokemon.id,
       );
       if (nextIndex < state.allPokemon.length - 1) {
         const nextPokemon = state.allPokemon[nextIndex + 1];
@@ -122,6 +125,7 @@ function appReducer(state: AppState, action: AppAction): AppState {
         };
       }
       return state;
+    }
 
     default:
       return state;
