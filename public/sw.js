@@ -136,7 +136,7 @@ async function cacheFirst(request, cacheName) {
       cache.put(request, networkResponse.clone());
     }
     return networkResponse;
-  } catch (error) {
+  } catch {
     // Return offline fallback if available
     return new Response("Offline - Resource not available", {
       status: 503,
@@ -185,7 +185,7 @@ async function networkFirst(request, cacheName) {
       cache.put(request, networkResponse.clone());
     }
     return networkResponse;
-  } catch (error) {
+  } catch {
     const cachedResponse = await cache.match(request);
     if (cachedResponse) {
       return cachedResponse;
