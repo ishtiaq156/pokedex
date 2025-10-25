@@ -273,6 +273,7 @@ export default function PokemonDetailPage() {
 
   const navigateToNext = () => {
     if (allPokemon.length === 0) return;
+    soundManager.markUserInteraction();
     const currentIndex = allPokemon.findIndex((p) => p.id === pokemonId);
     if (currentIndex < allPokemon.length - 1) {
       const nextPokemon = allPokemon[currentIndex + 1];
@@ -282,6 +283,7 @@ export default function PokemonDetailPage() {
 
   const navigateToPrevious = () => {
     if (allPokemon.length === 0) return;
+    soundManager.markUserInteraction();
     const currentIndex = allPokemon.findIndex((p) => p.id === pokemonId);
     if (currentIndex > 0) {
       const prevPokemon = allPokemon[currentIndex - 1];

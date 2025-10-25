@@ -6,6 +6,7 @@ import PokemonCard from "../../components/PokemonCard";
 import { Pokemon, REGIONS, getRegionProgress } from "../../types/pokemon";
 import { generatePokemonData } from "../../types/pokemon";
 import Image from "next/image";
+import { soundManager } from "../../utils/sound";
 
 export const runtime = "edge";
 
@@ -24,12 +25,19 @@ export default function PokedexPage() {
   useEffect(() => {
     if (region) {
       const pokemonData = generatePokemonData(region.startDex, region.endDex);
-      setPokemon(pokemonData);
-      setLoading(false);
+
+      // Use setTimeout to defer state updates and avoid synchronous setState
+      const updateState = () => {
+        setPokemon(pokemonData);
+        setLoading(false);
+      };
+
+      setTimeout(updateState, 0);
     }
   }, [region]);
 
   const handlePokemonClick = (poke: Pokemon) => {
+    soundManager.markUserInteraction();
     router.push(`/pokedex/${regionId}/${poke.id}`);
   };
 

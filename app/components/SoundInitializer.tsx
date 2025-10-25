@@ -8,13 +8,30 @@ export default function SoundInitializer() {
     // Initialize background music when component mounts
     soundManager.initializeBackgroundMusic();
 
-    // Start background music after a short delay to ensure the page is fully loaded
-    const timer = setTimeout(() => {
-      soundManager.startBackgroundMusic();
-    }, 1000);
+    // Try to start background music immediately (will be queued if no user interaction)
+    soundManager.startBackgroundMusic();
+
+    // Add global event listeners for user interaction
+    const handleUserInteraction = () => {
+      soundManager.markUserInteraction();
+      // Remove listeners after first interaction
+      document.removeEventListener("click", handleUserInteraction);
+      document.removeEventListener("touchstart", handleUserInteraction);
+      document.removeEventListener("keydown", handleUserInteraction);
+    };
+
+    // Listen for various user interactions
+    document.addEventListener("click", handleUserInteraction, { once: true });
+    document.addEventListener("touchstart", handleUserInteraction, {
+      once: true,
+    });
+    document.addEventListener("keydown", handleUserInteraction, { once: true });
 
     return () => {
-      clearTimeout(timer);
+      // Cleanup listeners
+      document.removeEventListener("click", handleUserInteraction);
+      document.removeEventListener("touchstart", handleUserInteraction);
+      document.removeEventListener("keydown", handleUserInteraction);
     };
   }, []);
 

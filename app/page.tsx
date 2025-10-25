@@ -2,12 +2,15 @@
 
 import { useRouter } from "next/navigation";
 import RegionCard from "./components/RegionCard";
+import MusicControlButton from "./components/MusicControlButton";
 import { REGIONS, UNRELEASED_POKEMON } from "./types/pokemon";
+import { soundManager } from "./utils/sound";
 
 export default function Home() {
   const router = useRouter();
 
   const handleRegionClick = (regionId: string) => {
+    soundManager.markUserInteraction();
     router.push(`/pokedex/${regionId}`);
   };
 
@@ -40,7 +43,7 @@ export default function Home() {
     >
       <div className="py-8 container mx-auto px-4">
         {/* Header */}
-        <div className="flex justify-center mb-8">
+        <div className="flex justify-center mb-0">
           <div
             className="w-full pl-2 sm:pl-4 flex justify-between items-center"
             style={{ maxWidth: "512px" }}
@@ -52,6 +55,11 @@ export default function Home() {
               RELEASED: {totalReleased}
             </p>
           </div>
+        </div>
+
+        {/* Music Control Button */}
+        <div className="flex justify-center mb-4">
+          <MusicControlButton />
         </div>
 
         {/* Region Cards */}
