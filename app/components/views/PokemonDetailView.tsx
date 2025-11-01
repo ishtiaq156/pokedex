@@ -300,6 +300,12 @@ export default function PokemonDetailView({ pokemon }: PokemonDetailViewProps) {
 
   const currentFormData = getCurrentFormData();
 
+  const handlePlayCry = () => {
+    const fallbackCryUrl = `https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Sounds/Pokemon%20Cries/Addressable%20Assets/pm${pokemon.id}.cry.wav`;
+    const cryUrl = pokemon.cry || fallbackCryUrl;
+    soundManager.playPokemonCry(cryUrl);
+  };
+
   return (
     <div
       className="min-h-screen pb-24 no-select smooth-scroll"
@@ -311,7 +317,13 @@ export default function PokemonDetailView({ pokemon }: PokemonDetailViewProps) {
         {/* Header with Pokemon Image */}
         <div className="p-6 pt-8">
           <div className="flex justify-center mb-0">
-            <div className="w-64 h-64 relative">
+            <button
+              type="button"
+              onClick={handlePlayCry}
+              className="w-64 h-64 relative cursor-pointer focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 rounded-full"
+              aria-label={`Play ${currentFormData?.name || pokemon.name} cry`}
+              style={{ background: "transparent" }}
+            >
               <Image
                 src={
                   currentFormData?.imageUrl || getPokemonImageUrl(pokemon.id)
@@ -321,7 +333,7 @@ export default function PokemonDetailView({ pokemon }: PokemonDetailViewProps) {
                 height={256}
                 className="object-contain mx-auto"
               />
-            </div>
+            </button>
           </div>
 
           {/* Dex Number and Name */}

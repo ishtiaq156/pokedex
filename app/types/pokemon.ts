@@ -64,6 +64,7 @@ export interface PokemonDetail {
   primal?: MegaEvolution[];
   gigantamax?: MegaEvolution[];
   category: string;
+  cry?: string;
 }
 
 export const REGIONS: Region[] = [

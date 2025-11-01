@@ -1,6 +1,7 @@
 class SoundManager {
   private static instance: SoundManager;
   private backgroundMusic: HTMLAudioElement | null = null;
+  private currentCry: HTMLAudioElement | null = null;
   private isBackgroundMusicPlaying = false;
   private isInitialized = false;
   private hasUserInteracted = false;
@@ -73,6 +74,51 @@ class SoundManager {
     this.hasUserInteracted = true;
     if (this.pendingBackgroundMusicStart) {
       this.startBackgroundMusic();
+    }
+  }
+
+  // Play Pokemon cry
+  playPokemonCry(url: string | undefined | null) {
+    if (!url) return;
+
+    this.markUserInteraction();
+
+    if (this.currentCry) {
+      this.currentCry.pause();
+      this.currentCry.currentTime = 0;
+      this.currentCry = null;
+    }
+
+    try {
+      const cryAudio = new Audio();
+      cryAudio.crossOrigin = "anonymous";
+      cryAudio.src = url;
+      cryAudio.load();
+      cryAudio.volume = 0.7;
+
+      cryAudio.addEventListener("ended", () => {
+        if (this.currentCry === cryAudio) {
+          this.currentCry = null;
+        }
+      });
+
+      cryAudio.addEventListener("error", (error) => {
+        if (this.currentCry === cryAudio) {
+          this.currentCry = null;
+        }
+        console.warn("Could not play Pokemon cry:", error);
+      });
+
+      cryAudio
+        .play()
+        .then(() => {
+          this.currentCry = cryAudio;
+        })
+        .catch((error) => {
+          console.warn("Could not play Pokemon cry:", error);
+        });
+    } catch (error) {
+      console.warn("Failed to initialize Pokemon cry:", error);
     }
   }
 
