@@ -1,4 +1,4 @@
-const CACHE_VERSION = "v2";
+const CACHE_VERSION = "v3";
 const CACHES = {
   STATIC: `pokemon-static-${CACHE_VERSION}`,
   IMAGES: `pokemon-images-${CACHE_VERSION}`,
@@ -56,7 +56,9 @@ async function preloadPokemonImages() {
       batch.map((url) =>
         fetch(url)
           .then((response) =>
-            response.ok ? imageCache.put(url, response) : Promise.resolve(),
+            response.ok && response.status !== 206
+              ? imageCache.put(url, response)
+              : Promise.resolve(),
           )
           .catch(() => Promise.resolve()),
       ),
@@ -132,7 +134,7 @@ async function cacheFirst(request, cacheName) {
 
   try {
     const networkResponse = await fetch(request);
-    if (networkResponse.ok) {
+    if (networkResponse.ok && networkResponse.status !== 206) {
       cache.put(request, networkResponse.clone());
     }
     return networkResponse;
@@ -153,7 +155,7 @@ async function staleWhileRevalidate(request, cacheName) {
   // Fetch from network in background
   const networkResponsePromise = fetch(request)
     .then((response) => {
-      if (response.ok) {
+      if (response.ok && response.status !== 206) {
         cache.put(request, response.clone());
       }
       return response;
@@ -181,7 +183,7 @@ async function networkFirst(request, cacheName) {
 
   try {
     const networkResponse = await fetch(request);
-    if (networkResponse.ok) {
+    if (networkResponse.ok && networkResponse.status !== 206) {
       cache.put(request, networkResponse.clone());
     }
     return networkResponse;
