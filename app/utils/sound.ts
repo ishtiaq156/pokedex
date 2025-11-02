@@ -125,7 +125,7 @@ class SoundManager {
   // Play click sound
   playClickSound() {
     this.markUserInteraction();
-    const clickSound = new Audio("/sounds/click_ok.wav");
+    const clickSound = new Audio("/sounds/se_go_main_ball_pokedex.wav");
     clickSound.volume = 0.5;
     clickSound.play().catch((error) => {
       console.warn("Could not play click sound:", error);
