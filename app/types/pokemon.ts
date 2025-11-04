@@ -223,8 +223,6 @@ export const UNRELEASED_POKEMON: Set<number> = new Set([
   898, // Calyrex
 
   // Paldea region unreleased
-  917, // Tarountula
-  918, // Spidops
   931, // Squawkabilly
   932, // Nacli
   933, // Naclstack
