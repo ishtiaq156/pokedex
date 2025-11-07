@@ -26,7 +26,7 @@ class SoundManager {
 
     // Add event listeners for better error handling
     this.backgroundMusic.addEventListener("canplaythrough", () => {
-      if (this.pendingBackgroundMusicStart) {
+      if (this.pendingBackgroundMusicStart && this.hasUserInteracted) {
         this.startBackgroundMusic();
       }
     });
