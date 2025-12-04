@@ -221,9 +221,6 @@ export const UNRELEASED_POKEMON: Set<number> = new Set([
 
   // Paldea region unreleased
   931, // Squawkabilly
-  932, // Nacli
-  933, // Naclstack
-  934, // Garganacl
   940, // Wattrel
   941, // Kilowattrel
   942, // Maschiff
