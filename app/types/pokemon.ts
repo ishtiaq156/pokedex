@@ -203,8 +203,6 @@ export const UNRELEASED_POKEMON: Set<number> = new Set([
   845, // Cramorant
   846, // Arrokuda
   847, // Barraskewda
-  852, // Clobbopus
-  853, // Grapploct
   868, // Milcery
   869, // Alcremie
   871, // Pincurchin
