@@ -182,7 +182,6 @@ export const UNRELEASED_POKEMON: Set<number> = new Set([
   772, // Type: Null
   773, // Silvally
   774, // Minior
-  778, // Mimikyu
   801, // Magearna
   807, // Zeraora
 
@@ -190,16 +189,8 @@ export const UNRELEASED_POKEMON: Set<number> = new Set([
   902, // Basculegion
 
   // Galar region unreleased
-  824, // Blipbug
-  825, // Dottler
-  826, // Orbeetle
   833, // Chewtle
   834, // Drednaw
-  837, // Rolycoly
-  838, // Carkol
-  839, // Coalossal
-  843, // Silicobra
-  844, // Sandaconda
   845, // Cramorant
   846, // Arrokuda
   847, // Barraskewda
@@ -219,13 +210,10 @@ export const UNRELEASED_POKEMON: Set<number> = new Set([
 
   // Paldea region unreleased
   931, // Squawkabilly
-  940, // Wattrel
-  941, // Kilowattrel
   942, // Maschiff
   943, // Mabosstiff
   946, // Bramblin
   947, // Brambleghast
-  950, // Klawf
   951, // Capsakid
   952, // Scovillain
   953, // Rellor
@@ -236,9 +224,6 @@ export const UNRELEASED_POKEMON: Set<number> = new Set([
   964, // Palafin
   967, // Cyclizar
   968, // Orthworm
-  969, // Glimmet
-  970, // Glimmora
-  973, // Flamigo
   976, // Veluza
   981, // Farigiraf
   984, // Great Tusk
