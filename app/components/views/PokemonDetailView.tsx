@@ -24,6 +24,12 @@ export default function PokemonDetailView({ pokemon }: PokemonDetailViewProps) {
   const [selectedFormIndex, setSelectedFormIndex] = useState<number>(0);
   const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
 
+  // Reset state when navigating to a different Pokemon while staying in this view
+  React.useEffect(() => {
+    setSelectedFormIndex(0);
+    setFailedImages(new Set());
+  }, [pokemon.id]);
+
   // Swipe handlers
   const handleTouchStart = (e: React.TouchEvent) => {
     setTouchStart(e.targetTouches[0].clientX);
