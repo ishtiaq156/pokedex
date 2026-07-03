@@ -67,12 +67,13 @@ bun dev
 ```
 pokedex/
 ├── app/                    # Next.js app directory
-│   ├── components/         # Reusable React components
-│   ├── hooks/             # Custom React hooks
-│   ├── pokedex/           # Dynamic routes for regions/Pokemon
-│   └── types/             # TypeScript type definitions
-├── data-extractions/      # Web scraping scripts and data
-├── public/                # Static assets and Pokemon
+│   ├── components/         # Reusable React components (incl. modular pokemon components)
+│   ├── contexts/           # Global application state (AppContext)
+│   ├── hooks/              # Custom React hooks
+│   ├── types/              # TypeScript type definitions
+│   └── utils/              # Helper utilities (sound, cache, evolution)
+├── temp/                   # Web scraping scripts and data
+├── public/                 # Static assets, sounds, and initial data
 ```
 
 ## 🎯 Usage
