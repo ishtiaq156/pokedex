@@ -183,7 +183,6 @@ export const UNRELEASED_POKEMON: Set<number> = new Set([
   773, // Silvally
   774, // Minior
   801, // Magearna
-  807, // Zeraora
 
   // Hisui region unreleased
   902, // Basculegion
@@ -209,7 +208,6 @@ export const UNRELEASED_POKEMON: Set<number> = new Set([
   898, // Calyrex
 
   // Paldea region unreleased
-  931, // Squawkabilly
   942, // Maschiff
   943, // Mabosstiff
   946, // Bramblin
@@ -218,12 +216,9 @@ export const UNRELEASED_POKEMON: Set<number> = new Set([
   952, // Scovillain
   953, // Rellor
   954, // Rabsca
-  955, // Flittle
-  956, // Espathra
   963, // Finizen
   964, // Palafin
   967, // Cyclizar
-  968, // Orthworm
   976, // Veluza
   981, // Farigiraf
   984, // Great Tusk
