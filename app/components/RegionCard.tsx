@@ -1,5 +1,4 @@
 import { getRegionProgress, Region } from "../types/pokemon";
-import { useEffect, useState } from "react";
 import Image from "next/image";
 
 interface RegionCardProps {
@@ -8,32 +7,11 @@ interface RegionCardProps {
 }
 
 export default function RegionCard({ region, onClick }: RegionCardProps) {
-  const [imageWidth, setImageWidth] = useState<number | null>(null);
-  const [imageHeight, setImageHeight] = useState<number | null>(null);
   const progress = getRegionProgress(region.startDex, region.endDex);
 
-  useEffect(() => {
-    if (!region.backgroundImage) return;
-
-    const img = new window.Image();
-    img.src = region.backgroundImage;
-    const handleLoad = () => {
-      setImageWidth(img.naturalWidth || null);
-      setImageHeight(img.naturalHeight || null);
-    };
-    if (img.complete) {
-      handleLoad();
-    } else {
-      img.addEventListener("load", handleLoad);
-    }
-    return () => {
-      img.removeEventListener("load", handleLoad);
-    };
-  }, [region.backgroundImage]);
-
-  const aspectRatio =
-    imageWidth && imageHeight ? `${imageWidth}/${imageHeight}` : "512/158"; // fallback
-  const maxWidth = imageWidth ? `${imageWidth}px` : undefined;
+  // All region starter images are exactly 512x158
+  const aspectRatio = "512/158";
+  const maxWidth = "512px";
   const stripeBackground =
     "repeating-linear-gradient(135deg, #def6f8 0 48px, #dcf6f8 48px 96px, #daf6f8 96px 144px, #daf4f8 144px 192px)";
 

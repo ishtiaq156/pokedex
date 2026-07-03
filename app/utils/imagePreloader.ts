@@ -13,8 +13,10 @@ export class ImagePreloader {
     return ImagePreloader.instance;
   }
 
+  private failedImages = new Set<string>();
+
   async preloadImage(src: string): Promise<void> {
-    if (this.preloadedImages.has(src)) {
+    if (this.preloadedImages.has(src) || this.failedImages.has(src)) {
       return;
     }
 
@@ -22,7 +24,7 @@ export class ImagePreloader {
       return this.preloadPromises.get(src)!;
     }
 
-    const promise = new Promise<void>(async (resolve, reject) => {
+    const promise = new Promise<void>(async (resolve) => {
       try {
         // Check if image is already cached
         const cachedResponse = await cacheManager.getCachedResponse(src);
@@ -43,18 +45,20 @@ export class ImagePreloader {
               "pokemon-images-v2",
             );
             this.preloadedImages.add(src);
-            this.preloadPromises.delete(src);
-            resolve();
           } else {
-            reject(new Error(`Failed to fetch image: ${src}`));
+            // Mark as failed so we don't retry, but don't throw an error (expected for unreleased Pokemon)
+            this.failedImages.add(src);
           }
         } else {
-          // If offline and not cached, reject
-          reject(new Error(`Image not available offline: ${src}`));
+          // If offline and not cached, we can't preload it
+          this.failedImages.add(src);
         }
       } catch (error) {
+        // Network failure or other error, mark as failed
+        this.failedImages.add(src);
+      } finally {
         this.preloadPromises.delete(src);
-        reject(error);
+        resolve();
       }
     });
 
@@ -84,6 +88,7 @@ export class ImagePreloader {
   clearCache(): void {
     this.preloadedImages.clear();
     this.preloadPromises.clear();
+    this.failedImages.clear();
   }
 }
 
