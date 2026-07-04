@@ -36,12 +36,17 @@ export default function RegionView({ region }: RegionViewProps) {
 
   const progress = getRegionProgress(region.startDex, region.endDex);
 
-  const handlePokemonClick = (poke: { id: number }) => {
+  const handlePokemonClick = (poke: { id: number; name?: string }) => {
     soundManager.markUserInteraction();
     // Find the detailed Pokemon data
     const detailedPokemon = state.allPokemon.find((p) => p.id === poke.id);
     if (detailedPokemon) {
       dispatch({ type: "NAVIGATE_TO_POKEMON", payload: detailedPokemon });
+    } else {
+      soundManager.playCancelSound();
+      alert(
+        `Detailed data for ${poke.name || "this Pokémon"} is not available yet.`,
+      );
     }
   };
 

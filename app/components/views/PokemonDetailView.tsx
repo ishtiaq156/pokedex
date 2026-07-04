@@ -19,8 +19,8 @@ interface PokemonDetailViewProps {
 
 export default function PokemonDetailView({ pokemon }: PokemonDetailViewProps) {
   const { dispatch, state } = useApp();
-  const [touchStart, setTouchStart] = useState<number>(0);
-  const [touchEnd, setTouchEnd] = useState<number>(0);
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+  const [touchEnd, setTouchEnd] = useState<number | null>(null);
   const [selectedFormIndex, setSelectedFormIndex] = useState<number>(0);
   const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
 
@@ -40,7 +40,7 @@ export default function PokemonDetailView({ pokemon }: PokemonDetailViewProps) {
   };
 
   const handleTouchEnd = () => {
-    if (!touchStart || !touchEnd) return;
+    if (touchStart === null || touchEnd === null) return;
 
     const distance = touchStart - touchEnd;
     const isLeftSwipe = distance > 50;
@@ -52,8 +52,8 @@ export default function PokemonDetailView({ pokemon }: PokemonDetailViewProps) {
       navigateToPrevious();
     }
 
-    setTouchStart(0);
-    setTouchEnd(0);
+    setTouchStart(null);
+    setTouchEnd(null);
   };
 
   const navigateToNext = () => {

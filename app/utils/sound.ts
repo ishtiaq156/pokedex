@@ -2,6 +2,8 @@ class SoundManager {
   private static instance: SoundManager;
   private backgroundMusic: HTMLAudioElement | null = null;
   private currentCry: HTMLAudioElement | null = null;
+  private clickSound: HTMLAudioElement | null = null;
+  private cancelSound: HTMLAudioElement | null = null;
   private isBackgroundMusicPlaying = false;
   private isInitialized = false;
   private hasUserInteracted = false;
@@ -56,7 +58,7 @@ class SoundManager {
       })
       .catch((error) => {
         console.warn("Could not play background music:", error);
-        this.pendingBackgroundMusicStart = false;
+        this.pendingBackgroundMusicStart = true;
       });
   }
 
@@ -125,9 +127,14 @@ class SoundManager {
   // Play click sound
   playClickSound() {
     this.markUserInteraction();
-    const clickSound = new Audio("/sounds/se_go_main_ball_pokedex.wav");
-    clickSound.volume = 0.5;
-    clickSound.play().catch((error) => {
+
+    if (!this.clickSound) {
+      this.clickSound = new Audio("/sounds/se_go_main_ball_pokedex.wav");
+      this.clickSound.volume = 0.5;
+    }
+
+    this.clickSound.currentTime = 0;
+    this.clickSound.play().catch((error) => {
       console.warn("Could not play click sound:", error);
     });
   }
@@ -135,9 +142,14 @@ class SoundManager {
   // Play cancel sound
   playCancelSound() {
     this.markUserInteraction();
-    const cancelSound = new Audio("/sounds/click_cancel.wav");
-    cancelSound.volume = 0.5;
-    cancelSound.play().catch((error) => {
+
+    if (!this.cancelSound) {
+      this.cancelSound = new Audio("/sounds/click_cancel.wav");
+      this.cancelSound.volume = 0.5;
+    }
+
+    this.cancelSound.currentTime = 0;
+    this.cancelSound.play().catch((error) => {
       console.warn("Could not play cancel sound:", error);
     });
   }
